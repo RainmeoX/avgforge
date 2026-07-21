@@ -1,0 +1,58 @@
+{
+  "id": "506bf9e7-4353-424a-b9bf-6be4ac0a7bd6",
+  "name": "demo-avgforge",
+  "version": "1.0.0",
+  "engineVersion": "1.0.0-enterprise",
+  "description": "AVGForge demo project showcasing core features",
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "backgroundColor": "#000",
+  "chapterOrder": [
+    "开始",
+    "序章",
+    "终章"
+  ],
+  "extensions": {},
+  "extensionSettings": {},
+  "systemBindings": {
+    "internal.system.title": "ui:@avg.internal.default-shell/title-screen",
+    "internal.system.save": "ui:@avg.internal.default-shell/save-screen",
+    "internal.system.load": "ui:@avg.internal.default-shell/save-screen",
+    "internal.system.settings": "ui:@avg.internal.default-shell/settings-screen",
+    "internal.system.history": "ui:@avg.internal.default-shell/history-screen"
+  },
+  "inputBindings": {
+    "internal.input.advance": [
+      "Space",
+      "Enter",
+      "wheeldown"
+    ],
+    "internal.input.skip": [
+      "Control"
+    ],
+    "internal.input.auto-toggle": [
+      "a"
+    ],
+    "internal.input.hide-dialogue": [
+      "contextmenu",
+      "Delete"
+    ],
+    "internal.input.replay-voice": [
+      "r"
+    ],
+    "internal.input.quick-save": [
+      "F5"
+    ],
+    "internal.input.quick-load": [
+      "F9"
+    ]
+  },
+  "window": {
+    "lockAspectRatio": false,
+    "allowMaximize": true,
+    "allowFullscreen": true,
+    "launchMode": "windowed"
+  }
+}

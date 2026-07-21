@@ -1,0 +1,25 @@
+{
+  "id": "04b864ab-f85b-4ecd-89a3-a0ff0d2580ae",
+  "name": "开始",
+  "fragments": [
+    {
+      "id": "frag-main",
+      "name": "main",
+      "blocks": [
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "游戏从这里开始。",
+              "styles": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

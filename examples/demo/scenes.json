@@ -1,0 +1,35 @@
+{
+  "version": 3,
+  "scenes": [
+    {
+      "id": "3eaaaa80-8a0d-458f-9839-4096d9640e68",
+      "name": "教室",
+      "layers": [
+        {
+          "id": "eb4d4244-50f1-4366-8d17-a55ef7161f45",
+          "name": "bg",
+          "assetPath": "backgrounds/classroom.png",
+          "distance": 1.0
+        },
+        {
+          "id": "4c62a787-5e33-4b1d-9098-4f293033f06a",
+          "name": "fg",
+          "assetPath": "backgrounds/classroom_fg.png",
+          "distance": 0.5
+        }
+      ]
+    },
+    {
+      "id": "1072c758-91cc-47b3-9ae3-22d8d23c9780",
+      "name": "天台",
+      "layers": [
+        {
+          "id": "2b9f4537-ac3f-49f2-86f8-81a48b3a7dfc",
+          "name": "bg",
+          "assetPath": "backgrounds/rooftop.png",
+          "distance": 1.0
+        }
+      ]
+    }
+  ]
+}
