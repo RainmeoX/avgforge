@@ -1,0 +1,525 @@
+{
+  "version": 1,
+  "entries": {
+    "938c298a1835d963f8ee5199f379aa32": {
+      "path": "backgrounds/334e71897d7d902c0d4541486f6509b1.png",
+      "size": 2040460,
+      "updatedAt": 1784551074000
+    },
+    "1041da771087f804958f31a4ddb31b9d": {
+      "path": "backgrounds/BG00200.jpg",
+      "size": 1422472,
+      "updatedAt": 1784551074000
+    },
+    "8966b0ccd321a0da77a5fe0aceb1f349": {
+      "path": "backgrounds/BG00233S.jpg",
+      "size": 1580383,
+      "updatedAt": 1784551074000
+    },
+    "e31337f65cfb8c86c79c28b338f72ba0": {
+      "path": "backgrounds/BG00233SL.jpg",
+      "size": 1633106,
+      "updatedAt": 1784551074000
+    },
+    "a0dc04844ce0f536f45059774684993e": {
+      "path": "backgrounds/BG00500.jpg",
+      "size": 1252698,
+      "updatedAt": 1784551074000
+    },
+    "7c49396f98c658f1300e33910c3a7697": {
+      "path": "backgrounds/BG00501_1779477851555.jpg",
+      "size": 1309054,
+      "updatedAt": 1784551074000
+    },
+    "54ed83715290baf4c5ee121665e04ca3": {
+      "path": "backgrounds/BG00503.jpg",
+      "size": 1138466,
+      "updatedAt": 1784551074000
+    },
+    "1073a82474df9818b6576771e8e83d64": {
+      "path": "backgrounds/BG00503L.jpg",
+      "size": 1391873,
+      "updatedAt": 1784551074000
+    },
+    "e4727c8e2e78366ec692041146c3e7d2": {
+      "path": "backgrounds/BG02030.jpg",
+      "size": 1220186,
+      "updatedAt": 1784551074000
+    },
+    "533be1a493106efcee2147461585ff83": {
+      "path": "backgrounds/BG02323A.jpg",
+      "size": 4387967,
+      "updatedAt": 1784551074000
+    },
+    "2dd53edfb76c7e393d0ebbe442cbfe8e": {
+      "path": "backgrounds/BG04030S.jpg",
+      "size": 1603871,
+      "updatedAt": 1784551074000
+    },
+    "68dbd78bd56f1099b348219d34aa226b": {
+      "path": "backgrounds/BG04033S.jpg",
+      "size": 1390488,
+      "updatedAt": 1784551074000
+    },
+    "cd08bec9afa86aca2bfcb7544216ee11": {
+      "path": "backgrounds/LG01/LG01_云.png",
+      "size": 947585,
+      "updatedAt": 1784551074000
+    },
+    "63570146a190a5bfd5fb81710498f594": {
+      "path": "backgrounds/LG01/LG01_前景植物.png",
+      "size": 424129,
+      "updatedAt": 1784551074000
+    },
+    "d2b71784fa65757626a867e7f62de873": {
+      "path": "backgrounds/LG01/LG01_山.png",
+      "size": 1188455,
+      "updatedAt": 1784551074000
+    },
+    "307c11a7a5abba93ba5d083d2fa9d2f8": {
+      "path": "backgrounds/LG01/LG01_房子主体.png",
+      "size": 2469081,
+      "updatedAt": 1784551074000
+    },
+    "d97a1c59186b345394eaaab81edfb5bb": {
+      "path": "backgrounds/LG01/LG01_树.png",
+      "size": 1683992,
+      "updatedAt": 1784551074000
+    },
+    "f648d2024dc2bcbfc9cd85d96d4d2fcc": {
+      "path": "backgrounds/LG01/LG01_氛围.png",
+      "size": 209385,
+      "updatedAt": 1784551074000
+    },
+    "cc87f6b4bd5451928a50a5be3f21a4e3": {
+      "path": "backgrounds/LG02/LG02_云.png",
+      "size": 460155,
+      "updatedAt": 1784551074000
+    },
+    "e3e19c9a1581102a52b39953fe1b15ff": {
+      "path": "backgrounds/LG02/LG02_前景植物.png",
+      "size": 302100,
+      "updatedAt": 1784551074000
+    },
+    "0d4a9b40e0d70d054a7260fc40f7ca22": {
+      "path": "backgrounds/LG02/LG02_山.png",
+      "size": 1041605,
+      "updatedAt": 1784551074000
+    },
+    "7a303d738646773a8aff40dae763cf4e": {
+      "path": "backgrounds/LG02/LG02_房子主体.png",
+      "size": 2358714,
+      "updatedAt": 1784551074000
+    },
+    "51e21970b1ba529a2f3a349d68d67604": {
+      "path": "backgrounds/LG02/LG02_树.png",
+      "size": 2659595,
+      "updatedAt": 1784551074000
+    },
+    "ca05665fbac837d7114b0796ba355d9e": {
+      "path": "backgrounds/LG02/LG02_氛围.png",
+      "size": 209054,
+      "updatedAt": 1784551074000
+    },
+    "208fb7d764f79093f8667f3a1b43b62e": {
+      "path": "backgrounds/LG03/LG03_云.png",
+      "size": 1795230,
+      "updatedAt": 1784551074000
+    },
+    "318fe7190bfb9459e3e93bfc7986bb77": {
+      "path": "backgrounds/LG03/LG03_前景.png",
+      "size": 830011,
+      "updatedAt": 1784551074000
+    },
+    "c6e75c2d0f440281889d681eed323b00": {
+      "path": "backgrounds/LG03/LG03_天空.png",
+      "size": 909001,
+      "updatedAt": 1784551074000
+    },
+    "1aee8755dac4f6c96b53a8bdfa5e5d88": {
+      "path": "backgrounds/LG03/LG03_山.png",
+      "size": 727378,
+      "updatedAt": 1784551074000
+    },
+    "6d780829a4dd404b6d084c38f97f2497": {
+      "path": "backgrounds/LG03/LG03_房子.png",
+      "size": 266463,
+      "updatedAt": 1784551074000
+    },
+    "70e83feab9b8eb8c3fa4b449ecfc874a": {
+      "path": "backgrounds/LG03/LG03_树林.png",
+      "size": 813346,
+      "updatedAt": 1784551074000
+    },
+    "acca873014d104f6f217c6cab03de2ba": {
+      "path": "backgrounds/LG03/LG03_铁丝网.png",
+      "size": 178162,
+      "updatedAt": 1784551074000
+    },
+    "38800b4951de013013df0083b6fe30cc": {
+      "path": "backgrounds/LG03/LG03_雪地.png",
+      "size": 956946,
+      "updatedAt": 1784551074000
+    },
+    "c1340d31bfcadc176582f0664a48e56d": {
+      "path": "backgrounds/LG04/LG04_夜晚关灯.jpg",
+      "size": 476324,
+      "updatedAt": 1784551074000
+    },
+    "0e46ce10d70b3918e5169921cb52a803": {
+      "path": "backgrounds/LG04/LG04_夜晚开灯.jpg",
+      "size": 600915,
+      "updatedAt": 1784551074000
+    },
+    "96e34736b17bd0d82796e8b607bdf6a1": {
+      "path": "backgrounds/LG04/LG04_白天.png",
+      "size": 2713071,
+      "updatedAt": 1784551074000
+    },
+    "b9be61a0407944cd45f4e2cc99e485a2": {
+      "path": "backgrounds/LG06_主体_1780230600552.png",
+      "size": 1883934,
+      "updatedAt": 1784551074000
+    },
+    "308f002e19a4f0cc49120bbad3b982af": {
+      "path": "backgrounds/LG06_前景_1780230600534.png",
+      "size": 1650274,
+      "updatedAt": 1784551074000
+    },
+    "97fa8f67101d6b8b3cdc7b61d9121043": {
+      "path": "backgrounds/LG06_天空_1780230600549.png",
+      "size": 867499,
+      "updatedAt": 1784551074000
+    },
+    "cfaa64a63324a137f8f60d8d916d3c94": {
+      "path": "backgrounds/LG06_山_1780230600548.png",
+      "size": 270457,
+      "updatedAt": 1784551074000
+    },
+    "7cdf4851d3fc3a74a2b81946934e5431": {
+      "path": "backgrounds/LG06_森林_1780230600541.png",
+      "size": 2514971,
+      "updatedAt": 1784551074000
+    },
+    "3052790cb3a299516d176f464a4bde33": {
+      "path": "backgrounds/LG06_火车_1780337848614.png",
+      "size": 1028513,
+      "updatedAt": 1784551074000
+    },
+    "c5c249fcc22ed4399ee815ab630968eb": {
+      "path": "backgrounds/LG06_电线杆_1780230600529.png",
+      "size": 415148,
+      "updatedAt": 1784551074000
+    },
+    "79e1dbd4fac63ac8528644ad74b6eb3d": {
+      "path": "backgrounds/LGCG03_微笑.png",
+      "size": 7256622,
+      "updatedAt": 1784551074000
+    },
+    "9dd0cda29c7bd3dd4856538b08fe1bc6": {
+      "path": "backgrounds/LGCG04_微笑.png",
+      "size": 4617848,
+      "updatedAt": 1784551074000
+    },
+    "dead93b1f8b65bd31e355b0c5cdc53be": {
+      "path": "backgrounds/LGCG06_微笑.png",
+      "size": 3083123,
+      "updatedAt": 1784551074000
+    },
+    "bc35eaaacafd9bc9b54a3a04128402e8": {
+      "path": "backgrounds/LGCG07_闭眼.png",
+      "size": 6788819,
+      "updatedAt": 1784551074000
+    },
+    "09c19e9d3e75be47f58148c17e26caaa": {
+      "path": "backgrounds/LGCG08_微笑.png",
+      "size": 6952041,
+      "updatedAt": 1784551074000
+    },
+    "0feb933bb1c79dc4168a5d986652ae2e": {
+      "path": "backgrounds/LGCG10_微笑.png",
+      "size": 11407040,
+      "updatedAt": 1784551074000
+    },
+    "763d1bf76d0fc5be3efc0b187267be07": {
+      "path": "backgrounds/LGCG15_闭眼.png",
+      "size": 2259654,
+      "updatedAt": 1784551074000
+    },
+    "a0d9ec3a0901f64345f0ea156c950055": {
+      "path": "backgrounds/LGCG19_微笑.png",
+      "size": 2061929,
+      "updatedAt": 1784551074000
+    },
+    "4e5177e23f4e0293fa2c164a72b4bbe0": {
+      "path": "backgrounds/logo2.png",
+      "size": 1586697,
+      "updatedAt": 1784551074000
+    },
+    "c29159e4a85bce3fbe8ba6d2cd9c657f": {
+      "path": "backgrounds/nightartwork.jpg",
+      "size": 1073261,
+      "updatedAt": 1784551074000
+    },
+    "46f036606b6dabb94567a5ffb2b3018d": {
+      "path": "backgrounds/X0 (28)_1779417297578.jpg",
+      "size": 891139,
+      "updatedAt": 1784551074000
+    },
+    "b2c5dde473355f46f177ea40af4e2dd6": {
+      "path": "backgrounds/东京全景.jpg",
+      "size": 8886122,
+      "updatedAt": 1784551074000
+    },
+    "b050308e27e3ea30ae875093f0db70a0": {
+      "path": "backgrounds/东京全景有LOGO.jpg",
+      "size": 2054676,
+      "updatedAt": 1784551074000
+    },
+    "430185e11337d29607bee53a43e2a150": {
+      "path": "backgrounds/东京山上夜景.png",
+      "size": 1335265,
+      "updatedAt": 1784551074000
+    },
+    "419f25f35f035b241af3f6f5c8d9d3b5": {
+      "path": "backgrounds/列车内部.jpg",
+      "size": 725725,
+      "updatedAt": 1784551074000
+    },
+    "6cf06d987ecdfaca4ad9403f45cd94df": {
+      "path": "backgrounds/列车门外.jpg",
+      "size": 714628,
+      "updatedAt": 1784551074000
+    },
+    "2503b43f836a6c5132364f4b4741257b": {
+      "path": "backgrounds/户外雪地.png",
+      "size": 1971840,
+      "updatedAt": 1784551074000
+    },
+    "c0f101c98584719440542d24140472af": {
+      "path": "backgrounds/车站匿名.jpg",
+      "size": 1221980,
+      "updatedAt": 1784551074000
+    },
+    "cf5630febabb2c4ac171f348d7566bfa": {
+      "path": "backgrounds/部室关门.jpg",
+      "size": 1224373,
+      "updatedAt": 1784551074000
+    },
+    "bbe9b75ebfb599c6adf27a890831c9c6": {
+      "path": "backgrounds/部室开门.jpg",
+      "size": 1025979,
+      "updatedAt": 1784551074000
+    },
+    "d3c09064d106b2ca5241da336f080786": {
+      "path": "backgrounds/雪夜车站背景.png",
+      "size": 2105126,
+      "updatedAt": 1784551074000
+    },
+    "3db57b52bd0e787b6fa9baa95aa273f4": {
+      "path": "characters/Kagenui/影缝礼服呆滞A.png",
+      "size": 3581494,
+      "updatedAt": 1784551074000
+    },
+    "3b18ecd0a750ece873f8b77546bf3d0e": {
+      "path": "characters/Kagenui/影缝礼服闭眼A.png",
+      "size": 3591758,
+      "updatedAt": 1784551074000
+    },
+    "12ec4bdcd86742572fb88605f7f40e16": {
+      "path": "characters/Makoto/真琴裤袜外套眼镜呆滞A.png",
+      "size": 2875947,
+      "updatedAt": 1784551074000
+    },
+    "4c80c1a03cbdc1fe1e9db74f9fbf17d5": {
+      "path": "characters/影缝礼服严肃A.png",
+      "size": 3607112,
+      "updatedAt": 1784551074000
+    },
+    "863ef75285de1e8cd956f5ac289e0110": {
+      "path": "characters/影缝礼服平静A.png",
+      "size": 3610239,
+      "updatedAt": 1784551074000
+    },
+    "ce39f2a5b4f55455158fdc65e5cb161a": {
+      "path": "characters/影缝礼服生气A.png",
+      "size": 3620091,
+      "updatedAt": 1784551074000
+    },
+    "60bc75bda0ec9e6d4bab52c8b4527b4e": {
+      "path": "characters/真琴裤袜外套眼镜害羞A.png",
+      "size": 2892459,
+      "updatedAt": 1784551074000
+    },
+    "efee4108f258c45447d25b81d59054ae": {
+      "path": "characters/真琴裤袜外套眼镜平静A.png",
+      "size": 2851271,
+      "updatedAt": 1784551074000
+    },
+    "cd04e20bad4fd753e4772c6607d4b141": {
+      "path": "characters/真琴裤袜外套眼镜微笑A.png",
+      "size": 2873675,
+      "updatedAt": 1784551074000
+    },
+    "60c11d0d4d2044d01433743d38a19f79": {
+      "path": "characters/真琴裤袜外套眼镜惊讶A.png",
+      "size": 2883023,
+      "updatedAt": 1784551074000
+    },
+    "b8b0cbfc587684e1e22fe5a27b8ca34f": {
+      "path": "characters/真琴裤袜外套眼镜闭眼A.png",
+      "size": 2876889,
+      "updatedAt": 1784551074000
+    },
+    "db697f681dbe3c82c78f3797877ba290": {
+      "path": "ui/cursors/letsgal-presets/css-amber-pointer@2x.png",
+      "size": 1977,
+      "updatedAt": 1784551074000
+    },
+    "5d5242bd7d5f866866ac037f91a95dfc": {
+      "path": "ui/cursors/letsgal-presets/secret-letter-base@2x.png",
+      "size": 4840,
+      "updatedAt": 1784551074000
+    },
+    "924a18868599747bfbeb28e3e8d3874c": {
+      "path": "particles/sakula (2).png",
+      "size": 9293,
+      "updatedAt": 1784551074000
+    },
+    "b160e0e6295e8cc3dccfe83a1ece7e57": {
+      "path": "particles/snow.png",
+      "size": 1606,
+      "updatedAt": 1784551074000
+    },
+    "205c79eb03f2c76609f1b71781398a5c": {
+      "path": "bgm/08.wav",
+      "size": 26880338,
+      "updatedAt": 1784551074000
+    },
+    "3bb31211331d632b8b43b06cda1393a0": {
+      "path": "bgm/11.mp3",
+      "size": 6246465,
+      "updatedAt": 1784551074000
+    },
+    "6e5b78c950091299f5b01941780d2f20": {
+      "path": "bgm/16.wav",
+      "size": 18348192,
+      "updatedAt": 1784551074000
+    },
+    "5ca2f0ec1171b743bb9011d5cc3cae22": {
+      "path": "bgm/18.mp3",
+      "size": 3737041,
+      "updatedAt": 1784551074000
+    },
+    "f6bd2521ab8eed72d4483d707a2bf088": {
+      "path": "bgm/雪之华.mp3",
+      "size": 13540902,
+      "updatedAt": 1784551074000
+    },
+    "11bcdc68c94f9fb06d5f7daf1a33f9db": {
+      "path": "se/开门.mp3",
+      "size": 73187,
+      "updatedAt": 1784551074000
+    },
+    "5d76501c12ff8e3cddaf76eaa7c5d175": {
+      "path": "se/火车.mp3",
+      "size": 644746,
+      "updatedAt": 1784551074000
+    },
+    "e4fbba57c192831252e165b47322dd3d": {
+      "path": "voice/001.wav",
+      "size": 926218,
+      "updatedAt": 1784551074000,
+      "voice": {
+        "characterId": "2221a310-c67b-4e9c-9a59-ea76c83b0a19",
+        "asrText": "明年开始我就要去东京都输了",
+        "asrStatus": "done"
+      }
+    },
+    "1b8b804a51035acf2181b672c313ebd8": {
+      "path": "voice/002.wav",
+      "size": 498356,
+      "updatedAt": 1784551074000,
+      "voice": {
+        "characterId": "2221a310-c67b-4e9c-9a59-ea76c83b0a19",
+        "asrText": "哪有只是不想看到你那寂寞的表情而已",
+        "asrStatus": "done"
+      }
+    },
+    "b7f2880bede1a6fa2f05f5a6150906d7": {
+      "path": "voice/003.wav",
+      "size": 483102,
+      "updatedAt": 1784551074000,
+      "voice": {
+        "characterId": "2221a310-c67b-4e9c-9a59-ea76c83b0a19",
+        "asrText": "至少不会像是现在这样轻松了",
+        "asrStatus": "done"
+      }
+    },
+    "fa10152547e5490cd4e03ae014166873": {
+      "path": "voice/004.wav",
+      "size": 554290,
+      "updatedAt": 1784551074000,
+      "voice": {
+        "characterId": "2221a310-c67b-4e9c-9a59-ea76c83b0a19",
+        "asrText": "谁知道呢这是爱好而已说不定以后",
+        "asrStatus": "done"
+      }
+    },
+    "cbf1fed87496ee6a4a910aab9d3e7c8e": {
+      "path": "voice/005.wav",
+      "size": 559374,
+      "updatedAt": 1784551074000,
+      "voice": {
+        "characterId": "2221a310-c67b-4e9c-9a59-ea76c83b0a19",
+        "asrText": "那这样的话只能继续写下去了",
+        "asrStatus": "done"
+      }
+    },
+    "7f80805a88ac01217e24b31400ebdc0d": {
+      "path": "voice/006.wav",
+      "size": 798360,
+      "updatedAt": 1784551074000,
+      "voice": {
+        "characterId": "2221a310-c67b-4e9c-9a59-ea76c83b0a19",
+        "asrText": "不过,只是呆方面的拜托总觉得有点不公便我也有想要拜托你的事情",
+        "asrStatus": "done"
+      }
+    },
+    "b35f5fe5060a1290df4671a8d71d0ce2": {
+      "path": "voice/007.wav",
+      "size": 630562,
+      "updatedAt": 1784551074000,
+      "voice": {
+        "characterId": "2221a310-c67b-4e9c-9a59-ea76c83b0a19",
+        "asrText": "你喜欢游戏吧那把我为你写的故事做成电子游戏怎么样",
+        "asrStatus": "done"
+      }
+    },
+    "56ab2ccaa4acdf78365b153e1861fc1e": {
+      "path": "voice/008.wav",
+      "size": 783106,
+      "updatedAt": 1784551074000,
+      "voice": {
+        "characterId": "2221a310-c67b-4e9c-9a59-ea76c83b0a19",
+        "asrText": "那我就期待着了说一 我们的渊息",
+        "asrStatus": "done"
+      }
+    },
+    "88c8af04fd2cc1ce0a1416c43c968afe": {
+      "path": "voice/009.wav",
+      "size": 488186,
+      "updatedAt": 1784551074000,
+      "voice": {
+        "characterId": "2221a310-c67b-4e9c-9a59-ea76c83b0a19",
+        "asrText": "如果这尝血不要停下来就好了",
+        "asrStatus": "done"
+      }
+    },
+    "1bf9472b4c693a767b4417031562f30e": {
+      "path": "video/小雨.mp4",
+      "size": 9983779,
+      "updatedAt": 1782738670000
+    }
+  }
+}

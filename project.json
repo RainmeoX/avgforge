@@ -1,0 +1,100 @@
+{
+  "id": "19e72304-0621-40b8-a7ea-a3b58435f3f9",
+  "version": "1.0.0",
+  "engineVersion": "1.0.0",
+  "name": "星轨之约",
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "backgroundColor": "#000",
+  "window": {
+    "lockAspectRatio": false,
+    "allowMaximize": true,
+    "allowFullscreen": true,
+    "launchMode": "windowed"
+  },
+  "cursor": {
+    "mode": "system",
+    "image": "",
+    "imagePixelRatio": 1,
+    "imageSize": {
+      "width": 24,
+      "height": 24
+    },
+    "hotspot": {
+      "x": 0,
+      "y": 0
+    },
+    "fallback": "default",
+    "css": "",
+    "cssImagePixelRatio": 1,
+    "cssImageSize": {
+      "width": 24,
+      "height": 24
+    }
+  },
+  "chapterOrder": [
+    "开始",
+    "序章",
+    "制作人的某天",
+    "终章",
+    "游戏结束"
+  ],
+  "extensionStorageVersion": 1,
+  "extensions": {
+    "avg.internal.default-shell": {
+      "enabled": true,
+      "bundle": {
+        "version": "1.0.0"
+      }
+    },
+    "ui-2.0": {
+      "enabled": false
+    },
+    "道具系统_1501c1": {
+      "enabled": false
+    }
+  },
+  "extensionSettings": {},
+  "systemBindings": {
+    "internal.system.title": "ui:@avg.internal.default-shell/title-screen",
+    "internal.system.save": "ui:@avg.internal.default-shell/save-screen",
+    "internal.system.load": "ui:@avg.internal.default-shell/save-screen",
+    "internal.system.settings": "ui:@avg.internal.default-shell/settings-screen",
+    "internal.system.history": "ui:@avg.internal.default-shell/history-screen",
+    "internal.system.gallery": "ui:@avg.internal.default-shell/gallery-screen",
+    "internal.system.input": "ui:@avg.internal.default-shell/input-dialog"
+  },
+  "actionBindings": {
+    "internal.input.advance": [
+      "mousedown",
+      " ",
+      "Enter",
+      "wheeldown"
+    ],
+    "internal.input.skip": [
+      "Control"
+    ],
+    "internal.input.auto-toggle": [
+      "a"
+    ],
+    "internal.input.hide-dialogue": [
+      "contextmenu",
+      "Delete"
+    ],
+    "internal.input.replay-voice": [
+      "r"
+    ],
+    "avg.internal.default-shell.quick-save": [
+      "F5"
+    ],
+    "avg.internal.default-shell.quick-load": [
+      "F9"
+    ],
+    "avg.internal.default-shell.open-history": [
+      "middleclick"
+    ]
+  },
+  "author": "RainmeoX"
+}

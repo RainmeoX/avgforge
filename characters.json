@@ -1,0 +1,222 @@
+{
+  "version": 2,
+  "globalSettings": {
+    "defaultPosition": "left",
+    "graphics": {
+      "keepAspectRatio": true,
+      "size": "(30%,30%)"
+    },
+    "positions": [
+      {
+        "id": "left",
+        "name": "左",
+        "left": 2,
+        "top": 2
+      },
+      {
+        "id": "center-left",
+        "name": "中左",
+        "left": 19,
+        "top": 2
+      },
+      {
+        "id": "center",
+        "name": "中",
+        "left": 35,
+        "top": 2
+      },
+      {
+        "id": "center-right",
+        "name": "中右",
+        "left": 55,
+        "top": 2
+      },
+      {
+        "id": "right",
+        "name": "右",
+        "left": 68,
+        "top": 2
+      }
+    ],
+    "defaultPositionId": "center",
+    "defaultAnchor": "left_top"
+  },
+  "attributeTemplate": [
+    {
+      "id": "846d5234-65a3-4d80-a871-7aad00dc2b6a",
+      "name": "好感度",
+      "type": "number",
+      "defaultValue": 0,
+      "createdAt": 1781889657855
+    }
+  ],
+  "characters": [
+    {
+      "id": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+      "name": "影缝",
+      "expressions": [
+        {
+          "name": "闭眼",
+          "assetPath": "characters/Kagenui/影缝礼服闭眼A.png",
+          "avatarCrop": {
+            "x": 0.20599409033347404,
+            "y": 0.021364893944051645,
+            "w": 0.5107640354579992,
+            "h": 0.18598217030433445
+          }
+        },
+        {
+          "name": "呆滞",
+          "assetPath": "characters/Kagenui/影缝礼服呆滞A.png",
+          "avatarCrop": {
+            "x": 0.20599409033347404,
+            "y": 0.021364893944051645,
+            "w": 0.5107640354579992,
+            "h": 0.18598217030433445
+          }
+        },
+        {
+          "name": "平静",
+          "assetPath": "characters/影缝礼服平静A.png",
+          "avatarCrop": {
+            "x": 0.20599409033347404,
+            "y": 0.021364893944051645,
+            "w": 0.5107640354579992,
+            "h": 0.18598217030433445
+          }
+        },
+        {
+          "name": "生气",
+          "assetPath": "characters/影缝礼服生气A.png",
+          "avatarCrop": {
+            "x": 0.20599409033347404,
+            "y": 0.021364893944051645,
+            "w": 0.5107640354579992,
+            "h": 0.18598217030433445
+          }
+        },
+        {
+          "name": "严肃",
+          "assetPath": "characters/影缝礼服严肃A.png",
+          "avatarCrop": {
+            "x": 0.20599409033347404,
+            "y": 0.021364893944051645,
+            "w": 0.5107640354579992,
+            "h": 0.18598217030433445
+          }
+        }
+      ],
+      "themeColor": {
+        "bg": "#dbeafe",
+        "fg": "#1e40af",
+        "ring": "#60a5fa"
+      },
+      "defaultPosition": "left",
+      "graphics": {
+        "size": "(100%,100%)"
+      },
+      "attributeValues": {
+        "好感度": 0
+      }
+    },
+    {
+      "id": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+      "name": "真琴",
+      "expressions": [
+        {
+          "name": "呆滞",
+          "assetPath": "characters/Makoto/真琴裤袜外套眼镜呆滞A.png",
+          "avatarCrop": {
+            "x": 0.3212325875897003,
+            "y": 0.030587150322778974,
+            "w": 0.46095398902490503,
+            "h": 0.1678450660928374
+          }
+        },
+        {
+          "name": "微笑",
+          "assetPath": "characters/真琴裤袜外套眼镜微笑A.png",
+          "avatarCrop": {
+            "x": 0.3212325875897003,
+            "y": 0.030587150322778974,
+            "w": 0.46095398902490503,
+            "h": 0.1678450660928374
+          }
+        },
+        {
+          "name": "闭眼",
+          "assetPath": "characters/真琴裤袜外套眼镜闭眼A.png",
+          "avatarCrop": {
+            "x": 0.3212325875897003,
+            "y": 0.030587150322778974,
+            "w": 0.46095398902490503,
+            "h": 0.1678450660928374
+          }
+        },
+        {
+          "name": "害羞",
+          "assetPath": "characters/真琴裤袜外套眼镜害羞A.png",
+          "avatarCrop": {
+            "x": 0.3212325875897003,
+            "y": 0.030587150322778974,
+            "w": 0.46095398902490503,
+            "h": 0.1678450660928374
+          }
+        },
+        {
+          "name": "惊讶",
+          "assetPath": "characters/真琴裤袜外套眼镜惊讶A.png",
+          "avatarCrop": {
+            "x": 0.3212325875897003,
+            "y": 0.030587150322778974,
+            "w": 0.46095398902490503,
+            "h": 0.1678450660928374
+          }
+        },
+        {
+          "name": "平静",
+          "assetPath": "characters/真琴裤袜外套眼镜平静A.png",
+          "avatarCrop": {
+            "x": 0.3212325875897003,
+            "y": 0.030587150322778974,
+            "w": 0.46095398902490503,
+            "h": 0.1678450660928374
+          }
+        }
+      ],
+      "defaultPosition": "right",
+      "themeColor": {
+        "bg": "#ffe4e6",
+        "fg": "#9f1239",
+        "ring": "#fb7185"
+      },
+      "graphics": {
+        "size": "(100%,100%)"
+      },
+      "attributeValues": {
+        "好感度": 0
+      }
+    },
+    {
+      "id": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+      "name": "我",
+      "expressions": [],
+      "themeColor": {
+        "bg": "#dbeafe",
+        "fg": "#1e40af",
+        "ring": "#60a5fa"
+      },
+      "attributeValues": {
+        "好感度": 0
+      }
+    },
+    {
+      "id": "2221a310-c67b-4e9c-9a59-ea76c83b0a19",
+      "name": "少女",
+      "expressions": [],
+      "attributeValues": {
+        "好感度": 0
+      }
+    }
+  ]
+}

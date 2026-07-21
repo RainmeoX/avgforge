@@ -1,0 +1,15 @@
+{
+  "activeChapterId": "508888b2-ce64-49b8-8f4e-f5fc57ea20e7",
+  "activeFragmentId": "c76fe46e-1467-4e80-bb48-21ba55d9ee71",
+  "openFragmentIds": [
+    "c76fe46e-1467-4e80-bb48-21ba55d9ee71",
+    "788a7229-1414-44d0-b0f3-31a63924418c"
+  ],
+  "cursorBlockIndex": 0,
+  "cursorBlockIndexByFragment": {
+    "c76fe46e-1467-4e80-bb48-21ba55d9ee71": 0,
+    "788a7229-1414-44d0-b0f3-31a63924418c": 5
+  },
+  "expandedChapterIds": [],
+  "storyTreeViewMode": "basic"
+}

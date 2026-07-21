@@ -1,0 +1,690 @@
+{
+  "version": 3,
+  "scenes": [
+    {
+      "id": "65daa254-cc44-4104-a77e-5d75ff3a2fcf",
+      "name": "序章",
+      "layers": [
+        {
+          "id": "025ff131-2b70-4953-bf10-2fad45ebe526",
+          "name": "云",
+          "assetPath": "backgrounds/LG01/LG01_云.png",
+          "distance": 14
+        },
+        {
+          "id": "929ea75c-2c08-4cde-9536-4f4538562e75",
+          "name": "山",
+          "assetPath": "backgrounds/LG01/LG01_山.png",
+          "distance": 10.5
+        },
+        {
+          "id": "5bb94fbc-4931-4dff-bf32-1b6df3b633b0",
+          "name": "树",
+          "assetPath": "backgrounds/LG01/LG01_树.png",
+          "distance": 7
+        },
+        {
+          "id": "53ad0daa-44d6-4857-9e0b-ec6fd0bb2e0d",
+          "name": "房子主体",
+          "assetPath": "backgrounds/LG01/LG01_房子主体.png",
+          "distance": 3.5
+        },
+        {
+          "id": "eedea53e-6470-422f-be37-c7caf21a92f5",
+          "name": "氛围",
+          "assetPath": "backgrounds/LG01/LG01_氛围.png",
+          "distance": 2
+        },
+        {
+          "id": "13c42e8f-0931-4162-90f1-9191ad2c4f1f",
+          "name": "前景植物",
+          "assetPath": "backgrounds/LG01/LG01_前景植物.png",
+          "distance": 5
+        }
+      ]
+    },
+    {
+      "id": "7552b40c-2f45-4747-aa3b-0ded1c118feb",
+      "name": "序章·冬季",
+      "layers": [
+        {
+          "id": "b1f4ab3f-bc65-40c5-b241-629fe6f173e0",
+          "name": "云",
+          "assetPath": "backgrounds/LG02/LG02_云.png",
+          "distance": 14
+        },
+        {
+          "id": "e33a6022-0c18-44ca-93e9-24291d81a9ed",
+          "name": "山",
+          "assetPath": "backgrounds/LG02/LG02_山.png",
+          "distance": 10.5
+        },
+        {
+          "id": "ad0637c2-3232-4eeb-9076-0e43fc8a4b42",
+          "name": "树",
+          "assetPath": "backgrounds/LG02/LG02_树.png",
+          "distance": 7
+        },
+        {
+          "id": "479e4409-7951-4e36-bdbb-8e18c934c9c3",
+          "name": "房子主体",
+          "assetPath": "backgrounds/LG02/LG02_房子主体.png",
+          "distance": 3.5
+        },
+        {
+          "id": "45415194-36c1-449a-9fcd-6573e7b259c5",
+          "name": "氛围",
+          "assetPath": "backgrounds/LG02/LG02_氛围.png",
+          "distance": 2
+        },
+        {
+          "id": "34c2e904-7849-472c-b7b5-f5c13e75d210",
+          "name": "前景植物",
+          "assetPath": "backgrounds/LG02/LG02_前景植物.png",
+          "distance": 5
+        }
+      ]
+    },
+    {
+      "id": "7189cf54-c042-4b87-be18-189f1284420e",
+      "name": "路灯夜晚关灯",
+      "layers": [
+        {
+          "id": "85bb6cb0-e3ca-49a7-9bb6-45c52cf12b27",
+          "name": "LG04_夜晚关灯",
+          "assetPath": "backgrounds/LG04/LG04_夜晚关灯.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "c6626ac9-7e0f-4c86-b07a-1dc18cc78808",
+      "name": "路灯夜晚开灯",
+      "layers": [
+        {
+          "id": "3551b440-0756-4f87-a936-f8609ce7469d",
+          "name": "LG04_夜晚开灯",
+          "assetPath": "backgrounds/LG04/LG04_夜晚开灯.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "40ee658c-4758-406f-a33b-afe1e330945b",
+      "name": "路灯白天",
+      "layers": [
+        {
+          "id": "b0380cb9-4119-4200-a46f-73880eedfbca",
+          "name": "LG04_白天",
+          "assetPath": "backgrounds/LG04/LG04_白天.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "89cf6a25-b6dc-41de-b47e-9953b2f45a4a",
+      "name": "雪域",
+      "layers": [
+        {
+          "id": "c6d9903a-f007-4706-a833-e3f00652fb38",
+          "name": "天空",
+          "assetPath": "backgrounds/LG03/LG03_天空.png",
+          "distance": 5
+        },
+        {
+          "id": "6cfec4bc-d51c-4dd1-9e95-5bdfd26614c1",
+          "name": "云",
+          "assetPath": "backgrounds/LG03/LG03_云.png",
+          "distance": 9
+        },
+        {
+          "id": "b669f497-3eed-4304-8137-08f68b877c4d",
+          "name": "山",
+          "assetPath": "backgrounds/LG03/LG03_山.png",
+          "distance": 8
+        },
+        {
+          "id": "06115133-f7b6-4812-9784-4d17f0449a25",
+          "name": "树林",
+          "assetPath": "backgrounds/LG03/LG03_树林.png",
+          "distance": 5
+        },
+        {
+          "id": "ff7a17eb-ab74-4773-8b90-0f3367ba3012",
+          "name": "雪地",
+          "assetPath": "backgrounds/LG03/LG03_雪地.png",
+          "distance": 2
+        },
+        {
+          "id": "f21b9496-52ef-43c4-b51e-415a446c8631",
+          "name": "房子",
+          "assetPath": "backgrounds/LG03/LG03_房子.png",
+          "distance": 3
+        },
+        {
+          "id": "1b8b8435-94c9-41cf-84fa-638764ac90e5",
+          "name": "铁丝网",
+          "assetPath": "backgrounds/LG03/LG03_铁丝网.png",
+          "distance": 2.5
+        },
+        {
+          "id": "32a94134-eae0-437b-91d5-be8387a136a9",
+          "name": "前景",
+          "assetPath": "backgrounds/LG03/LG03_前景.png",
+          "distance": 4
+        }
+      ]
+    },
+    {
+      "id": "105949aa-12f5-4d26-a04d-2ab2486367f9",
+      "name": "雪夜车站",
+      "layers": [
+        {
+          "id": "1544aea2-073f-48a8-8133-fe4ef8cde861",
+          "name": "雪夜车站背景",
+          "assetPath": "backgrounds/雪夜车站背景.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "eedce62e-775c-4976-87ae-d3eef8daec49",
+      "name": "家户外冬天白天",
+      "layers": [
+        {
+          "id": "45c478e9-1faa-4f14-9884-ca0f65f630bf",
+          "name": "BG04030S",
+          "assetPath": "backgrounds/BG04030S.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "11b57f40-b016-4217-84c5-6ba6353b302f",
+      "name": "家户外冬天晚上",
+      "layers": [
+        {
+          "id": "0fe63507-1e94-4c79-8bf5-03623006abc8",
+          "name": "BG04033S",
+          "assetPath": "backgrounds/BG04033S.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "735151a2-7d92-463c-8377-d19c30db74d1",
+      "name": "校门口冬天夜晚",
+      "layers": [
+        {
+          "id": "39c578a9-21f8-47cf-a812-a26086f22f3d",
+          "name": "BG00233S",
+          "assetPath": "backgrounds/BG00233S.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "492ab6ed-41ca-4810-abc8-129212628392",
+      "name": "校门口冬天夜晚开灯",
+      "layers": [
+        {
+          "id": "5dfd0fdd-1c79-4f71-ba10-246e1f9bb601",
+          "name": "BG00233SL",
+          "assetPath": "backgrounds/BG00233SL.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "d01c5b49-4a5a-40e6-90f4-9fa1809da6f3",
+      "name": "校门口春天白天",
+      "layers": [
+        {
+          "id": "cc1b13ac-cf99-4bcb-b9f1-353effe1ef77",
+          "name": "BG00200",
+          "assetPath": "backgrounds/BG00200.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "a16892c1-8cfb-442b-8b11-088b486a14a5",
+      "name": "长廊",
+      "layers": [
+        {
+          "id": "2b19bd2b-b646-4e87-9582-1af74f69895c",
+          "name": "X0 (28)_1779417297578",
+          "assetPath": "backgrounds/X0 (28)_1779417297578.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "c94b4500-b372-41f1-85fd-73b3449c1329",
+      "name": "部室关门",
+      "layers": [
+        {
+          "id": "6d2489b6-bf80-469a-96d0-7945e95fc998",
+          "name": "部室关门",
+          "assetPath": "backgrounds/部室关门.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "6b82939e-36e2-4062-b615-c4b68314ddd4",
+      "name": "部室开门",
+      "layers": [
+        {
+          "id": "4f445033-c0ed-4afa-a8b7-19037dfb3a6e",
+          "name": "部室开门",
+          "assetPath": "backgrounds/部室开门.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "a6a94c52-7bc2-4307-8129-b83413c9e771",
+      "name": "部室内部白天",
+      "layers": [
+        {
+          "id": "9c88775b-779d-45e9-8810-bf6b6fc18a75",
+          "name": "BG00500",
+          "assetPath": "backgrounds/BG00500.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "9acd8215-9fd5-43b2-8953-4cb5ae594a7f",
+      "name": "部室内部黄昏",
+      "layers": [
+        {
+          "id": "92db6bb2-bf84-4853-b797-15c07a6265e3",
+          "name": "BG00501_1779477851555",
+          "assetPath": "backgrounds/BG00501_1779477851555.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "e920779a-4c3f-45c0-8f71-ba23b4e44b4b",
+      "name": "部室内部关灯",
+      "layers": [
+        {
+          "id": "8003bf2c-dee6-47a7-91dc-8a6b17b6c184",
+          "name": "BG00503",
+          "assetPath": "backgrounds/BG00503.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "6ad4efcf-893c-4344-80dc-28398696f163",
+      "name": "部室内部开灯",
+      "layers": [
+        {
+          "id": "cf4db2a8-28d8-4590-834c-1b0e49833359",
+          "name": "BG00503L",
+          "assetPath": "backgrounds/BG00503L.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "ec982e17-0bc5-4161-994f-bd0e568de6f0",
+      "name": "东京全景",
+      "layers": [
+        {
+          "id": "5758c8e4-34af-4221-a73f-a958be4b7416",
+          "name": "东京全景",
+          "assetPath": "backgrounds/东京全景.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "d8b4c6ad-b0ae-4b1c-9d78-31f7f5a5fb89",
+      "name": "东京全景-LOGO",
+      "layers": [
+        {
+          "id": "ba18a1e3-2f54-4656-9b27-b59187fa999a",
+          "name": "东京全景有LOGO",
+          "assetPath": "backgrounds/东京全景有LOGO.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "3575ddf8-822a-4411-a928-629fbb3b9a01",
+      "name": "东京山上夜景",
+      "layers": [
+        {
+          "id": "e6d1d5e2-6934-405f-98a3-63147ac39ea4",
+          "name": "东京山上夜景",
+          "assetPath": "backgrounds/东京山上夜景.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "e8d8b9c5-e102-42cf-beab-fb87dd5b1e42",
+      "name": "户外雪地",
+      "layers": [
+        {
+          "id": "4de6c9bb-b105-4fb5-a016-be12eb77f5ed",
+          "name": "户外雪地",
+          "assetPath": "backgrounds/户外雪地.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "d78687e2-12d0-42f8-9088-98c13a794224",
+      "name": "车站匿名",
+      "layers": [
+        {
+          "id": "8a2a533c-6de0-4cc4-afcd-b2a90a2bf990",
+          "name": "车站匿名",
+          "assetPath": "backgrounds/车站匿名.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "0cbf8537-0e56-41c0-a062-020561d9cc1b",
+      "name": "列车门外",
+      "layers": [
+        {
+          "id": "f46084ed-d6c1-4ef0-a473-7d8692941c3e",
+          "name": "列车门外",
+          "assetPath": "backgrounds/列车门外.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "08cca2cf-9162-405d-bb64-97ffd0095207",
+      "name": "列车内部",
+      "layers": [
+        {
+          "id": "40821457-5f6c-4f0f-8407-1f2efec2171a",
+          "name": "列车内部",
+          "assetPath": "backgrounds/列车内部.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "bc526e4a-5f03-4e3e-ada8-ae6b5dc4bb0b",
+      "name": "美术工作",
+      "layers": [
+        {
+          "id": "f9b7fb47-3abd-490a-ad09-0da978e6b4be",
+          "name": "nightartwork",
+          "assetPath": "backgrounds/nightartwork.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "16ce3cf8-17bb-4622-9171-d51b384da12f",
+      "name": "真琴 CG",
+      "layers": [
+        {
+          "id": "adc33b93-9b61-44c4-bc88-93a2dd19e994",
+          "name": "334e71897d7d902c0d4541486f6509b1",
+          "assetPath": "backgrounds/334e71897d7d902c0d4541486f6509b1.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "d1125fbd-b64b-44a6-8cc9-e6788c12eeaa",
+      "name": "LGCG03_微笑",
+      "layers": [
+        {
+          "id": "83358764-f74b-460c-91e3-073d788df75e",
+          "name": "LGCG03_微笑",
+          "assetPath": "backgrounds/LGCG03_微笑.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "ef65f163-56f3-47d4-acfc-e881619381e0",
+      "name": "影缝 CG",
+      "layers": [
+        {
+          "id": "1bbd7068-5eca-4b23-9994-f6cf92535e5a",
+          "name": "LGCG19_微笑",
+          "assetPath": "backgrounds/LGCG19_微笑.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "d015765f-bb09-4981-b646-1b82a05c9606",
+      "name": "惠娜 CG",
+      "layers": [
+        {
+          "id": "0f693d40-8a7d-43a8-8359-ea38dab84c65",
+          "name": "LGCG04_微笑",
+          "assetPath": "backgrounds/LGCG04_微笑.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "b9dd3629-43ef-4681-9c79-e6b223e186e7",
+      "name": "女仆CG",
+      "layers": [
+        {
+          "id": "f0f65a1a-0571-4aba-a4b8-efb898b97c82",
+          "name": "LGCG08_微笑",
+          "assetPath": "backgrounds/LGCG08_微笑.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "3079242c-1438-46ec-a8a5-a5370e5a8ae0",
+      "name": "女巫 CG",
+      "layers": [
+        {
+          "id": "dd3f7200-b218-4bb6-add4-3e94c0e9a522",
+          "name": "LGCG10_微笑",
+          "assetPath": "backgrounds/LGCG10_微笑.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "e185c37b-7574-4ad6-b284-08e54723e33d",
+      "name": "结衣 CG",
+      "layers": [
+        {
+          "id": "c443a77e-6fab-496e-9965-62fabf5176d4",
+          "name": "LGCG15_闭眼",
+          "assetPath": "backgrounds/LGCG15_闭眼.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "630bb124-e1df-4658-a9a2-e46147c917ea",
+      "name": "一叶 CG",
+      "layers": [
+        {
+          "id": "40a08937-730d-4fe1-a41f-7234aa8d29a5",
+          "name": "LGCG07_闭眼",
+          "assetPath": "backgrounds/LGCG07_闭眼.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "3ba3dab9-5b86-4874-b9f4-698b0beda31c",
+      "name": "LGCG06",
+      "layers": [
+        {
+          "id": "0f6dbc31-630e-43d0-95e4-917d2ddf6df5",
+          "name": "LGCG06_微笑",
+          "assetPath": "backgrounds/LGCG06_微笑.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "94545433-1f93-4bf5-aa87-29f689a2ec89",
+      "name": "logo2",
+      "layers": [
+        {
+          "id": "8c49ad34-3498-4061-99b8-6147e7ee90a2",
+          "name": "logo2",
+          "assetPath": "backgrounds/logo2.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "263bb00e-fd7f-4f37-b1de-4d532f5269d4",
+      "name": "雪地列车",
+      "layers": [
+        {
+          "id": "4fe1a021-4f2c-4376-a0f4-9f13d0b37dd0",
+          "name": "天空",
+          "assetPath": "backgrounds/LG06_天空_1780230600549.png",
+          "distance": 9.4
+        },
+        {
+          "id": "ac474801-be62-47cb-9c52-f4217f04d4c8",
+          "name": "山",
+          "assetPath": "backgrounds/LG06_山_1780230600548.png",
+          "distance": 8.6
+        },
+        {
+          "id": "cf544f40-aa23-459c-8245-a9dae570a7a7",
+          "name": "电线杆",
+          "assetPath": "backgrounds/LG06_电线杆_1780230600529.png",
+          "distance": 4.3
+        },
+        {
+          "id": "f80c12d4-3d76-4b7d-b37f-be1c1e99c903",
+          "name": "森林",
+          "assetPath": "backgrounds/LG06_森林_1780230600541.png",
+          "distance": 5.8
+        },
+        {
+          "id": "7bac39b7-6df4-4189-b8a9-210fd64a99fd",
+          "name": "火车",
+          "assetPath": "backgrounds/LG06_火车_1780337848614.png",
+          "distance": 2.7,
+          "offset": "(+150%, 0)"
+        },
+        {
+          "id": "72feefb5-ee46-4081-9ac2-0d9a3e296b48",
+          "name": "雪地",
+          "assetPath": "backgrounds/LG06_主体_1780230600552.png",
+          "distance": 2.7
+        },
+        {
+          "id": "ba286d6e-bdea-482f-96ca-54f1b5741c0b",
+          "name": "前景",
+          "assetPath": "backgrounds/LG06_前景_1780230600534.png",
+          "distance": 0.1
+        }
+      ]
+    },
+    {
+      "id": "44a4a655-ed75-453f-ae81-6b099f57130d",
+      "name": "小湖",
+      "layers": [
+        {
+          "id": "04040199-e350-4f9a-8427-565e92fd99fa",
+          "name": "BG02030",
+          "assetPath": "backgrounds/BG02030.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "60c189bf-06bd-4767-94ab-fe29cb2c8930",
+      "name": "东京街道",
+      "layers": [
+        {
+          "id": "a4205958-916e-41f6-a362-c8f04c55e55e",
+          "name": "BG02323A",
+          "assetPath": "backgrounds/BG02323A.jpg",
+          "distance": 1
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "grp_d0a4b5cb-6ba6-46c3-b4b5-5bbd84dfc57a",
+      "name": "场景",
+      "collapsed": false
+    },
+    {
+      "id": "grp_d9c01c48-fcf8-4ce2-a1d9-7828ddbd87f4",
+      "name": "CG",
+      "collapsed": true
+    }
+  ],
+  "layout": [
+    {
+      "kind": "group",
+      "groupId": "grp_d0a4b5cb-6ba6-46c3-b4b5-5bbd84dfc57a",
+      "sceneIds": [
+        "65daa254-cc44-4104-a77e-5d75ff3a2fcf",
+        "7552b40c-2f45-4747-aa3b-0ded1c118feb",
+        "7189cf54-c042-4b87-be18-189f1284420e",
+        "c6626ac9-7e0f-4c86-b07a-1dc18cc78808",
+        "40ee658c-4758-406f-a33b-afe1e330945b",
+        "89cf6a25-b6dc-41de-b47e-9953b2f45a4a",
+        "105949aa-12f5-4d26-a04d-2ab2486367f9",
+        "eedce62e-775c-4976-87ae-d3eef8daec49",
+        "11b57f40-b016-4217-84c5-6ba6353b302f",
+        "735151a2-7d92-463c-8377-d19c30db74d1",
+        "492ab6ed-41ca-4810-abc8-129212628392",
+        "d01c5b49-4a5a-40e6-90f4-9fa1809da6f3",
+        "a16892c1-8cfb-442b-8b11-088b486a14a5",
+        "c94b4500-b372-41f1-85fd-73b3449c1329",
+        "6b82939e-36e2-4062-b615-c4b68314ddd4",
+        "a6a94c52-7bc2-4307-8129-b83413c9e771",
+        "9acd8215-9fd5-43b2-8953-4cb5ae594a7f",
+        "e920779a-4c3f-45c0-8f71-ba23b4e44b4b",
+        "6ad4efcf-893c-4344-80dc-28398696f163",
+        "ec982e17-0bc5-4161-994f-bd0e568de6f0",
+        "d8b4c6ad-b0ae-4b1c-9d78-31f7f5a5fb89",
+        "3575ddf8-822a-4411-a928-629fbb3b9a01",
+        "e8d8b9c5-e102-42cf-beab-fb87dd5b1e42",
+        "d78687e2-12d0-42f8-9088-98c13a794224",
+        "0cbf8537-0e56-41c0-a062-020561d9cc1b",
+        "08cca2cf-9162-405d-bb64-97ffd0095207",
+        "bc526e4a-5f03-4e3e-ada8-ae6b5dc4bb0b",
+        "44a4a655-ed75-453f-ae81-6b099f57130d",
+        "60c189bf-06bd-4767-94ab-fe29cb2c8930",
+        "263bb00e-fd7f-4f37-b1de-4d532f5269d4"
+      ]
+    },
+    {
+      "kind": "group",
+      "groupId": "grp_d9c01c48-fcf8-4ce2-a1d9-7828ddbd87f4",
+      "sceneIds": [
+        "16ce3cf8-17bb-4622-9171-d51b384da12f",
+        "d1125fbd-b64b-44a6-8cc9-e6788c12eeaa",
+        "ef65f163-56f3-47d4-acfc-e881619381e0",
+        "d015765f-bb09-4981-b646-1b82a05c9606",
+        "b9dd3629-43ef-4681-9c79-e6b223e186e7",
+        "3079242c-1438-46ec-a8a5-a5370e5a8ae0",
+        "e185c37b-7574-4ad6-b284-08e54723e33d",
+        "630bb124-e1df-4658-a9a2-e46147c917ea",
+        "3ba3dab9-5b86-4874-b9f4-698b0beda31c",
+        "94545433-1f93-4bf5-aa87-29f689a2ec89"
+      ]
+    }
+  ]
+}

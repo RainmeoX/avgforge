@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "name": "剧情选项",
+  "canvas": { "width": 1920, "height": 1080 },
+  "elements": [
+    {
+      "id": "choice-dialog-list",
+      "refId": "choice-list",
+      "type": "choice-list",
+      "name": "选项列表_故事分支",
+      "rect": { "x": 500, "y": 335, "w": 920, "h": 410 },
+      "anchor": "c",
+      "style": {
+        "fontSize": 26,
+        "fontWeight": 500,
+        "letterSpacing": 0.4,
+        "color": "#e8f1f0",
+        "fill": "transparent",
+        "borderColor": "rgba(127, 212, 200, 0.36)",
+        "borderWidth": 1,
+        "radius": 14,
+        "opacity": 100,
+        "customCss": "font-family: \"Plus Jakarta Sans\", \"M PLUS Rounded 1c\", \"PingFang SC\", \"Hiragino Sans GB\", \"HarmonyOS Sans\", \"Microsoft YaHei\", -apple-system, BlinkMacSystemFont, sans-serif;"
+      },
+      "animation": {
+        "enter": { "preset": "rise", "durationMs": 420, "delayMs": 90 },
+        "exit": { "preset": "fade", "durationMs": 190, "delayMs": 0 }
+      },
+      "props": {
+        "direction": "vertical",
+        "gap": 14,
+        "itemHeight": 76,
+        "showNumbers": true,
+        "bgImage": "",
+        "itemImage": "",
+        "itemHoverImage": "",
+        "itemPressedImage": "",
+        "itemDisabledImage": "",
+        "numberFormat": "leading-zero",
+        "numberStart": 1,
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "previewChoices": ["继续追问她", "保持沉默", "转身离开"],
+        "previewDisabledIndex": 2,
+        "normalFill": "rgba(7, 16, 24, 0.86)",
+        "normalTextColor": "#e8f1f0",
+        "hoverFill": "rgba(20, 48, 54, 0.94)",
+        "hoverTextColor": "#f5fffd",
+        "pressedFill": "rgba(82, 184, 168, 0.24)",
+        "pressedTextColor": "#ffffff",
+        "disabledFill": "rgba(6, 12, 18, 0.58)",
+        "disabledTextColor": "rgba(190, 205, 203, 0.38)",
+        "focusColor": "#7fd4c8"
+      }
+    }
+  ]
+}

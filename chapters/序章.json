@@ -1,0 +1,1801 @@
+{
+  "id": "ed3bedc1-684a-45c4-a4fc-8515143f2fc0",
+  "name": "序章",
+  "fragments": [
+    {
+      "id": "788a7229-1414-44d0-b0f3-31a63924418c",
+      "name": "main",
+      "blocks": [
+        {
+          "id": "66d4d76d-ddec-4f99-836a-50beac4f6f90",
+          "type": "sound",
+          "props": {
+            "disabled": false,
+            "soundType": "BGM",
+            "soundId": "",
+            "uri": "bgm/雪之华.mp3",
+            "volume": "30",
+            "loop": "true",
+            "fadeDuration": ""
+          }
+        },
+        {
+          "id": "eefba55e-e5e9-41b2-938c-6162a242c910",
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "0",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "id": "59437c33-710f-40c1-a428-4a8eac3f5725",
+          "type": "floatingText",
+          "props": {
+            "disabled": false,
+            "floatingTextId": "",
+            "blocking": "true",
+            "recordHistory": "false",
+            "position": "(51.2%,51.3%)",
+            "anchor": "center",
+            "size": "",
+            "fontFamily": "",
+            "fontSize": "42",
+            "color": "#ffffff",
+            "fontWeight": "normal",
+            "fontStyle": "normal",
+            "textAlign": "left",
+            "lineHeight": "",
+            "letterSpacing": "",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.5)",
+            "duration": "2000",
+            "animIn": "fade",
+            "inDuration": "3000",
+            "animOut": "fade",
+            "outDuration": "3000",
+            "slideFrom": "top",
+            "slideDistance": "40",
+            "scaleFrom": "0.8",
+            "scaleTo": "0.8",
+            "blurRadius": "8"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "关于和这份游戏剧本的主人的相遇，大约是九年前的事了",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "d34075e5-3d36-4a1a-9434-599350e4c2ba",
+          "type": "floatingText",
+          "props": {
+            "disabled": false,
+            "floatingTextId": "",
+            "blocking": "true",
+            "recordHistory": "false",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": "",
+            "fontFamily": "",
+            "fontSize": "42",
+            "color": "#ffffff",
+            "fontWeight": "normal",
+            "fontStyle": "normal",
+            "textAlign": "left",
+            "lineHeight": "",
+            "letterSpacing": "",
+            "textShadow": "2px 2px 4px rgba(0,0,0,0.5)",
+            "duration": "2000",
+            "animIn": "fade",
+            "inDuration": "3000",
+            "animOut": "fade",
+            "outDuration": "3000",
+            "slideFrom": "top",
+            "slideDistance": "40",
+            "scaleFrom": "0.8",
+            "scaleTo": "0.8",
+            "blurRadius": "8"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "彼时的我，正在长野县的山中小镇就读初中",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "c9bf36ce-ed7e-418d-a48d-cc6b2ae99ef6",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "65daa254-cc44-4104-a77e-5d75ff3a2fcf",
+            "sceneName": "序章",
+            "uri": "",
+            "transitionMode": "cut",
+            "transitionDuration": "500",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "f251dcaa-c471-4e4e-bbc2-739f51cef460",
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "232",
+            "offsetY": "",
+            "zoom": "1.37",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "16100",
+            "easing": "easeInOut",
+            "waitForComplete": "false",
+            "targets": "scene",
+            "distortionStrength": "",
+            "vignetteIntensity": "",
+            "vignetteSize": "",
+            "blurAmount": "",
+            "colorToneMode": "sepia",
+            "colorToneIntensity": "",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "id": "ca72b511-8be6-43a1-a285-e5edd12ace7d",
+          "type": "switchDialogueStyle",
+          "props": {
+            "disabled": false,
+            "source": "preset",
+            "targetId": "cinematic",
+            "textSpeed": -1,
+            "charFadeIn": -1,
+            "waitForIconDelay": -1,
+            "showWaitForIcon": ""
+          }
+        },
+        {
+          "id": "a982836e-39b3-472c-b7d3-07bf628c44f5",
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "1950",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "id": "6bb2667c-b807-48cd-8c95-34c89ed3d262",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "小镇坐落于长野和群马的交际之处，镇子附近风光秀丽，每逢夏季，便有为数众多的游客前来。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "a73ce2b2-98b9-4a40-a4eb-19552e32ae00",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "但是一旦入冬，那么距离北陆新干线十数公里的小镇就会化作隔绝现代文明的雪国。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "eae16525-bde8-4234-b1ef-f53a56db85f6",
+          "type": "particle",
+          "props": {
+            "disabled": false,
+            "mode": "show",
+            "effectId": "9c7536b7-907b-4a32-8dad-0eb4a63fb7a3",
+            "preset": "MODERATE_SNOW",
+            "textureUri": "particles/snow.png",
+            "optionsJson": "",
+            "fadeInDuration": "200",
+            "fadeOutDuration": "500"
+          }
+        },
+        {
+          "id": "7c1d407d-8222-41c1-9f1a-3ecea077c2b7",
+          "type": "comment",
+          "props": {
+            "disabled": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "过渡到冬天场景",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "e98f15d9-eff1-4151-96e0-ae3c222bc9de",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "7552b40c-2f45-4747-aa3b-0ded1c118feb",
+            "sceneName": "序章·冬季",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "3000",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "340867d4-e92a-4314-b7f2-45ef46603753",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "初中时代的我不善交际，比起说棒球，篮球一类的体育运动，我倒是更加喜欢小说和游戏。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "ae01a405-0b49-43bc-b697-f5807536bb7f",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "而机缘巧合下所认识的同校少女，就成了我在萧索冬日里的唯一玩伴。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "38782483-f28f-402e-9d70-464514305c21",
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "id": "4b08b853-76a9-4b7d-9c2a-b54d92054984",
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "1450",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "id": "cc6330f4-fc0c-42bb-bdc2-c9be63374aa9",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "89cf6a25-b6dc-41de-b47e-9953b2f45a4a",
+            "sceneName": "雪域",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "850",
+            "waitForComplete": "true",
+            "resetCamera": "true",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "c08a162b-e7e4-4492-92ee-085ac82c2a84",
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "-42",
+            "offsetY": "-238",
+            "zoom": "1.35",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "13100",
+            "easing": "easeInOut",
+            "waitForComplete": "false",
+            "targets": "",
+            "distortionStrength": "",
+            "vignetteIntensity": "",
+            "vignetteSize": "",
+            "blurAmount": "",
+            "colorToneMode": "none",
+            "colorToneIntensity": "",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "id": "2e8f032e-5a89-419f-80e6-b65d7dff3f99",
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "1900",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "id": "b5db7795-7299-49f5-81b0-de600101a63f",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "少年少女，正是幻想丰富的时候。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "722b8e91-f11b-43d9-aa58-f943146806eb",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "在我沉醉于剑与魔法的异世界之时，她则醉心于菊地秀行和北条司的作品无法自拔。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "0a1039b7-c165-497a-8490-0e8caf60f67e",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "而在大雪封山，同外界的物质交流断绝之际，少女则会开始自己的创作。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "3f79948f-9844-47e8-8982-e641dcd113b1",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "那是唯有两人知道的故事——",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "bd2e8ac9-8739-426b-8311-551cca83661b",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "唯一的读者，和只为了一人而写作的作家，才知道的故事。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "05588c68-3530-4d0e-8692-1fc70a66835a",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "故事的内容即使是用现在的眼光来看，也堪称华丽和梦幻。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "f2fcb44b-0873-4166-ac7c-78b2cd73edc0",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "只是创作者和读者之间，现在想来，则尽是一些蠢事。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "908dfa94-4e1f-450f-9f30-ab24c4086ce1",
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": "1000"
+          }
+        },
+        {
+          "id": "78eb260b-fdeb-432c-af89-db4342875863",
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "2000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "id": "35805b9d-c9c8-4221-b73f-e4639039fefb",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "40ee658c-4758-406f-a33b-afe1e330945b",
+            "sceneName": "新场景",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "500",
+            "waitForComplete": "true",
+            "resetCamera": "true",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "dff12533-f1c1-4192-93e9-697fc92438a2",
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "id": "014e5868-8c9f-4eb4-ae28-645ddff179a1",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "像是徒步穿越数公里的雪地，只为了把新写好的故事送到我手中的少女。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "ad54af47-597b-4c33-8897-0afe3ccf1d86",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "又或者独自骑车前往上田只为了买到少女想看的《吸血鬼猎人D》的少年。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "3a43db2d-bd1c-4912-a677-96ce684682d7",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "要说喜欢还是不喜欢……[wait=2000]毫无疑问，我喜欢着那个女孩。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "4942a6dd-7be9-4bcc-a356-1dfa101113d3",
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "id": "03455b75-55fa-4620-bbc7-f07caf8f7921",
+          "type": "particle",
+          "props": {
+            "disabled": false,
+            "mode": "hide",
+            "effectId": "9c7536b7-907b-4a32-8dad-0eb4a63fb7a3",
+            "preset": "LIGHT_SNOW",
+            "textureUri": "",
+            "optionsJson": "",
+            "fadeInDuration": "500",
+            "fadeOutDuration": "500"
+          }
+        },
+        {
+          "id": "9b3e42ab-d15f-48ff-af64-c012fa6f8539",
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "40",
+            "offsetY": "",
+            "zoom": "1.13",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "5400",
+            "easing": "easeInOut",
+            "waitForComplete": "false",
+            "targets": "scene,characters",
+            "distortionStrength": "",
+            "vignetteIntensity": "",
+            "vignetteSize": "",
+            "blurAmount": "",
+            "colorToneMode": "none",
+            "colorToneIntensity": "",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "id": "9c70e160-9dcd-4670-b8d5-a7fd2d9b03df",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "7189cf54-c042-4b87-be18-189f1284420e",
+            "sceneName": "夜晚关灯",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "1250",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "7bec49b7-a8b2-42e2-88b6-d0a4cced0f72",
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": "1000"
+          }
+        },
+        {
+          "id": "cbb3a8d8-a77e-42e4-9542-effef7a910bf",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "c6626ac9-7e0f-4c86-b07a-1dc18cc78808",
+            "sceneName": "夜晚开灯",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "1050",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "a3909a2c-beda-410c-8b74-70993dbe0e5f",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "只是……[wait=1000]像是笨蛋一样的，少年少女的故事仅仅只维持了一年。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "0075f11e-223e-49e5-a886-20a8ac2d1f5e",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "在我来得及说出口之前，就迎来了分别的日子。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "17a67bf6-0315-4848-9104-84e1d06f257a",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "在大雪纷飞的日子里，我骑着车赶到了北陆新干线的车站，在候车室，见到了因为列车延迟而滞留的她。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "eaae4da3-814e-4ed1-b6dd-a5eeda051ae9",
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "2000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "id": "fd874f72-3cf5-46d4-9e60-af9edc7627fa",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "105949aa-12f5-4d26-a04d-2ab2486367f9",
+            "sceneName": "新场景",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "500",
+            "waitForComplete": "true",
+            "resetCamera": "true",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "6805c642-dc7e-4d47-aec6-44ad90d32b64",
+          "type": "callExtensionFunction",
+          "props": {
+            "disabled": false,
+            "target": "avg.internal.default-shell/add-to-gallery",
+            "paramsJson": "{\"scene\":{\"kind\":\"lit\",\"value\":\"105949aa-12f5-4d26-a04d-2ab2486367f9\"},\"_sceneLayers\":{\"kind\":\"lit\",\"value\":\"[{\\\"assetPath\\\":\\\"backgrounds/雪夜车站背景.png\\\",\\\"distance\\\":1,\\\"name\\\":\\\"雪夜车站背景\\\"}]\"},\"_sceneName\":{\"kind\":\"lit\",\"value\":\"雪夜车站\"},\"title\":{\"kind\":\"lit\",\"value\":\"离别的车站\"}}"
+          }
+        },
+        {
+          "id": "91c15906-7bbe-4fc4-8e8e-00962b1cb938",
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "id": "333e785c-c72b-4696-803f-05ccb2539550",
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "",
+            "offsetY": "",
+            "zoom": "1.17",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "4850",
+            "easing": "easeInOut",
+            "waitForComplete": "false",
+            "targets": "scene,characters",
+            "distortionStrength": "",
+            "vignetteIntensity": "",
+            "vignetteSize": "",
+            "blurAmount": "",
+            "colorToneMode": "none",
+            "colorToneIntensity": "",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "id": "404df4c5-e74c-460e-a297-401e3e535d67",
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "1700",
+            "color": "#000000",
+            "mode": "letterbox",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "id": "6139b466-32b0-4e77-a7ab-8e13cc389692",
+          "type": "switchDialogueStyle",
+          "props": {
+            "disabled": false,
+            "source": "preset",
+            "targetId": "cinematic-centered",
+            "textSpeed": -1,
+            "charFadeIn": -1,
+            "waitForIconDelay": -1,
+            "showWaitForIcon": ""
+          }
+        },
+        {
+          "id": "52d4f3a9-f999-4f43-8cb7-1c5b014476b1",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "我们就这样靠着椅背分隔着在候车椅上，等待着宣告分别的汽笛声。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "2cf0f600-c56e-4133-867d-ab1669a518b9",
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 2000
+          }
+        },
+        {
+          "id": "e80be184-3bbc-48cc-8ce9-7e1b5c58d397",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "少女",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "明年开始，我就要去东京读书了。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "68007a02-b04c-4e52-8df3-0483e8778ccf",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "现在才说这个有点晚了吧，不告而别的叛徒。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "f7512666-9c2d-46f5-b6a5-c24ca9537e77",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "少女",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "1b8b804a51035acf2181b672c313ebd8"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "哪有，只是不想看到你那副寂寞的表情而已。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "bb177d67-fbc4-4a66-95af-063a4559bcff",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "罪犯也至少要好好看着受害者的脸啊。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "f74b9978-c237-4472-ae26-2f58b7548dc2",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "出门的时候过于急切，并没有做好御寒的准备。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "5597ac4f-c211-41f0-8590-d8c7bea56b14",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "而正是因为如此，才能细致的，感受到身后的她传来的体温和心跳声。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "6bfa72ea-efc9-4c26-9835-9db2c568496b",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "去大城市读书，会很辛苦吧。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "df2b3228-a509-47d0-a812-d57122d6c4db",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "少女",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "b7f2880bede1a6fa2f05f5a6150906d7"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "嗯，至少不会像是现在这样轻松了。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "802e2d66-cd8d-45a8-9aea-ba914bda20fd",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "那，小说，还会继续写下去吗？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "176759c3-61bb-48a5-afaa-bfe2a0caf7fb",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "少女",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "fa10152547e5490cd4e03ae014166873"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "谁知道呢，只是爱好而已，说不定以后……",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "49fb7b35-2f44-4c7b-972f-c4d11dc6aec4",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "明明有着很多想说的事情……明明想要大声告诉对方自己的心情。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "5fe6ac21-1ae0-45a4-9ee3-4213d96f3b60",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "但是，不知道为何，出口的却是加油的话语 ——",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "dd5fd25a-f12d-4887-ac93-d1ca2747164d",
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "id": "626a90bc-516d-46d7-b4e0-aff8816da892",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "只是做我一个人心里最好的作家可不行……你的话，一定能写出大家都热爱的故事的。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "a5d280ab-47d4-406f-b8b8-bafaf83ad2b7",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "所以，一定要继续写下去啊，小说。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "04e001c5-57bf-49d0-8dce-709915ef67c7",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "少女",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "cbf1fed87496ee6a4a910aab9d3e7c8e"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "啊，那这样的话，只能继续写下去了啊。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "dae9a833-3356-452f-a92d-99bd1459d77b",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "少女",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "7f80805a88ac01217e24b31400ebdc0d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "不过，只是单方面的拜托总觉得有点不公平，我也有想要拜托你的事情。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "bbeb79bd-9847-41ca-ba7a-93e57f59ef28",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "嗯，说吧，只要是我能做的到事。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "21ff8af4-1aae-4de4-a71c-688595d64550",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "少女",
+            "expression": "",
+            "position": "center",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "b35f5fe5060a1290df4671a8d71d0ce2"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "你喜欢游戏吧，[color=#ffffff][bg=#315735]那把我为你写的故事，做成电子游戏怎么样[/bg][/color]？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "8f8034db-3e34-450e-b8e4-6b55d104b3f8",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "游戏啊……这可不容易。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "748cfcfd-e22f-4509-9d2b-1ad2587b3d90",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "不过，我会去做的。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "bdbf7312-95fd-46f1-a5d6-2c42d86e5765",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "因为你的故事，一定会成为世上最好的游戏的。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "6f34c8cc-ab6c-4f1d-a937-b5c6fcf7029d",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "少女",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": false,
+            "voiceHash": "56ab2ccaa4acdf78365b153e1861fc1e"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "嗯，那我就期待着了……属于我们的游戏。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "6289c690-20df-4419-8310-002362d31313",
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 500
+          }
+        },
+        {
+          "id": "7423b376-df10-4706-98cf-ebdf82de3d2d",
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "",
+            "offsetY": "",
+            "zoom": "1.46",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "10550",
+            "easing": "easeInOut",
+            "waitForComplete": "true",
+            "targets": "scene",
+            "distortionStrength": "-0.35",
+            "vignetteIntensity": "",
+            "vignetteSize": "",
+            "blurAmount": "",
+            "colorToneMode": "sepia",
+            "colorToneIntensity": "0.50",
+            "oldFilmIntensity": "0.25",
+            "shockIntensity": "0.50",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "id": "523aa220-6f4a-48d6-b1a9-788e5ef4726d",
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "1450",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "id": "6a35ec5b-e10f-4080-b11c-3a274a776dd3",
+          "type": "destroyScene",
+          "props": {
+            "disabled": false,
+            "sceneId": "all",
+            "sceneName": "",
+            "animated": "true",
+            "waitForComplete": "false"
+          }
+        },
+        {
+          "id": "acbd86d9-03b1-4040-bad2-7ada5f7f2d14",
+          "type": "resetCamera",
+          "props": {
+            "disabled": false
+          }
+        },
+        {
+          "id": "5f894836-f102-4369-88ac-42d83e3b3ae3",
+          "type": "particle",
+          "props": {
+            "disabled": false,
+            "mode": "hide",
+            "effectId": "9c7536b7-907b-4a32-8dad-0eb4a63fb7a3",
+            "preset": "LIGHT_SNOW",
+            "textureUri": "",
+            "optionsJson": "",
+            "fadeInDuration": "500",
+            "fadeOutDuration": "0"
+          }
+        },
+        {
+          "id": "0e1827a1-461b-41e6-a5eb-a6bcf2e12ab7",
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "1250",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "id": "f6179716-9d50-4da3-a671-6492433e91e3",
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "id": "beac2ac0-92dd-4326-97b4-6f59c5937ea9",
+          "type": "sound",
+          "props": {
+            "disabled": false,
+            "soundType": "VOCAL",
+            "soundId": "",
+            "uri": "voice/009.wav",
+            "volume": "100",
+            "loop": "false",
+            "fadeDuration": ""
+          }
+        },
+        {
+          "id": "63a98e6b-30af-44c2-ab80-6deba2a6670b",
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 3000
+          }
+        },
+        {
+          "id": "964c7d44-3c12-460c-8cc8-5a4ec2a5c483",
+          "type": "comment",
+          "props": {
+            "disabled": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "切换到火车离别场景",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "ebb16975-90f1-4630-a1b1-81be55bc0069",
+          "type": "callFragment",
+          "props": {
+            "disabled": false,
+            "fragmentId": "daee832c-d30e-4594-9a5f-68d921e41913"
+          }
+        },
+        {
+          "id": "fbfbdd94-3c79-469b-b0a5-00b192dff9db",
+          "type": "stopSound",
+          "props": {
+            "disabled": false,
+            "soundType": "BGM",
+            "soundId": "",
+            "fadeDuration": "5000"
+          }
+        },
+        {
+          "id": "78245399-84c3-44a0-aa81-e765bdf41d87",
+          "type": "particle",
+          "props": {
+            "disabled": false,
+            "mode": "hide",
+            "effectId": "9c7536b7-907b-4a32-8dad-0eb4a63fb7a3",
+            "preset": "MODERATE_SNOW",
+            "textureUri": "",
+            "optionsJson": "",
+            "fadeInDuration": "500",
+            "fadeOutDuration": "500"
+          }
+        },
+        {
+          "id": "e7194886-e3cc-4505-a9a0-e4ed379b687e",
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "0",
+            "color": "#000000",
+            "mode": "letterbox",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "id": "04bb92c2-eb9d-4bc1-b51b-8f88867ec457",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "daee832c-d30e-4594-9a5f-68d921e41913",
+      "name": "火车驶离",
+      "blocks": [
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "particle",
+          "props": {
+            "disabled": false,
+            "mode": "show",
+            "effectId": "807b132b-45ad-49f7-9199-4ee969105b18",
+            "preset": "HEAVY_SNOW",
+            "textureUri": "particles/snow.png",
+            "optionsJson": "",
+            "fadeInDuration": "500",
+            "fadeOutDuration": "500"
+          }
+        },
+        {
+          "type": "comment",
+          "props": {
+            "disabled": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "由于镜头的坐标计算问题，如果直接定位到镜头之后的 block, 会导致镜头直接计算到末态时的实际位置，可能会导致火车图层的初始位置出错",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "comment",
+          "props": {
+            "disabled": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "正常运行镜头效果时，火车坐标才能计算正确，可以在下面的场景块右键选择「运行到这里」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "263bb00e-fd7f-4f37-b1de-4d532f5269d4",
+            "sceneName": "雪地列车",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "500",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "by_height",
+            "position": "(0%,0%)",
+            "anchor": "top-left",
+            "size": ""
+          }
+        },
+        {
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "288",
+            "offsetY": "-87",
+            "zoom": "1.15",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "11050",
+            "easing": "easeInOut",
+            "waitForComplete": "false",
+            "targets": "scene",
+            "distortionStrength": "",
+            "vignetteIntensity": "",
+            "vignetteSize": "",
+            "blurAmount": "",
+            "colorToneMode": "none",
+            "colorToneIntensity": "",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "2200",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "animateSprite",
+          "props": {
+            "disabled": false,
+            "targetType": "sceneLayer",
+            "targetId": "7bac39b7-6df4-4189-b8a9-210fd64a99fd",
+            "sceneId": "263bb00e-fd7f-4f37-b1de-4d532f5269d4",
+            "x": "",
+            "y": "",
+            "width": "",
+            "height": "",
+            "scaleX": "",
+            "scaleY": "",
+            "rotation": "",
+            "anchor": "",
+            "alpha": "",
+            "duration": "0",
+            "easing": "linear",
+            "loop": "0",
+            "waitForComplete": "false",
+            "frames": "[{\"duration\":16700,\"properties\":{\"x\":\"-11000\"}},{\"duration\":400,\"properties\":{}}]"
+          }
+        },
+        {
+          "type": "sound",
+          "props": {
+            "disabled": false,
+            "soundType": "SE",
+            "soundId": "",
+            "uri": "se/火车.mp3",
+            "volume": "29",
+            "loop": "false",
+            "fadeDuration": "1000"
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 3000
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "如是祈愿着，直至汽笛声响起。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "而那之后，我们就再也没有见过面……",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 3000
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "5000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "particle",
+          "props": {
+            "disabled": false,
+            "mode": "hide",
+            "effectId": "807b132b-45ad-49f7-9199-4ee969105b18",
+            "preset": "HEAVY_SNOW",
+            "textureUri": "",
+            "optionsJson": "",
+            "fadeInDuration": "500",
+            "fadeOutDuration": "500"
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          }
+        }
+      ]
+    }
+  ]
+}

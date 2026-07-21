@@ -1,0 +1,26 @@
+{
+  "id": "6b68fc45-1af8-4f35-8f2f-00523e13bf83",
+  "name": "游戏结束",
+  "fragments": [
+    {
+      "id": "688feece-fe19-4d39-ac4b-e325aa520a7f",
+      "name": "main",
+      "blocks": [
+        {
+          "type": "returnToEntry",
+          "props": {
+            "disabled": false
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          }
+        }
+      ]
+    }
+  ]
+}

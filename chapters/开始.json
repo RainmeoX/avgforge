@@ -1,0 +1,276 @@
+{
+  "id": "508888b2-ce64-49b8-8f4e-f5fc57ea20e7",
+  "name": "开始",
+  "fragments": [
+    {
+      "id": "c76fe46e-1467-4e80-bb48-21ba55d9ee71",
+      "name": "main",
+      "blocks": [
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "0",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          },
+          "id": "c70d6619-d774-4bb8-a85d-ba3b5bedf97d"
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "89cf6a25-b6dc-41de-b47e-9953b2f45a4a",
+            "sceneName": "雪域",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "500",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          },
+          "id": "de01b5d8-843a-465d-a69f-cdd2249b36f9"
+        },
+        {
+          "type": "particle",
+          "props": {
+            "disabled": false,
+            "mode": "show",
+            "effectId": "cb06b0e3-884d-42b1-9d25-bf0fa0b620b6",
+            "preset": "LIGHT_SNOW",
+            "textureUri": "particles/snow.png",
+            "optionsJson": "",
+            "fadeInDuration": "500",
+            "fadeOutDuration": "500"
+          },
+          "id": "c7f92c77-07bd-4554-8635-397e86875343"
+        },
+        {
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "",
+            "offsetY": "",
+            "zoom": "",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "0",
+            "easing": "easeInOut",
+            "waitForComplete": "true",
+            "tweenFields": "offsetX,offsetY,zoom,focalDistance,blurStrength,distortionStrength,vignetteIntensity,blurAmount,colorToneIntensity,colorExposure,colorBrightness,colorContrast,colorSaturation,colorTemperature,oldFilmIntensity,shockIntensity,godrayIntensity,lutIntensity,bloomIntensity,chromaticAberration,pixelateSize,glitchIntensity,crtIntensity,sharpenStrength,radialBlurStrength,motionBlurStrength,zoomBlurStrength,lightLeakIntensity,lensFlareIntensity,filmGrainIntensity,heatHazeIntensity,waterRippleIntensity,fogIntensity,vhsIntensity,halftoneIntensity,ditherIntensity,outlineIntensity,eyelidOpenness",
+            "targets": "scene,characters",
+            "distortionStrength": "-0.15",
+            "vignetteIntensity": "0.10",
+            "vignetteSize": "0.95",
+            "blurAmount": "",
+            "colorToneMode": "none",
+            "colorToneIntensity": "",
+            "colorExposure": "",
+            "colorBrightness": "",
+            "colorContrast": "",
+            "colorSaturation": "",
+            "colorTemperature": "",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "godrayIntensity": "",
+            "godrayAngle": "",
+            "godrayGain": "",
+            "godrayLacunarity": "",
+            "godraySpeed": "",
+            "godrayParallel": "",
+            "godrayCenterX": "",
+            "godrayCenterY": "",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "bloomIntensity": "",
+            "chromaticAberration": "",
+            "pixelateSize": "",
+            "glitchIntensity": "",
+            "crtIntensity": "",
+            "sharpenStrength": "",
+            "radialBlurStrength": "",
+            "radialBlurCenterX": "",
+            "radialBlurCenterY": "",
+            "motionBlurStrength": "",
+            "motionBlurAngle": "",
+            "zoomBlurStrength": "",
+            "zoomBlurCenterX": "",
+            "zoomBlurCenterY": "",
+            "lightLeakIntensity": "",
+            "lightLeakAngle": "",
+            "lensFlareIntensity": "",
+            "lensFlareCenterX": "",
+            "lensFlareCenterY": "",
+            "filmGrainIntensity": "",
+            "filmGrainSize": "",
+            "heatHazeIntensity": "",
+            "heatHazeSpeed": "",
+            "heatHazeScale": "",
+            "waterRippleIntensity": "",
+            "waterRippleFrequency": "",
+            "waterRippleSpeed": "",
+            "waterRippleCenterX": "",
+            "waterRippleCenterY": "",
+            "fogIntensity": "",
+            "fogSpeed": "",
+            "fogScale": "",
+            "vhsIntensity": "",
+            "vhsJitter": "",
+            "vhsNoise": "",
+            "halftoneIntensity": "",
+            "halftoneScale": "",
+            "halftoneAngle": "",
+            "ditherIntensity": "",
+            "ditherLevels": "",
+            "outlineIntensity": "",
+            "outlineThickness": "",
+            "eyelidOpenness": "",
+            "eyelidWidth": "",
+            "eyelidCurvature": "",
+            "eyelidSoftness": "",
+            "eyelidCenterX": "",
+            "eyelidCenterY": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          },
+          "id": "5b257ab7-6156-4ad9-a341-93d9cb01a840"
+        },
+        {
+          "type": "sound",
+          "props": {
+            "soundType": "BGM",
+            "soundId": "",
+            "uri": "bgm/11.mp3",
+            "volume": "100",
+            "loop": "false",
+            "fadeDuration": ""
+          },
+          "id": "5b5a87d5-4521-4ad4-8e2f-7a0fedf2d1bb"
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          },
+          "id": "5bbeaf05-46b5-413a-b44e-e862aa9534ea"
+        },
+        {
+          "type": "showExtensionUI",
+          "props": {
+            "target": "slot:internal.system.title",
+            "modal": true,
+            "layer": "topmost",
+            "seekBehavior": "skip-if-seeking",
+            "size": "",
+            "position": "",
+            "interactable": ""
+          },
+          "id": "b8ed7c0a-c3fb-4dd8-8882-cbf8395924b6"
+        },
+        {
+          "type": "stopSound",
+          "props": {
+            "soundType": "BGM",
+            "soundId": "",
+            "fadeDuration": "1000"
+          },
+          "id": "052e0cac-51b4-4487-9509-4d8fb4de117e"
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          },
+          "id": "01261d92-0f46-448e-8c24-fe65023d9a40"
+        },
+        {
+          "type": "particle",
+          "props": {
+            "mode": "hide",
+            "effectId": "cb06b0e3-884d-42b1-9d25-bf0fa0b620b6",
+            "preset": "LIGHT_SNOW",
+            "textureUri": "",
+            "optionsJson": "",
+            "fadeInDuration": "500",
+            "fadeOutDuration": "500"
+          },
+          "id": "a3f379eb-6e84-432b-8a43-0426328d53f4"
+        },
+        {
+          "type": "destroyScene",
+          "props": {
+            "disabled": false,
+            "sceneId": "all",
+            "sceneName": "",
+            "animated": "true",
+            "waitForComplete": "false"
+          },
+          "id": "3d597569-57b0-44c5-bcea-91174c7d4318"
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          },
+          "id": "598c3975-75f4-4b5d-8251-4e5b72c5e90c"
+        },
+        {
+          "type": "narration",
+          "props": {
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "",
+              "styles": {}
+            }
+          ],
+          "id": "786b6835-db28-4c35-a344-e9c65bb2c2fc"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1925 @@
+{
+  "id": "d596aa82-a3df-4dc1-bac9-8091425f77f6",
+  "name": "制作人的某天",
+  "fragments": [
+    {
+      "id": "80ae4296-2a50-4441-bd30-53ed024e6fb3",
+      "name": "main",
+      "blocks": [
+        {
+          "type": "comment",
+          "props": {
+            "disabled": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": " 序：承接「序章」的雪夜，迈入十年后的春日 ",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 6000
+          }
+        },
+        {
+          "type": "sound",
+          "props": {
+            "disabled": false,
+            "soundType": "BGM",
+            "soundId": "",
+            "uri": "bgm/08.wav",
+            "volume": "50",
+            "loop": "true",
+            "fadeDuration": "1000"
+          }
+        },
+        {
+          "type": "switchDialogueStyle",
+          "props": {
+            "disabled": false,
+            "source": "preset",
+            "targetId": "cinematic",
+            "textSpeed": -1,
+            "charFadeIn": -1,
+            "waitForIconDelay": -1,
+            "showWaitForIcon": ""
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "0",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "resetCamera",
+          "props": {
+            "disabled": false
+          }
+        },
+        {
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "",
+            "offsetY": "",
+            "zoom": "1.10",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "3750",
+            "easing": "easeInOut",
+            "waitForComplete": "false",
+            "targets": "scene,characters",
+            "distortionStrength": "",
+            "vignetteIntensity": "",
+            "vignetteSize": "",
+            "blurAmount": "",
+            "colorToneMode": "none",
+            "colorToneIntensity": "",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "eedce62e-775c-4976-87ae-d3eef8daec49",
+            "sceneName": "家户外冬天白天",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "500",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "——这十年里，我一直在努力。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "props": {
+            "disabled": false,
+            "videoId": "rain",
+            "uri": "video/小雨.mp4",
+            "loop": "true",
+            "muted": "true",
+            "alpha": "100",
+            "waitForFinished": "false",
+            "mode": "mixed"
+          }
+        },
+        {
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "",
+            "offsetY": "",
+            "zoom": "",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "0",
+            "easing": "linear",
+            "waitForComplete": "true",
+            "targets": "scene,characters",
+            "distortionStrength": "",
+            "vignetteIntensity": "0.30",
+            "vignetteSize": "",
+            "blurAmount": "",
+            "colorToneMode": "none",
+            "colorToneIntensity": "",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "lutPreset": "warm",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "44a4a655-ed75-453f-ae81-6b099f57130d",
+            "sceneName": "小湖",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "500",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "年复一年，为了那时候没能说出口的话……",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "60c189bf-06bd-4767-94ab-fe29cb2c8930",
+            "sceneName": "东京街道",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "500",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "尽管在大城市里磕磕碰碰，但为了那个早已模糊却始终没忘的画面……",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "stopVideo",
+          "props": {
+            "disabled": false,
+            "videoId": "",
+            "fadeOutDuration": "1200"
+          }
+        },
+        {
+          "type": "particle",
+          "props": {
+            "disabled": false,
+            "mode": "show",
+            "effectId": "43657116-2faf-428c-b3f8-73654f2f605f",
+            "preset": "MODERATE_SNOW",
+            "textureUri": "particles/snow.png",
+            "optionsJson": "",
+            "fadeInDuration": "500",
+            "fadeOutDuration": "500"
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "11b57f40-b016-4217-84c5-6ba6353b302f",
+            "sceneName": "家户外冬天晚上",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "1000",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "从一个只会读 galgame 的中学生，到大学的同人社团，再到第一份正式的工作……",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "这一路，比想象中要漫长。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": "1500"
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "735151a2-7d92-463c-8377-d19c30db74d1",
+            "sceneName": "校门口冬天夜晚",
+            "uri": "",
+            "transitionMode": "crossfade",
+            "transitionDuration": "1000",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "2500",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "492ab6ed-41ca-4810-abc8-129212628392",
+            "sceneName": "校门口冬天夜晚开灯",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "1300",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "如今，我终于站在了这条路上。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "",
+            "offsetY": "",
+            "zoom": "1.18",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "4450",
+            "easing": "easeInOut",
+            "waitForComplete": "false",
+            "targets": "scene,characters",
+            "distortionStrength": "",
+            "vignetteIntensity": "",
+            "vignetteSize": "",
+            "blurAmount": "",
+            "colorToneMode": "none",
+            "colorToneIntensity": "",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": "2500"
+          }
+        },
+        {
+          "type": "comment",
+          "props": {
+            "disabled": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "▼ 冬→春 场景切换",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "comment",
+          "props": {
+            "disabled": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "═══ 第一幕 · 春寒会议 ═══",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "——那是，在我正式成为 galgame 制作人不久之后的某天，所发生的故事。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "floatingText",
+          "props": {
+            "disabled": false,
+            "floatingTextId": "",
+            "blocking": "false",
+            "recordHistory": "false",
+            "position": "(50.4%,50.8%)",
+            "anchor": "center",
+            "size": "",
+            "fontFamily": "",
+            "fontSize": "50",
+            "color": "#ffffff",
+            "fontWeight": "bold",
+            "fontStyle": "normal",
+            "textAlign": "center",
+            "lineHeight": "",
+            "letterSpacing": "",
+            "textShadow": "1px",
+            "duration": "2000",
+            "animIn": "fade,blur,scale",
+            "inDuration": "5000",
+            "animOut": "fade,blur",
+            "outDuration": "3000",
+            "slideFrom": "top",
+            "slideDistance": "40",
+            "scaleFrom": "0.8",
+            "scaleTo": "0.8",
+            "blurRadius": "8"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "第一话  制作人的某天",
+              "styles": {
+                "bold": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 2000
+          }
+        },
+        {
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "",
+            "offsetY": "",
+            "zoom": "1.08",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "4450",
+            "easing": "easeInOut",
+            "waitForComplete": "false",
+            "targets": "scene,characters",
+            "distortionStrength": "",
+            "vignetteIntensity": "",
+            "vignetteSize": "",
+            "blurAmount": "",
+            "colorToneMode": "none",
+            "colorToneIntensity": "",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "type": "particle",
+          "props": {
+            "disabled": false,
+            "mode": "hide",
+            "effectId": "43657116-2faf-428c-b3f8-73654f2f605f",
+            "preset": "LIGHT_SNOW",
+            "textureUri": "",
+            "optionsJson": "",
+            "fadeInDuration": "500",
+            "fadeOutDuration": "500"
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "particle",
+          "props": {
+            "disabled": false,
+            "mode": "show",
+            "effectId": "43657116-2faf-428c-b3f8-73654f2f605f",
+            "preset": "FALLEN_LEAVES",
+            "textureUri": "particles/sakula (2).png",
+            "optionsJson": "{\"count\":20}",
+            "fadeInDuration": "500",
+            "fadeOutDuration": "500"
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "d01c5b49-4a5a-40e6-90f4-9fa1809da6f3",
+            "sceneName": "校门口春天白天",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "3000",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "时值春日，正是乍暖还寒的季节。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "温度虽说比起冬天是稍微有所升高，但依旧不能大意。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "最近又有冷空气南下，使得城市陷入了所谓「倒春寒」的时节。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "要是可以的话，自然还是想要安安稳稳地在家里度过今天。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "不过嘛，今天是说好举行 galgame 制作会议的日子，所以再怎么不情愿，也还是得去计算机部室露脸。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 500
+          }
+        },
+        {
+          "type": "comment",
+          "props": {
+            "disabled": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "▼ 连续地点切换",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "particle",
+          "props": {
+            "disabled": false,
+            "mode": "hide",
+            "effectId": "43657116-2faf-428c-b3f8-73654f2f605f",
+            "preset": "LIGHT_SNOW",
+            "textureUri": "",
+            "optionsJson": "",
+            "fadeInDuration": "500",
+            "fadeOutDuration": "500"
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "a16892c1-8cfb-442b-8b11-088b486a14a5",
+            "sceneName": "长廊",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "1000",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "by_height",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "走过旧校舍的长廊，经由转角踏上木质阶梯。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": "1500"
+          }
+        },
+        {
+          "type": "comment",
+          "props": {
+            "disabled": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "部室场景",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "c94b4500-b372-41f1-85fd-73b3449c1329",
+            "sceneName": "部室关门",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "1700",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "",
+            "offsetY": "",
+            "zoom": "1.16",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "6300",
+            "easing": "easeInOut",
+            "waitForComplete": "true",
+            "targets": "scene,characters",
+            "distortionStrength": "",
+            "vignetteIntensity": "",
+            "vignetteSize": "",
+            "blurAmount": "",
+            "colorToneMode": "none",
+            "colorToneIntensity": "",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "推开稍稍有些老旧的房门。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 500
+          }
+        },
+        {
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "",
+            "offsetY": "",
+            "zoom": "1.22",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "600",
+            "easing": "easeInOut",
+            "waitForComplete": "false",
+            "targets": "scene,characters",
+            "distortionStrength": "",
+            "vignetteIntensity": "",
+            "vignetteSize": "",
+            "blurAmount": "",
+            "colorToneMode": "none",
+            "colorToneIntensity": "",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "6b82939e-36e2-4062-b615-c4b68314ddd4",
+            "sceneName": "部室开门",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "150",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "sound",
+          "props": {
+            "disabled": false,
+            "soundType": "SE",
+            "soundId": "",
+            "uri": "se/开门.mp3",
+            "volume": "100",
+            "loop": "false",
+            "fadeDuration": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "a6a94c52-7bc2-4307-8129-b83413c9e771",
+            "sceneName": "部室内部白天",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "1500",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 2000
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "负责为游戏作画的画师，影缝老师——",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "和那个我自己的青梅竹马，负责游戏剧本编写的真琴小姐就都已经在场了。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "只是，眼前的场面好像不怎么和谐呐……",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "剧本作家，看到我之后，就像是看到了救星一样地靠了过来。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "到底，是发生了什么事啊。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "portraitStyleRule",
+          "props": {
+            "disabled": false,
+            "enabled": true,
+            "othersState": "inactive",
+            "narrationState": "inactive",
+            "transitionEnabled": true,
+            "transitionDuration": 520,
+            "transitionEasing": "inOutQuad",
+            "transitionBlocking": false,
+            "speakingScale": 1.02,
+            "speakingBrightness": 1.04,
+            "speakingSaturation": 1,
+            "speakingContrast": 1,
+            "speakingBlur": 0,
+            "speakingAlpha": 1,
+            "listeningScale": 1,
+            "listeningBrightness": 1,
+            "listeningSaturation": 1,
+            "listeningContrast": 1,
+            "listeningBlur": 0,
+            "listeningAlpha": 1,
+            "inactiveScale": 1,
+            "inactiveBrightness": 0.86,
+            "inactiveSaturation": 0.5,
+            "inactiveContrast": 1,
+            "inactiveBlur": 0,
+            "inactiveAlpha": 1
+          }
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "闭眼",
+            "position": "left",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "制作人啊，你来得正好，刚刚才说到你呢。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "我？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "生气",
+            "position": "left",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "嗯，就是你。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "严肃",
+            "position": "left",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "最近游戏的制作进度啊，可是让人很不满意哦，到现在剧本还没有完成，让我这边的美术团队应该怎么配合嘛！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "那个……美术方面的 CG，不是已经提出了需求文件和大概的分镜，照着那个画就应该……",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "平静",
+            "position": "left",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "要求是要求，文件里只写了构图、人物、服装和大概的情景。但是要真的画出一张足够优秀的 CG，那这些东西也还是不够的！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "闭眼",
+            "position": "left",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "要体现出微妙的细节，和人物的真情实感，自然是要阅读过剧本原文，多少代入一些男女主角的心情。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "闭眼",
+            "position": "left",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "结果呢！到现在为止，却跟我说非但是剧本都没有完成，剧本大纲也还没有收尾？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "",
+            "characterName": "",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "影缝对我一顿批评。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "branch",
+          "props": {
+            "disabled": false,
+            "branchId": "58ebb188-864a-42cd-aec8-1861f9ca5feb",
+            "title": "拖延的理由",
+            "choices": "[{\"mode\":\"jump\",\"text\":\"抱歉，我错误估计了剧本的复杂程度\",\"fragmentId\":\"d42da38d-e091-4894-bfb4-1a807515dd5d\"},{\"mode\":\"jump\",\"text\":\"我把这事全部交给真琴了\",\"fragmentId\":\"a3e43b33-360b-4f56-bc6a-9fe447d3ae7a\"}]"
+          }
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "害羞",
+            "position": "center-right",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "抱……抱歉！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "眼见真琴瑟瑟发抖服了软，画师小姐，也改变了教训的目标——",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "严肃",
+            "position": "left",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "是，这个的确主要是编剧的责任，但身为制作人的你，也别想逃掉哦！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "严肃",
+            "position": "left",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "既然说是制作人啊！就有通盘考量全局，监督文本、美术、程序、音乐各个维度进展的义务！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "严肃",
+            "position": "left",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "再这样下去啊，是绝对不行的。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "闭眼",
+            "position": "left",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "要做出好游戏，绝对不可能只靠动动嘴皮子说说就能做到，制作人你啊！还有太多地方需要努力了！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 500
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "结果，说是会议，最终还是演变成了单方面的被教训啊……",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "由画师小姐重新制定了游戏的制作进度和时间表。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "一整个下午就这样过去了。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "不知不觉中，天色已经黯淡了下来。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "9acd8215-9fd5-43b2-8953-4cb5ae594a7f",
+            "sceneName": "部室内部黄昏",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "1150",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "平静",
+            "position": "left",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "今天的话，就到这里了，回去之后也得好好努力跟上进度才行。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "平静",
+            "position": "left",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "另外，你们有带伞吗？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "平静",
+            "position": "center-right",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "哎？为什么要带伞啊？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "生气",
+            "position": "left",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "哎……真是的，制作游戏方面不靠谱就算了，就连生活上也不怎么靠谱呢。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "平静",
+            "position": "left",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "今天啊，天气预报说是会在夜里下雪哦，没带伞的话不要紧吗？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "没问题啦，家也好学校也好，距离地铁站都不算远，在室外走不了什么路的啦。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          }
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "平静",
+            "position": "left",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "那也路上多小心，我也要回画室了，到家再联络哦？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "嗯，影缝老师回头见。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "removeCharacter",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝"
+          }
+        },
+        {
+          "type": "removeCharacter",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴"
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 2000
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "6ad4efcf-893c-4344-80dc-28398696f163",
+            "sceneName": "部室内部开灯",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "1200",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "………",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "……",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "…",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "怀着忐忑的心情。夜深了，还是先回去吧。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "stopSound",
+          "props": {
+            "disabled": false,
+            "soundType": "BGM",
+            "soundId": "",
+            "fadeDuration": "1000"
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "e920779a-4c3f-45c0-8f71-ba23b4e44b4b",
+            "sceneName": "部室内部关灯",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "500",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "destroyScene",
+          "props": {
+            "disabled": false,
+            "sceneId": "all",
+            "sceneName": "",
+            "animated": "true",
+            "waitForComplete": "false"
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "d42da38d-e091-4894-bfb4-1a807515dd5d",
+      "name": "真诚认错",
+      "blocks": [
+        {
+          "id": "d3de5b23-bfba-4777-b907-298784258bff",
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f.好感度",
+            "op": "+=",
+            "aKind": "lit",
+            "aLit": "50",
+            "aVar": "",
+            "bKind": "none",
+            "bLit": "",
+            "bVar": "",
+            "binOp": "+"
+          }
+        },
+        {
+          "id": "455210d1-5280-42ce-bf0f-8e323e67453f",
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba.好感度",
+            "op": "=",
+            "aKind": "lit",
+            "aLit": "10",
+            "aVar": "",
+            "bKind": "none",
+            "bLit": "",
+            "bVar": "",
+            "binOp": "+"
+          }
+        },
+        {
+          "id": "8c6d774d-ff0e-4b2d-94ea-a0507d5a68b8",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "a3e43b33-360b-4f56-bc6a-9fe447d3ae7a",
+      "name": "推卸责任",
+      "blocks": [
+        {
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba.好感度",
+            "op": "-=",
+            "aKind": "lit",
+            "aLit": "50",
+            "aVar": "",
+            "bKind": "none",
+            "bLit": "",
+            "bVar": "",
+            "binOp": "+"
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          }
+        }
+      ]
+    }
+  ]
+}

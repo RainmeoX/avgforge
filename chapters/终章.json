@@ -1,0 +1,2313 @@
+{
+  "id": "cb4c92f0-59df-4184-8f16-e7d5f34615a0",
+  "name": "终章",
+  "fragments": [
+    {
+      "id": "29c278c9-cde9-4e2a-a13f-f38e864d835d",
+      "name": "main",
+      "blocks": [
+        {
+          "type": "comment",
+          "props": {
+            "disabled": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "═══ 第二幕 · 雪夜归途 ═══",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "sound",
+          "props": {
+            "disabled": false,
+            "soundType": "BGM",
+            "soundId": "",
+            "uri": "bgm/18.mp3",
+            "volume": "100",
+            "loop": "true",
+            "fadeDuration": "1000"
+          }
+        },
+        {
+          "type": "switchDialogueStyle",
+          "props": {
+            "disabled": false,
+            "source": "preset",
+            "targetId": "cinematic",
+            "textSpeed": -1,
+            "charFadeIn": -1,
+            "waitForIconDelay": -1,
+            "showWaitForIcon": ""
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "ec982e17-0bc5-4161-994f-bd0e568de6f0",
+            "sceneName": "东京全景",
+            "uri": "",
+            "transitionMode": "cut",
+            "transitionDuration": "700",
+            "waitForComplete": "true",
+            "resetCamera": "true",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "1100",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "d8b4c6ad-b0ae-4b1c-9d78-31f7f5a5fb89",
+            "sceneName": "东京全景-LOGO",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "2200",
+            "waitForComplete": "true",
+            "resetCamera": "true",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 500
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "e8d8b9c5-e102-42cf-beab-fb87dd5b1e42",
+            "sceneName": "户外雪地",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "3000",
+            "waitForComplete": "true",
+            "resetCamera": "true",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "particle",
+          "props": {
+            "disabled": false,
+            "mode": "show",
+            "effectId": "f154fbb2-9da7-41e0-9c33-406fc6ec49ab",
+            "preset": "MODERATE_SNOW",
+            "textureUri": "particles/snow.png",
+            "optionsJson": "",
+            "fadeInDuration": "700",
+            "fadeOutDuration": "500"
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "letterbox",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 6000
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "3575ddf8-822a-4411-a928-629fbb3b9a01",
+            "sceneName": "东京山上夜景",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "2850",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 3000
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "7189cf54-c042-4b87-be18-189f1284420e",
+            "sceneName": "路灯夜晚关灯",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "2400",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "switchDialogueStyle",
+          "props": {
+            "disabled": false,
+            "source": "preset",
+            "targetId": "cinematic-centered",
+            "textSpeed": -1,
+            "charFadeIn": -1,
+            "waitForIconDelay": -1,
+            "showWaitForIcon": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 2000
+          }
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "哇……好冷好冷。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "穿上了外套和全部装备的真琴可谓准备万全。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "即便如此，从校舍出来后还是被吓了一跳。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "虽然从画师小姐那边得知了今天会下雪。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "但是没想到倒春寒的雪会下得那么大。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "以眼下的势头来看，城里有的地方都应该有积雪了吧。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "闭眼",
+            "position": "center",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "脚下要小心哦。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "笨蛋，知道啦。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "1800",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "removeCharacter",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴"
+          }
+        },
+        {
+          "type": "particle",
+          "props": {
+            "disabled": false,
+            "mode": "hide",
+            "effectId": "f154fbb2-9da7-41e0-9c33-406fc6ec49ab",
+            "preset": "LIGHT_SNOW",
+            "textureUri": "",
+            "optionsJson": "",
+            "fadeInDuration": "500",
+            "fadeOutDuration": "0"
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "0",
+            "color": "#000000",
+            "mode": "letterbox",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "switchDialogueStyle",
+          "props": {
+            "disabled": false,
+            "source": "preset",
+            "targetId": "cinematic",
+            "textSpeed": -1,
+            "charFadeIn": -1,
+            "waitForIconDelay": -1,
+            "showWaitForIcon": ""
+          }
+        },
+        {
+          "type": "comment",
+          "props": {
+            "disabled": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "—— 地铁 ——",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "d78687e2-12d0-42f8-9088-98c13a794224",
+            "sceneName": "车站匿名",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "2000",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "0cbf8537-0e56-41c0-a062-020561d9cc1b",
+            "sceneName": "列车门外",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "2050",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "08cca2cf-9162-405d-bb64-97ffd0095207",
+            "sceneName": "列车内部",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "2500",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": "1500"
+          }
+        },
+        {
+          "type": "comment",
+          "props": {
+            "disabled": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "═══ 第三幕 · 深夜打气 ═══",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "bc526e4a-5f03-4e3e-ada8-ae6b5dc4bb0b",
+            "sceneName": "美术工作",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "5000",
+            "waitForComplete": "true",
+            "resetCamera": "true",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "到家之后，稍稍暖和了一下身体。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "就遵照画师小姐的意思，开始处理被分配到的工作。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "但，或许是因为天气的突然变化，又或者是单纯因为白天的事情。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "今天的状态稍微有点糟糕，怎么也没法集中精力。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "脑海中，一直回想着影缝老师的那句话——",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "a6a94c52-7bc2-4307-8129-b83413c9e771",
+            "sceneName": "部室内部白天",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "500",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "",
+            "offsetY": "",
+            "zoom": "",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "0",
+            "easing": "linear",
+            "waitForComplete": "true",
+            "targets": "scene,characters",
+            "distortionStrength": "-0.15",
+            "vignetteIntensity": "0.45",
+            "vignetteSize": "0.55",
+            "blurAmount": "",
+            "colorToneMode": "sepia",
+            "colorToneIntensity": "0.35",
+            "oldFilmIntensity": "0.45",
+            "shockIntensity": "0.45",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "闭眼",
+            "position": "",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "再这样下去啊，是绝对不行的。",
+              "styles": {
+                "textColor": "rgb(0, 0, 0)",
+                "backgroundColor": "rgb(0, 255, 0)"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "要做出好游戏，绝对不可能只靠动动嘴皮子说说就能做到，制作人你啊！还有太多地方需要努力了！",
+              "styles": {
+                "textColor": "rgb(0, 0, 0)",
+                "backgroundColor": "rgb(0, 255, 0)"
+              }
+            }
+          ]
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "removeCharacter",
+          "props": {
+            "disabled": false,
+            "characterId": "b8e3efe5-7bf4-4f69-9f00-bd082abae22f",
+            "characterName": "影缝"
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "bc526e4a-5f03-4e3e-ada8-ae6b5dc4bb0b",
+            "sceneName": "美术工作",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "0",
+            "waitForComplete": "true",
+            "resetCamera": "true",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "——我啊，是不是真的不太适合制作 galgame 呢？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "虽说作为御宅族，galgame 是玩了不少，可是在玩家距离开发者之间啊，可是隔着厚厚壁障的。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "没有足够的资金，也不是什么天才制作人，这样的话……",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "我，真的能做好 Galgame 吗？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "16ce3cf8-17bb-4622-9171-d51b384da12f",
+            "sceneName": "真琴 CG",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "1650",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "1650",
+            "color": "#000000",
+            "mode": "letterbox",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "switchDialogueStyle",
+          "props": {
+            "disabled": false,
+            "source": "preset",
+            "targetId": "cinematic-centered",
+            "textSpeed": -1,
+            "charFadeIn": -1,
+            "waitForIconDelay": -1,
+            "showWaitForIcon": ""
+          }
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "笨蛋！这种时候啊，就不要用问句了，应该说，肯定能做好galgame的才对！",
+              "styles": {
+                "textColor": "rgb(0, 0, 0)",
+                "backgroundColor": "rgb(0, 255, 255)"
+              }
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "不止从什么时候，我那位青梅竹马就绕到了我身后。",
+              "styles": {
+                "textColor": "rgb(0, 0, 0)"
+              }
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "如今啊，正用「真琴式」的方法为我打气。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "我也是很想用更加确定的语气啊……但有的事情又不是光喊口号就能做好的。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "相较于其他创作者来说啊，我既没有经验，也没有什么过人之处。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "凭借一时的热血上头就开始制作 galgame……这种情况下，怎么可能有自信啊。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center-right",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "唔，笨蛋你在考虑这个啊……",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center-right",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "现在想想的话的确啦，你啊，确实不是什么天才呢！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center-right",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "不过，过人之处，以及别人所没有的优势！我觉得还是存在的哦！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "有吗？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center-right",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "有啊！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center-right",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Galgame 的开发啊，说到底是综合性事业哦，制作人如果是什么都行的全才固然好啦，但更加重要的是团队合作。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center-right",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "虽说作为制作人的你啊，是稍微还有点青涩，但围绕着你的女孩子们所组成的团队啊，可是非常可靠的呢。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "团队啊……",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "d1125fbd-b64b-44a6-8cc9-e6788c12eeaa",
+            "sceneName": "LGCG03_微笑",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "1500",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "by_width",
+            "position": "(50%,94%)",
+            "anchor": "center",
+            "size": "(35%,35%)"
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "让人捉摸不透的林原社长。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "亦敌亦友，像是妖精一样的人物，完全让人猜不明白她在想着些什么。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "ef65f163-56f3-47d4-acfc-e881619381e0",
+            "sceneName": "影缝 CG",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "1000",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "有过交汇的画师小姐。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "是一个兴趣使然，但是对于工作比谁都认真的人物，总是很主动地进攻，",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "不过却总是会在关键时候退上一步。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "d015765f-bb09-4981-b646-1b82a05c9606",
+            "sceneName": "惠娜 CG",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "1000",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "不怎么靠的住，但总是会守在那边的金发女教师——惠娜。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "即使我什么也不做，她也会和往常一样，坚定地站在我这边。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "b9dd3629-43ef-4681-9c79-e6b223e186e7",
+            "sceneName": "女仆CG",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "1000",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(40%,72%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "总是一副毒舌样子的俄罗斯女仆后辈。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "如同海胆一样有着坚固带刺的外壳，但内心深处，或许也有着旁人未曾瞥见的温柔。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "3079242c-1438-46ec-a8a5-a5370e5a8ae0",
+            "sceneName": "女巫 CG",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "1000",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "过分认真，却又在一些奇特的地方彰显个性的巫女后辈。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "明明是个神职人员，却又不怎么相信神佛——是一个要远比她所憧憬的前辈更加靠谱的角色。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "e185c37b-7574-4ad6-b284-08e54723e33d",
+            "sceneName": "结衣 CG",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "1000",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "对我多加照拂的结衣姐。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "严厉且温柔，是出色的经营者，同样，也是不为人知的资深御宅族。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "630bb124-e1df-4658-a9a2-e46147c917ea",
+            "sceneName": "一叶 CG",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "1000",
+            "waitForComplete": "true",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "还有，那个吉娃娃小姐——一叶。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "外表总是凶巴巴的，可内里大概并不像表面那样坚强；作为程序员来说，是颇为有趣的角色。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "16ce3cf8-17bb-4622-9171-d51b384da12f",
+            "sceneName": "真琴 CG",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "1650",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "switchDialogueStyle",
+          "props": {
+            "disabled": false,
+            "source": "preset",
+            "targetId": "cinematic-centered",
+            "textSpeed": -1,
+            "charFadeIn": -1,
+            "waitForIconDelay": -1,
+            "showWaitForIcon": ""
+          }
+        },
+        {
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "",
+            "offsetY": "-191",
+            "zoom": "",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "12100",
+            "easing": "easeInOut",
+            "waitForComplete": "false",
+            "targets": "scene,characters",
+            "distortionStrength": "",
+            "vignetteIntensity": "",
+            "vignetteSize": "",
+            "blurAmount": "",
+            "colorToneMode": "none",
+            "colorToneIntensity": "",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "当然，最重要的还是，你身边还有我嘛！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "我啊，可是你青梅竹马的天才美少女作家哦！光是我的存在，就是能顺利做出优秀 Galgame 的保证！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "这个，才是别人绝对所没有的，你真正的优势所在！所以啊！就别再去烦恼那些有的没的了，提起干劲来呐！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "是，真琴小姐您是天才嘛。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "天才美少女！后面那个也加上！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "好好，那就是天才美少女。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "有您这样的天才美少女助阵啊，做出好游戏来自然是没问题的。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "那，真琴？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "嗯？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "f176e502-b7e8-4c7d-946f-39f48c07e9ac",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "你啊，以后也会一直陪着我，一起把游戏做下去吗？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "笨蛋，说什么傻话呢，当然会啦。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "不过呢，我们的目标可不是单纯地随随便便做一个 galgame 就了事的！是要做出最好的 galgame 才行！平庸之作绝不接受！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "呆滞",
+            "position": "center",
+            "isFirst": false,
+            "isLast": true,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "所以，这点你可以放心——",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "3ba3dab9-5b86-4874-b9f4-698b0beda31c",
+            "sceneName": "LGCG06",
+            "uri": "",
+            "transitionMode": "cover",
+            "transitionDuration": "500",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 2000
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "作家小姐，带着微笑，用坚定的语气承诺着。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 2000
+          }
+        },
+        {
+          "type": "comment",
+          "props": {
+            "disabled": false
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "▼ 中央字幕收尾",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "——在做出最好的 galgame 来之前啊，我啊，是绝对会一直陪着你的。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 1000
+          }
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "26a8c5b9-dd35-4a4d-8e50-cc31f7a3a3ba",
+            "characterName": "真琴",
+            "expression": "",
+            "position": "",
+            "isFirst": true,
+            "isLast": true,
+            "showCharacter": false,
+            "keepCharacter": false,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "我保证，一定做到……笨蛋制作人！",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "",
+            "offsetY": "",
+            "zoom": "1.10",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "5750",
+            "easing": "easeInOut",
+            "waitForComplete": "false",
+            "targets": "scene,characters",
+            "distortionStrength": "-0.15",
+            "vignetteIntensity": "0.70",
+            "vignetteSize": "0.95",
+            "blurAmount": "",
+            "colorToneMode": "sepia",
+            "colorToneIntensity": "0.50",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "2650",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "destroyScene",
+          "props": {
+            "disabled": false,
+            "sceneId": "all",
+            "sceneName": "",
+            "animated": "true",
+            "waitForComplete": "false"
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "0",
+            "color": "#000000",
+            "mode": "letterbox",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "floatingText",
+          "props": {
+            "disabled": false,
+            "floatingTextId": "",
+            "blocking": "true",
+            "recordHistory": "false",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": "",
+            "fontFamily": "",
+            "fontSize": "50",
+            "color": "#ffffff",
+            "fontWeight": "normal",
+            "fontStyle": "normal",
+            "textAlign": "left",
+            "lineHeight": "",
+            "letterSpacing": "",
+            "textShadow": "",
+            "duration": "2000",
+            "animIn": "fade",
+            "inDuration": "3000",
+            "animOut": "fade",
+            "outDuration": "3000",
+            "slideFrom": "top",
+            "slideDistance": "40",
+            "scaleFrom": "0.8",
+            "scaleTo": "0.8",
+            "blurRadius": "8"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "—— 一路相随，直到做出最好的 Galgame ——",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "94545433-1f93-4bf5-aa87-29f689a2ec89",
+            "sceneName": "logo2",
+            "uri": "",
+            "transitionMode": "fade-to-black",
+            "transitionDuration": "3000",
+            "waitForComplete": "true",
+            "resetCamera": "true",
+            "displayType": "cover",
+            "position": "(center,center)",
+            "anchor": "center",
+            "size": "(center,center)"
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "camera",
+          "props": {
+            "disabled": false,
+            "offsetX": "",
+            "offsetY": "",
+            "zoom": "1.20",
+            "focalDistance": "",
+            "blurStrength": "",
+            "duration": "8700",
+            "easing": "easeInOut",
+            "waitForComplete": "true",
+            "targets": "scene,characters",
+            "distortionStrength": "",
+            "vignetteIntensity": "",
+            "vignetteSize": "",
+            "blurAmount": "",
+            "colorToneMode": "none",
+            "colorToneIntensity": "",
+            "oldFilmIntensity": "",
+            "shockIntensity": "",
+            "lutPreset": "",
+            "lutIntensity": "",
+            "shakeAmplitude": "",
+            "shakeFrequency": "",
+            "shakeDuration": "",
+            "shakeFalloff": "linear",
+            "shakeAxis": "both"
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 3000
+          }
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "1000",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          }
+        },
+        {
+          "type": "stopSound",
+          "props": {
+            "disabled": false,
+            "soundType": "BGM",
+            "soundId": "",
+            "fadeDuration": "2500"
+          }
+        },
+        {
+          "type": "wait",
+          "props": {
+            "disabled": false,
+            "duration": 3000
+          }
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          }
+        }
+      ]
+    }
+  ]
+}
