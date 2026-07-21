@@ -1,3 +1,16 @@
+> ## ⚠️ 版权声明 / Copyright Notice
+>
+> 本仓库 `game_data/` 目录下的素材（立绘、CG、背景、BGM、语音、剧本等）**版权归 LetsGal Studio 官方所有**。
+>
+> 这些内容**仅供学习交流与技术研究所用**，不得用于商业用途。如需商业使用，请前往 [avg-engine.com](https://avg-engine.com/) 购买正版授权。
+>
+> 详见 [`game_data/DISCLAIMER.md`](game_data/DISCLAIMER.md)。
+>
+> ---
+> The assets in the `game_data/` directory are **copyrighted by LetsGal Studio** and are provided **for learning and technical research purposes only**. See [`game_data/DISCLAIMER.md`](game_data/DISCLAIMER.md) for details.
+
+---
+
 <div align="center">
 
 # ⚒️ AVGForge
