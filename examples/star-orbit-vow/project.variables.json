@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "variables": [
+    {
+      "key": "trust",
+      "displayName": "信任度",
+      "type": "number",
+      "scope": "project",
+      "persistence": "slot",
+      "defaultValue": 0,
+      "description": "星野对主角的信任"
+    },
+    {
+      "key": "memory_count",
+      "displayName": "回忆数量",
+      "type": "number",
+      "scope": "project",
+      "persistence": "slot",
+      "defaultValue": 0,
+      "description": ""
+    },
+    {
+      "key": "promised",
+      "displayName": "是否约定",
+      "type": "boolean",
+      "scope": "project",
+      "persistence": "slot",
+      "defaultValue": false,
+      "description": ""
+    },
+    {
+      "key": "endings_unlocked",
+      "displayName": "已解锁结局",
+      "type": "string",
+      "scope": "project",
+      "persistence": "shared",
+      "defaultValue": "",
+      "description": "跨周目记录"
+    },
+    {
+      "key": "play_count",
+      "displayName": "游玩次数",
+      "type": "number",
+      "scope": "system",
+      "persistence": "shared",
+      "defaultValue": 0,
+      "description": ""
+    }
+  ]
+}

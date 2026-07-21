@@ -1,0 +1,175 @@
+{
+  "id": "217ff654-ec15-4cf0-941b-5e53312e1825",
+  "name": "第三章_抉择",
+  "fragments": [
+    {
+      "id": "b4ec25af-352b-40e0-acea-e217b9da1193",
+      "name": "main",
+      "blocks": [
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "ef836273-547f-47d4-89c2-896c42142f27",
+            "sceneName": "星轨观测站",
+            "uri": "",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          },
+          "id": "c4131ebe-1018-4c76-81b9-45dae02a7079"
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "8d3a1f54-3565-4e0f-af40-702e48295461",
+            "characterName": "星野",
+            "expression": "",
+            "position": "right",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "id": "c807e22a-d5c2-4ee9-bf4b-46e651e633c7",
+          "content": [
+            {
+              "type": "text",
+              "text": "",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "d7066b46-f8e8-4be1-8f17-628cd7c6c0aa",
+          "content": [
+            {
+              "type": "text",
+              "text": "最后一天。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "76b028ba-691d-475d-b80c-fde17b322e2b",
+          "content": [
+            {
+              "type": "text",
+              "text": "星轨的光芒已经出现在天际。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "8d3a1f54-3565-4e0f-af40-702e48295461",
+            "characterName": "星野",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "08a76656-aebb-48e1-87b5-0cba8acccea3",
+          "content": [
+            {
+              "type": "text",
+              "text": "时间到了。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "8d3a1f54-3565-4e0f-af40-702e48295461",
+            "characterName": "星野",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "834a7f67-ab1b-42f4-a85e-44beaab018b5",
+          "content": [
+            {
+              "type": "text",
+              "text": "谢谢你这 30 天的陪伴。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "8c112fcc-fa1b-4799-9d63-aed5f586517f",
+          "content": [
+            {
+              "type": "text",
+              "text": "她的声音很平静，但我看到她的手在颤抖。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "branch",
+          "props": {
+            "disabled": false,
+            "branchId": "8c986342-3f4a-49fd-ace6-506c7977caed",
+            "title": "最后的抉择",
+            "choices": "[{\"mode\": \"jump\", \"text\": \"带我一起走\", \"fragmentId\": \"38de9a3e-b4dc-4341-80f1-df25ec76108d\"}, {\"mode\": \"jump\", \"text\": \"我会等你回来\", \"fragmentId\": \"78c77a83-2117-435e-87a8-860d8b138598\"}, {\"mode\": \"jump\", \"text\": \"求你留下来\", \"fragmentId\": \"99048673-f666-4add-b533-f00481abd456\"}]"
+          },
+          "id": "80313ec5-028b-490c-8ddc-f727954f8452"
+        }
+      ]
+    },
+    {
+      "id": "38de9a3e-b4dc-4341-80f1-df25ec76108d",
+      "name": "随她而去",
+      "blocks": []
+    },
+    {
+      "id": "78c77a83-2117-435e-87a8-860d8b138598",
+      "name": "留下等待",
+      "blocks": []
+    },
+    {
+      "id": "99048673-f666-4add-b533-f00481abd456",
+      "name": "恳求留下",
+      "blocks": []
+    }
+  ]
+}

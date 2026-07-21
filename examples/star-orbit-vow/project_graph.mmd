@@ -1,0 +1,59 @@
+graph TD
+    %% 章节主干
+    CH0[开始]
+    CH1[第一章_相遇]
+    CH0 --> CH1
+    CH2[第二章_相知]
+    CH1 --> CH2
+    CH3[第三章_抉择]
+    CH2 --> CH3
+    CH4[终章]
+    CH3 --> CH4
+
+    %% Fragment 与分支
+    F0_main([开始/main])
+    CH0 --> F0_main
+    F1_main([第一章_相遇/main])
+    CH1 --> F1_main
+    F1_main -->|当然愿意| F1_接受邀请
+    F1_main -->|我为什么要帮你？| F1_拒绝邀请
+    F1_接受邀请([第一章_相遇/接受邀请])
+    CH1 --> F1_接受邀请
+    F1_拒绝邀请([第一章_相遇/拒绝邀请])
+    CH1 --> F1_拒绝邀请
+    F2_main([第二章_相知/main])
+    CH2 --> F2_main
+    F2_main -->|我会陪你到最后| F2_陪伴
+    F2_main -->|一定有办法让你留下| F2_寻找方法
+    F2_陪伴([第二章_相知/陪伴])
+    CH2 --> F2_陪伴
+    F2_寻找方法([第二章_相知/寻找方法])
+    CH2 --> F2_寻找方法
+    F3_main([第三章_抉择/main])
+    CH3 --> F3_main
+    F3_main -->|带我一起走| F3_随她而去
+    F3_main -->|我会等你回来| F3_留下等待
+    F3_main -->|求你留下来| F3_恳求留下
+    F3_随她而去([第三章_抉择/随她而去])
+    CH3 --> F3_随她而去
+    F3_留下等待([第三章_抉择/留下等待])
+    CH3 --> F3_留下等待
+    F3_恳求留下([第三章_抉择/恳求留下])
+    CH3 --> F3_恳求留下
+    F4_main([终章/main])
+    CH4 --> F4_main
+    F4_真结局([终章/真结局])
+    CH4 --> F4_真结局
+    F4_普通结局([终章/普通结局])
+    CH4 --> F4_普通结局
+    F4_Bad_End([终章/Bad_End])
+    CH4 --> F4_Bad_End
+
+    %% 变量因果
+    F1_接受邀请 -.->|write trust| VAR_trust[(trust)]
+    F1_拒绝邀请 -.->|write trust| VAR_trust[(trust)]
+    F1_拒绝邀请 -.->|write trust| VAR_trust[(trust)]
+    F2_陪伴 -.->|write trust| VAR_trust[(trust)]
+    F2_陪伴 -.->|write memory_count| VAR_memory_count[(memory_count)]
+    F2_寻找方法 -.->|write trust| VAR_trust[(trust)]
+    F4_真结局 -.->|write promised| VAR_promised[(promised)]

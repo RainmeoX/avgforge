@@ -1,0 +1,619 @@
+{
+  "id": "013f8e06-60a6-44f8-bf4b-5688f55fb782",
+  "name": "终章",
+  "fragments": [
+    {
+      "id": "07b0a0ec-29f1-4535-be6b-975b7a1e1217",
+      "name": "main",
+      "blocks": []
+    },
+    {
+      "id": "b6eea6cc-5038-4642-9663-85319625b1d9",
+      "name": "真结局",
+      "blocks": [
+        {
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "promised",
+            "op": "set",
+            "aKind": "variable",
+            "aLit": "",
+            "aVar": "promised",
+            "bKind": "literal",
+            "bLit": "true",
+            "bVar": "",
+            "binOp": ""
+          },
+          "id": "e7998a0e-3a22-4d60-b4ae-667fdcf3aa86"
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "ade177bc-372b-423b-9821-b55bc6be3e35",
+            "sceneName": "真结局",
+            "uri": "",
+            "transitionMode": "fade",
+            "transitionDuration": "2000",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          },
+          "id": "224aab63-5848-403e-a6dc-655515595d91"
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "a75aee59-9bd1-45b2-a338-beabf575fa5d",
+          "content": [
+            {
+              "type": "text",
+              "text": "我握住了她的手。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "089d64ef-1336-4fab-b97f-487b1f8fb0a0",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "28b08933-688d-4c5b-b51b-c1de29d7224e",
+          "content": [
+            {
+              "type": "text",
+              "text": "我跟你走。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "8d3a1f54-3565-4e0f-af40-702e48295461",
+            "characterName": "星野",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "64214b10-c42d-47e4-ad1a-cc9f18e1e3b1",
+          "content": [
+            {
+              "type": "text",
+              "text": "你……你确定吗？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "c8f159dd-9a80-4c24-9245-bc5038156d15",
+          "content": [
+            {
+              "type": "text",
+              "text": "我点了点头。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "d33b084a-5a7d-4468-bdec-fc6997ffcda5",
+          "content": [
+            {
+              "type": "text",
+              "text": "星轨的光芒笼罩了我们。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "53e1b860-f096-4031-b42f-5ece77dfe2a6",
+          "content": [
+            {
+              "type": "text",
+              "text": "地球在我脚下越来越小。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "980b9e7e-a43a-42b6-9abb-733f5736041f",
+          "content": [
+            {
+              "type": "text",
+              "text": "但我的手，始终握着她的。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "8f6f1688-6ba4-4d3b-9814-e12400c9f3bc",
+          "content": [
+            {
+              "type": "text",
+              "text": "——星轨之约，永不分离。——",
+              "styles": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a54965c0-7392-4157-b22b-d1a7abf504cc",
+      "name": "普通结局",
+      "blocks": [
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "74d3cabc-4b0a-4335-aa7f-23f2ac128698",
+            "sceneName": "普通结局",
+            "uri": "",
+            "transitionMode": "fade",
+            "transitionDuration": "2000",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          },
+          "id": "e9ddbd2b-98b2-42a2-bb00-47883bdf4172"
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "ef4ba4fe-8dda-4cce-bd32-4c8e36ce6aec",
+          "content": [
+            {
+              "type": "text",
+              "text": "我看着她踏上星轨。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "8d3a1f54-3565-4e0f-af40-702e48295461",
+            "characterName": "星野",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "08963072-851d-4865-9764-8ea3c8151280",
+          "content": [
+            {
+              "type": "text",
+              "text": "再见。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "8d3a1f54-3565-4e0f-af40-702e48295461",
+            "characterName": "星野",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "a12eb47f-d46f-4349-803b-6ce9c56c77e6",
+          "content": [
+            {
+              "type": "text",
+              "text": "下一个 120 年，我还会来的。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "9c4f16bf-caec-459d-a236-36ce09fff840",
+          "content": [
+            {
+              "type": "text",
+              "text": "她化作一道光，消失在星空中。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "e157aa52-4fb9-4f8c-a316-bd1cd9074d87",
+          "content": [
+            {
+              "type": "text",
+              "text": "我站在天台上，看着那颗最亮的星。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "31a4d0b4-9486-4c91-b73b-cddecdd90b6e",
+          "content": [
+            {
+              "type": "text",
+              "text": "120 年……",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "d82258bc-583a-484b-af65-20741041d0d7",
+          "content": [
+            {
+              "type": "text",
+              "text": "那是我无法到达的远方。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "a4674568-6a2a-4808-a43e-c20b96a35a4f",
+          "content": [
+            {
+              "type": "text",
+              "text": "但我知道，她还在那里。",
+              "styles": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0834132e-5fa3-4fc2-a765-d7a9a9c10c12",
+      "name": "Bad_End",
+      "blocks": [
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "b1fd4a50-9310-41a6-b93c-df27a3c9e062",
+            "sceneName": "Bad_End",
+            "uri": "",
+            "transitionMode": "fade",
+            "transitionDuration": "2000",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          },
+          "id": "f2e5961a-5dd4-4102-a2a3-dcaca8faa734"
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "8d3a1f54-3565-4e0f-af40-702e48295461",
+            "characterName": "星野",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "50f5eb95-d14d-4c36-8be0-33921a76c3de",
+          "content": [
+            {
+              "type": "text",
+              "text": "留下来？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "8d3a1f54-3565-4e0f-af40-702e48295461",
+            "characterName": "星野",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "8eb5912a-0ecc-4a01-b108-fdf611f78764",
+          "content": [
+            {
+              "type": "text",
+              "text": "……我做不到。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "8d3a1f54-3565-4e0f-af40-702e48295461",
+            "characterName": "星野",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "f40daf33-50f6-467d-8ce4-09c517f2e13f",
+          "content": [
+            {
+              "type": "text",
+              "text": "如果留下来，我会在 24 小时内消散。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "e763a3fe-5983-42e6-a33d-22bb3af313f0",
+          "content": [
+            {
+              "type": "text",
+              "text": "但她没有听我的话。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "52542bb1-6f4b-44d5-bc9a-1889fbffd605",
+          "content": [
+            {
+              "type": "text",
+              "text": "零点的钟声响起时，她化作漫天的光点。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "3311e829-5380-41ac-b726-a38f5029e12f",
+          "content": [
+            {
+              "type": "text",
+              "text": "其中一颗，特别亮，特别近。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "93fe5ea4-580a-4d64-9173-e7f7d55a4a46",
+          "content": [
+            {
+              "type": "text",
+              "text": "它停在了天台的正上方，再也没有移动过。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "9c390205-5f56-441b-ba69-184cebf86456",
+          "content": [
+            {
+              "type": "text",
+              "text": "后来，我毕业、工作、老去。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "69e8c722-e769-4feb-98ac-8dd7117955a9",
+          "content": [
+            {
+              "type": "text",
+              "text": "每个失眠的夜晚，我都会去天台。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "bfc053fc-3038-45cc-a261-045c9428ecd7",
+          "content": [
+            {
+              "type": "text",
+              "text": "抬头，看着那颗星。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "5b10e534-5d00-4731-a829-1db0d0a2975e",
+          "content": [
+            {
+              "type": "text",
+              "text": "我知道，那是她。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "be6b8b0b-241e-44fb-96f3-59d6ddd9c13b",
+          "content": [
+            {
+              "type": "text",
+              "text": "她还在那里。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "2284134d-248b-40cc-9d81-68c98f910339",
+          "content": [
+            {
+              "type": "text",
+              "text": "只是，再也不会回答我了。",
+              "styles": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

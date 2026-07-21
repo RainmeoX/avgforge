@@ -1,0 +1,77 @@
+{
+  "version": 2,
+  "globalSettings": {
+    "defaultPosition": "left",
+    "graphics": {
+      "keepAspectRatio": true,
+      "size": "(30%,30%)"
+    },
+    "positions": [
+      {
+        "id": "left",
+        "name": "左",
+        "left": 2,
+        "top": 2
+      },
+      {
+        "id": "center-left",
+        "name": "中左",
+        "left": 19,
+        "top": 2
+      },
+      {
+        "id": "center",
+        "name": "中",
+        "left": 35,
+        "top": 2
+      },
+      {
+        "id": "center-right",
+        "name": "中右",
+        "left": 55,
+        "top": 2
+      },
+      {
+        "id": "right",
+        "name": "右",
+        "left": 68,
+        "top": 2
+      }
+    ],
+    "defaultPositionId": "center",
+    "defaultAnchor": "left_top"
+  },
+  "attributeTemplate": [],
+  "characters": [
+    {
+      "id": "8d3a1f54-3565-4e0f-af40-702e48295461",
+      "name": "星野",
+      "expressions": [],
+      "defaultPosition": "right",
+      "themeColor": {
+        "bg": "#ffe4e6",
+        "fg": "#9f1239",
+        "ring": "#ffb6d9"
+      },
+      "graphics": {
+        "size": "(100%,100%)"
+      },
+      "attributeValues": {}
+    },
+    {
+      "id": "089d64ef-1336-4fab-b97f-487b1f8fb0a0",
+      "name": "我",
+      "expressions": [],
+      "defaultPosition": "left",
+      "themeColor": {
+        "bg": "#dbeafe",
+        "fg": "#1e40af",
+        "ring": "#7fc8f8"
+      },
+      "graphics": {
+        "size": "(100%,100%)"
+      },
+      "attributeValues": {}
+    }
+  ]
+}

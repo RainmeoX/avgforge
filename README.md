@@ -159,52 +159,90 @@ graph TB
 
 ## Quick Start
 
-### Installation
-
 ```bash
-# Clone
-git clone https://github.com/YOUR_USERNAME/avgforge.git
+# 1. 安装
+git clone https://github.com/RainmeoX/avgforge.git
 cd avgforge
+chmod +x avgforge
 
-# Install (no dependencies required)
-chmod +x src/avgforge.py
-ln -s $(pwd)/src/avgforge.py /usr/local/bin/avgforge
+# 2. 创建项目
+./avgforge init my-game --name "我的游戏"
 
-# Verify
-avgforge --version
+# 3. 添加角色和场景
+cd my-game
+./avgforge char add "女主角" --pos right --color-ring "#ffb6d9"
+./avgforge scene add "教室" --layer "bg:1:backgrounds/classroom.png"
+
+# 4. 编辑剧本（Ren'Py 风格）
+./avgforge edit 开始/main
+
+# 5. 预览
+./avgforge preview text 开始
+
+# 6. 导入 LetsGal Studio 预览
+#    打开 LetsGal Studio → 打开项目 → 选择 my-game 文件夹 → F5 运行
 ```
 
-### Create Your First Project
+📖 **完整使用指南：** [`docs/USAGE.md`](docs/USAGE.md)
+
+## Features
+
+### ✅ 完全实现（80% 覆盖）
+
+| 功能 | 命令 | 说明 |
+|------|------|------|
+| 项目创建 | `avgforge init` | 标准 LetsGal 项目结构 |
+| 项目信息 | `avgforge info` | 统计与概览 |
+| 角色管理 | `avgforge char` | 5 位置 + themeColor + 表情 |
+| 场景管理 | `avgforge scene` | 多层视差背景 |
+| 章节管理 | `avgforge chapter` | 增删改查、排序 |
+| 片段管理 | `avgforge frag` | Fragment 子单元 |
+| Block 编辑 | `avgforge block` | 25 种 block 类型 |
+| 变量管理 | `avgforge var` | 布尔/数值/文本 × Slot/Shared |
+| Ren'Py 编辑 | `avgforge edit` | `$EDITOR` 集成 |
+| 素材管理 | `avgforge asset` | 引用检查 |
+| 项目验证 | `avgforge check` | 完整性检查 |
+| 文本预览 | `avgforge preview text` | 终端渲染剧本 |
+| 流程图 | `avgforge preview graph` | Mermaid 分支图 |
+| 项目统计 | `avgforge preview stats` | 详细统计 |
+
+### ⚠️ 部分实现（预览交给 LetsGal Studio）
+
+| 功能 | 说明 |
+|------|------|
+| 可视化预览 | 导入 LetsGal Studio，按 F5 运行 |
+| 实时联动预览 | 使用 LetsGal Studio GUI |
+| 打包发布 | 使用 LetsGal Studio "发布游戏" |
+| 扩展开发 | 使用 LetsGal Studio 扩展 SDK |
+
+### 兼容性
+
+AVGForge 生成的项目**完全兼容 LetsGal Studio**，可直接导入预览：
+
+- ✅ `project.json` 格式兼容
+- ✅ `characters.json` 格式兼容
+- ✅ `scenes.json` 格式兼容
+- ✅ `chapters/*.json` 格式兼容
+- ✅ 25 种 Block 类型全支持
+- ✅ 默认游戏壳（`avg.internal.default-shell`）
+- ✅ 系统绑定与快捷键
+
+## Example Project
+
+`examples/star-orbit-vow/` — 完整的 5 章视觉小说示例：
+
+- **2 个角色**：星野 + 我
+- **6 个场景**：教室/天台/星轨观测站/3 个结局
+- **5 个变量**：信任度/回忆数/是否约定/已解锁结局/游玩次数
+- **5 个章节 / 15 个片段 / 104 个 block**
+- **3 种结局**：真结局/普通结局/Bad End
+- **分支选项**：3 个关键抉择点
 
 ```bash
-# Scaffold a new project
-avgforge init my-visual-novel --template blank
-
-cd my-visual-novel
-
-# Add a character
-avgforge char add hoshino \
-  --name "Hoshino" \
-  --position right \
-  --color "#ffb6d9"
-
-avgforge char portrait add hoshino neutral \
-  --file assets/characters/hoshino_neutral.png
-
-# Add a scene
-avgforge scene add classroom \
-  --name "Classroom at Dusk" \
-  --layer bg assets/backgrounds/classroom_bg.png --distance 10
-
-# Edit script (opens $EDITOR with Ren'Py syntax)
-avgforge edit prologue/main
-
-# Preview in browser
-avgforge preview web
-# → Local server starts, browser opens automatically
-
-# Build single-file HTML
-avgforge build html --output dist/game.html
+cd examples/star-orbit-vow
+./avgforge info
+./avgforge preview text 开始
+./avgforge preview graph
 ```
 
 ---
@@ -215,37 +253,33 @@ avgforge build html --output dist/game.html
 avgforge <command> [subcommand] [options]
 
 PROJECT
-  init <name>              Create a new project
+  init <path>              Create a new project
   info                     Show project metadata
   check                    Validate project integrity
-  history                  Show snapshot history
 
 CHARACTER
   char list                List all characters
-  char add <id>            Add a character
-  char edit <id>           Edit character properties
-  char rm <id>             Remove a character
-  char portrait add <id> <expr>  Add a portrait expression
+  char add <name>          Add a character
+  char remove <name>       Remove a character
 
 SCENE
   scene list               List all scenes
-  scene add <id>           Add a scene
-  scene edit <id>          Edit scene layers
-  scene rm <id>            Remove a scene
+  scene add <name>         Add a scene
+  scene remove <name>      Remove a scene
 
 CHAPTER & FRAGMENT
   chapter list             List chapters
   chapter add <name>       Add a chapter
-  chapter rm <name>        Remove a chapter
+  chapter remove <name>    Remove a chapter
   frag list <chapter>      List fragments in a chapter
   frag add <chapter> <id>  Add a fragment
 
 SCRIPT EDITING
   edit <chapter>/<frag>    Open Ren'Py-style editor ($EDITOR)
+  edit <chapter>/<frag> --file <path>  Import from file
   block list <frag>        List blocks in a fragment
   block add <frag> <type>  Add a block
-  block move <frag> <id>   Move a block
-  block rm <frag> <id>     Remove a block
+  block remove <frag> <id> Remove a block
 
 VARIABLE
   var list                 List all variables

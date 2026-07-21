@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "scenes": [
+    {
+      "id": "4dab62ec-c1e6-4ac8-a167-9ee09f8b03d1",
+      "name": "教室",
+      "layers": [
+        {
+          "id": "15afa316-6cf3-4725-a6f1-cdf3911de137",
+          "name": "天空",
+          "assetPath": "backgrounds/classroom/sky.png",
+          "distance": 14.0
+        },
+        {
+          "id": "f715b1c0-c8af-49d7-99a0-ec2cd3349cf0",
+          "name": "远景",
+          "assetPath": "backgrounds/classroom/far.png",
+          "distance": 7.0
+        },
+        {
+          "id": "e9b191a9-7927-495e-b2e5-027c357ed1b4",
+          "name": "教室",
+          "assetPath": "backgrounds/classroom/room.png",
+          "distance": 2.0
+        }
+      ]
+    },
+    {
+      "id": "574b79c3-7fe9-45a4-b38c-bbc5ac725506",
+      "name": "天台",
+      "layers": [
+        {
+          "id": "c2f1397b-6f44-487d-bb21-388ba59dc0eb",
+          "name": "天空",
+          "assetPath": "backgrounds/rooftop/sky.png",
+          "distance": 14.0
+        },
+        {
+          "id": "363ee35c-66d6-4b53-b962-cbcac979f011",
+          "name": "城市",
+          "assetPath": "backgrounds/rooftop/city.png",
+          "distance": 7.0
+        },
+        {
+          "id": "56e79ce2-b69c-4ee2-9ec4-d7cd9c47999d",
+          "name": "天台",
+          "assetPath": "backgrounds/rooftop/floor.png",
+          "distance": 2.0
+        }
+      ]
+    },
+    {
+      "id": "ef836273-547f-47d4-89c2-896c42142f27",
+      "name": "星轨观测站",
+      "layers": [
+        {
+          "id": "7570cba9-d72e-4f02-8fc8-02febf76c62c",
+          "name": "宇宙",
+          "assetPath": "backgrounds/starry/cosmos.png",
+          "distance": 14.0
+        },
+        {
+          "id": "09ea6836-fc8a-4f59-83e4-20a20a188377",
+          "name": "星云",
+          "assetPath": "backgrounds/starry/nebula.png",
+          "distance": 7.0
+        },
+        {
+          "id": "8e305423-f966-4b15-8705-77f38b0b09b5",
+          "name": "平台",
+          "assetPath": "backgrounds/starry/platform.png",
+          "distance": 2.0
+        }
+      ]
+    },
+    {
+      "id": "ade177bc-372b-423b-9821-b55bc6be3e35",
+      "name": "真结局",
+      "layers": [
+        {
+          "id": "578c2f5d-adbf-4c4b-a940-8aba9f9a25a9",
+          "name": "宇宙",
+          "assetPath": "backgrounds/ending/true.png",
+          "distance": 1.0
+        }
+      ]
+    },
+    {
+      "id": "74d3cabc-4b0a-4335-aa7f-23f2ac128698",
+      "name": "普通结局",
+      "layers": [
+        {
+          "id": "b0cfd55d-d43f-42bb-9c18-f39d157c039c",
+          "name": "远方",
+          "assetPath": "backgrounds/ending/normal.png",
+          "distance": 1.0
+        }
+      ]
+    },
+    {
+      "id": "b1fd4a50-9310-41a6-b93c-df27a3c9e062",
+      "name": "Bad_End",
+      "layers": [
+        {
+          "id": "009d0cfe-9f65-437d-96d3-1f7a62871868",
+          "name": "夜空",
+          "assetPath": "backgrounds/ending/bad.png",
+          "distance": 1.0
+        }
+      ]
+    }
+  ],
+  "groups": [],
+  "layout": []
+}

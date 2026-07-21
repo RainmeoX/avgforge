@@ -1,0 +1,95 @@
+{
+  "id": "d1a0995e-2fe8-4a2f-88de-6ccbbb1a7daa",
+  "version": "1.0.0",
+  "engineVersion": "1.0.0",
+  "name": "星轨之约",
+  "description": "毕业前最后 30 天，与来自星轨观测站的少女相遇的故事。AVGForge 完整功能演示项目。",
+  "author": "AVGForge Demo",
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "backgroundColor": "#000",
+  "window": {
+    "lockAspectRatio": false,
+    "allowMaximize": true,
+    "allowFullscreen": true,
+    "launchMode": "windowed"
+  },
+  "cursor": {
+    "mode": "system",
+    "image": "",
+    "imagePixelRatio": 1,
+    "imageSize": {
+      "width": 24,
+      "height": 24
+    },
+    "hotspot": {
+      "x": 0,
+      "y": 0
+    },
+    "fallback": "default",
+    "css": "",
+    "cssImagePixelRatio": 1,
+    "cssImageSize": {
+      "width": 24,
+      "height": 24
+    }
+  },
+  "chapterOrder": [
+    "开始",
+    "第一章_相遇",
+    "第二章_相知",
+    "第三章_抉择",
+    "终章"
+  ],
+  "extensionStorageVersion": 1,
+  "extensions": {
+    "avg.internal.default-shell": {
+      "enabled": true,
+      "bundle": {
+        "version": "1.0.0"
+      }
+    }
+  },
+  "extensionSettings": {},
+  "systemBindings": {
+    "internal.system.title": "ui:@avg.internal.default-shell/title-screen",
+    "internal.system.save": "ui:@avg.internal.default-shell/save-screen",
+    "internal.system.load": "ui:@avg.internal.default-shell/save-screen",
+    "internal.system.settings": "ui:@avg.internal.default-shell/settings-screen",
+    "internal.system.history": "ui:@avg.internal.default-shell/history-screen",
+    "internal.system.gallery": "ui:@avg.internal.default-shell/gallery-screen",
+    "internal.system.input": "ui:@avg.internal.default-shell/input-dialog"
+  },
+  "actionBindings": {
+    "internal.input.advance": [
+      "mousedown",
+      " ",
+      "Enter",
+      "wheeldown"
+    ],
+    "internal.input.skip": [
+      "Control"
+    ],
+    "internal.input.auto-toggle": [
+      "a"
+    ],
+    "internal.input.hide-dialogue": [
+      "contextmenu",
+      "Delete"
+    ],
+    "internal.input.replay-voice": [
+      "r"
+    ],
+    "avg.internal.default-shell.quick-save": [
+      "F5"
+    ],
+    "avg.internal.default-shell.quick-load": [
+      "F9"
+    ],
+    "avg.internal.default-shell.open-history": [
+      "middleclick"
+    ]
+  }
+}

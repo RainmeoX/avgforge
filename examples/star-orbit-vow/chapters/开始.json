@@ -1,0 +1,296 @@
+{
+  "id": "60a1dba2-26a0-47ee-a766-dd9c29d9702c",
+  "name": "开始",
+  "fragments": [
+    {
+      "id": "8dc9d6b4-69b5-4428-a84c-d1c41b600ebd",
+      "name": "main",
+      "blocks": [
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "close",
+            "effect": "",
+            "duration": "0",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          },
+          "id": "47f367f6-3168-44b1-89f2-857520e00902"
+        },
+        {
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "4dab62ec-c1e6-4ac8-a167-9ee09f8b03d1",
+            "sceneName": "教室",
+            "uri": "",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          },
+          "id": "f1a4430f-c91b-4854-bbe4-724ddbf2c719"
+        },
+        {
+          "type": "curtain",
+          "props": {
+            "disabled": false,
+            "op": "open",
+            "effect": "",
+            "duration": "1500",
+            "color": "#000000",
+            "mode": "full-screen",
+            "curtainSize": "100"
+          },
+          "id": "c3478ed9-5cf9-4442-a970-a5a613eacf70"
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "d51fe767-9dc5-47e8-97a5-60a2a9d87e77",
+          "content": [
+            {
+              "type": "text",
+              "text": "毕业前 30 天。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "68266c11-8714-4a04-a92d-e9139fb3eb1f",
+          "content": [
+            {
+              "type": "text",
+              "text": "教室里只剩下我一个人。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "d86d55a6-c6d9-4934-b18b-59816bd7ee88",
+          "content": [
+            {
+              "type": "text",
+              "text": "窗外的夕阳把整间教室染成了橘红色。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "8d3a1f54-3565-4e0f-af40-702e48295461",
+            "characterName": "星野",
+            "expression": "",
+            "position": "right",
+            "isFirst": true,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": false,
+            "voiceHash": ""
+          },
+          "id": "885a29d7-ba12-4fec-b5ec-2f0000eaeca0",
+          "content": [
+            {
+              "type": "text",
+              "text": "",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "4737d142-95ad-44d3-bf60-b495d12e7972",
+          "content": [
+            {
+              "type": "text",
+              "text": "突然，天台的门被推开了。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "3f63d422-73b1-4a66-8733-a5c546383626",
+          "content": [
+            {
+              "type": "text",
+              "text": "一个银白色长发的少女站在门口，紫色的眼睛在夕阳下闪闪发光。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "8d3a1f54-3565-4e0f-af40-702e48295461",
+            "characterName": "星野",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "042fc021-21cf-4fd9-ab40-d818f87cd6cf",
+          "content": [
+            {
+              "type": "text",
+              "text": "你在这里啊。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "7947a4db-99c7-4a88-b2d4-15d7a09135db",
+          "content": [
+            {
+              "type": "text",
+              "text": "我愣住了。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "1860777c-d2ba-4e33-b4be-6bd6a8e558d9",
+          "content": [
+            {
+              "type": "text",
+              "text": "这个女孩，我从未见过。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "089d64ef-1336-4fab-b97f-487b1f8fb0a0",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "86e9de99-ba01-42a0-a108-770c01996f0e",
+          "content": [
+            {
+              "type": "text",
+              "text": "你是……？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "8d3a1f54-3565-4e0f-af40-702e48295461",
+            "characterName": "星野",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "48074429-dd28-4926-a96f-1496098b08df",
+          "content": [
+            {
+              "type": "text",
+              "text": "我叫星野。来自星轨观测站。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "1fea2750-5904-4999-ba89-3c031530ef32",
+          "content": [
+            {
+              "type": "text",
+              "text": "星轨观测站？",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": ""
+          },
+          "id": "6820cbce-0485-4ccb-82d9-b37673009493",
+          "content": [
+            {
+              "type": "text",
+              "text": "我从未听说过这个地方。",
+              "styles": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
