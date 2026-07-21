@@ -1,0 +1,94 @@
+AVGForge Dual-License Declaration
+==================================
+
+Copyright (c) 2026 AVGForge Project Contributors
+
+This software is distributed under a dual-license model. You may choose
+either the AGPL-3.0 open-source license or obtain a commercial license
+for proprietary use.
+
+------------------------------------------------------------------------------
+OPTION 1: AGPL-3.0 (Open Source)
+------------------------------------------------------------------------------
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+AGPL-3.0 Key Obligations:
+  - Source code of modifications must be disclosed
+  - Network use constitutes distribution (Section 13)
+  - License notices and copyright must be preserved
+  - Derivative works must also be AGPL-3.0
+
+The full AGPL-3.0 text is available at:
+  https://www.gnu.org/licenses/agpl-3.0.txt
+
+------------------------------------------------------------------------------
+OPTION 2: Commercial License
+------------------------------------------------------------------------------
+
+For use cases incompatible with AGPL-3.0 (including but not limited to:
+proprietary products, commercial SaaS, internal enterprise tools, or
+closed-source distribution), a commercial license is available.
+
+Commercial License Benefits:
+  - No AGPL copyleft obligation
+  - No source disclosure requirement
+  - Priority technical support
+  - Custom feature development
+  - Indemnification against IP claims
+
+To obtain a commercial license, contact:
+  Email:   commercial@avgforge.example
+  Subject: AVGForge Commercial License Inquiry
+
+------------------------------------------------------------------------------
+License Selection Guide
+------------------------------------------------------------------------------
+
+Use Case                              | Recommended License
+------------------------------------- | ------------------
+Personal / hobby project              | AGPL-3.0
+Open-source project (AGPL-compatible) | AGPL-3.0
+Open-source project (non-AGPL)        | Commercial
+Commercial / proprietary product      | Commercial
+SaaS / hosted service                 | Commercial
+Educational / academic                | AGPL-3.0
+Internal enterprise tool              | Commercial
+Government / defense                  | Commercial
+
+------------------------------------------------------------------------------
+Contributor License Agreement (CLA)
+------------------------------------------------------------------------------
+
+By contributing to this project, you agree that your contributions will be
+dual-licensed under the same terms as the project. The project maintainers
+retain the right to relicense contributions under the commercial license.
+
+------------------------------------------------------------------------------
+Third-Party Acknowledgments
+------------------------------------------------------------------------------
+
+This project's project file format is compatible with LetsGal Studio
+project files (https://avg-engine.com/). LetsGal Studio is a separate
+product and is not affiliated with AVGForge.
+
+The Ren'Py-style script syntax is inspired by the Ren'Py Visual Novel
+Engine (https://www.renpy.org/), which is licensed under MIT.
+
+------------------------------------------------------------------------------
+Trademarks
+------------------------------------------------------------------------------
+
+AVGForge and the AVGForge logo are trademarks of the AVGForge Project.
+All other trademarks are property of their respective owners.
