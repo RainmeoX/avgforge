@@ -1,63 +1,63 @@
 ---
-name: Feature Request
-about: Suggest a new feature for AVGForge
-title: '[FEATURE] '
+name: 功能请求
+about: 为 AVGForge 建议新功能
+title: '[功能] '
 labels: enhancement, triage
 assignees: ''
 ---
 
-## Feature Summary
+## 功能摘要
 
-A clear and concise description of the feature you'd like to see.
+简要清晰地描述你希望看到的功能。
 
-## Problem Statement
+## 问题陈述
 
-What problem does this feature solve? What use case does it address?
+这个功能解决什么问题？适用于什么场景？
 
-## Proposed Solution
+## 提议方案
 
-Describe the solution you'd like. Include:
-- Command syntax (if CLI-related)
-- Expected behavior
-- Configuration format (if applicable)
+描述你希望的解决方案。包含：
+- 命令语法（如 CLI 相关）
+- 预期行为
+- 配置格式（如适用）
 
-## Alternatives Considered
+## 考虑过的替代方案
 
-What alternatives have you considered? Why are they insufficient?
+你考虑过哪些替代方案？为什么它们不够好？
 
-## Use Case
+## 使用场景
 
-- **Who needs this:** [indie developer / studio / enterprise / educator]
-- **Workflow:** How would this feature be used in practice?
-- **Frequency:** [daily / weekly / occasionally]
+- **谁需要：** [独立开发者 / 工作室 / 企业 / 教育者]
+- **工作流：** 这个功能在实践中如何使用？
+- **频率：** [每天 / 每周 / 偶尔]
 
-## Mockups / Examples
+## 示例/原型
 
 ```
-$ avgforge <new-command> --option value
-Expected output...
+$ avgforge <新命令> --option value
+预期输出...
 ```
 
-## Compatibility
+## 兼容性
 
-- [ ] This feature is backward-compatible
-- [ ] This feature requires project format changes
-- [ ] This feature affects existing workflows
+- [ ] 此功能向后兼容
+- [ ] 此功能需要项目格式变更
+- [ ] 此功能影响现有工作流
 
-## Priority
+## 优先级
 
-- [ ] Critical — blocking production use
-- [ ] High — significant productivity impact
-- [ ] Medium — nice to have
-- [ ] Low — minor improvement
+- [ ] 关键 — 阻塞生产使用
+- [ ] 高 — 显著影响生产力
+- [ ] 中 — 锦上添花
+- [ ] 低 — 小改进
 
-## Additional Context
+## 补充信息
 
-Add any other context, screenshots, or references here.
+在此添加任何其他上下文、截图或参考资料。
 
 ---
 
-**By submitting this feature request, I confirm that:**
-- [ ] I have searched existing issues and discussions
-- [ ] This feature aligns with AVGForge's scope (CLI-first, Git-native)
-- [ ] I understand this is a request, not a commitment
+**提交此功能请求即表示我确认：**
+- [ ] 我已搜索现有 issue 和讨论
+- [ ] 此功能符合 AVGForge 的范围（CLI 优先、Git 原生）
+- [ ] 我理解这是请求，不是承诺

@@ -468,7 +468,7 @@ def cmd_block(args):
 def build_parser():
     parser = argparse.ArgumentParser(
         prog="avgforge",
-        description="AVGForge — Enterprise-Grade Visual Novel Authoring Pipeline",
+        description="AVGForge — 企业级视觉小说开发流水线",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 示例:

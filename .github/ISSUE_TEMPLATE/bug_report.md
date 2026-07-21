@@ -1,61 +1,61 @@
 ---
-name: Bug Report
-about: Report a bug to help us improve AVGForge
+name: Bug 报告
+about: 报告 Bug 帮助我们改进 AVGForge
 title: '[BUG] '
 labels: bug, triage
 assignees: ''
 ---
 
-## Bug Description
+## Bug 描述
 
-A clear and concise description of what the bug is.
+简要清晰地描述这个 Bug。
 
-## Reproduction Steps
+## 复现步骤
 
-1. Run `avgforge ...`
+1. 运行 `avgforge ...`
 2. ...
-3. See error
+3. 看到错误
 
-## Expected Behavior
+## 预期行为
 
-What you expected to happen.
+你期望发生什么。
 
-## Actual Behavior
+## 实际行为
 
-What actually happened.
+实际发生了什么。
 
-## Environment
+## 环境信息
 
-- **OS:** [e.g., Ubuntu 22.04, macOS 14.0, Windows 11]
-- **Python version:** [e.g., 3.11.4]
-- **AVGForge version:** [output of `avgforge --version`]
-- **Installation method:** [source / pip / standalone]
+- **操作系统：** [如 Ubuntu 22.04、macOS 14.0、Windows 11]
+- **Python 版本：** [如 3.11.4]
+- **AVGForge 版本：** [`avgforge --version` 的输出]
+- **安装方式：** [源码 / pip / 独立包]
 
-## Project Information
+## 项目信息
 
-- **Project template:** [blank / demo / custom]
-- **Project size:** [number of chapters, blocks, assets]
-- **Custom extensions:** [yes / no]
+- **项目模板：** [blank / demo / 自定义]
+- **项目规模：** [章节数、block 数、素材数]
+- **自定义扩展：** [有 / 无]
 
-## Logs and Output
+## 日志与输出
 
 ```
-Paste relevant command output here. Include full error messages and stack traces.
+在此粘贴相关命令输出。包含完整错误信息和堆栈跟踪。
 ```
 
-## Minimal Reproduction Project
+## 最小复现项目
 
-If possible, attach a minimal project that reproduces the issue:
-- [ ] I have attached a zip of the minimal project
-- [ ] I have removed any sensitive / proprietary content
+如果可能，附上复现问题的最小项目：
+- [ ] 我已附上最小项目的 zip
+- [ ] 我已移除任何敏感/专有内容
 
-## Additional Context
+## 补充信息
 
-Add any other context about the problem here.
+在此添加任何其他相关上下文。
 
 ---
 
-**By submitting this issue, I confirm that:**
-- [ ] I have searched existing issues for duplicates
-- [ ] I have tested on the latest version
-- [ ] I have provided complete reproduction steps
+**提交此 issue 即表示我确认：**
+- [ ] 我已搜索现有 issue 避免重复
+- [ ] 我已在最新版本测试
+- [ ] 我已提供完整复现步骤

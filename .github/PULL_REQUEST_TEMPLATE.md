@@ -1,64 +1,63 @@
 ---
-name: Pull Request Template
-about: Submit changes to AVGForge
+name: Pull Request 模板
+about: 向 AVGForge 提交变更
 ---
 
-## Description
+## 描述
 
-Brief description of what this PR changes and why.
+简要描述此 PR 的变更内容和原因。
 
-## Type of Change
+## 变更类型
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] Documentation update
-- [ ] Refactoring (no functional changes)
-- [ ] Performance improvement
-- [ ] Test coverage improvement
+- [ ] Bug 修复（非破坏性变更，修复问题）
+- [ ] 新功能（非破坏性变更，添加功能）
+- [ ] 破坏性变更（修复或功能会导致现有功能不按预期工作）
+- [ ] 文档更新
+- [ ] 重构（无功能变更）
+- [ ] 性能改进
+- [ ] 测试覆盖改进
 
-## Related Issues
+## 相关 Issue
 
-Closes #(issue number)
-Refs #(issue number)
+Closes #(issue 编号)
+Refs #(issue 编号)
 
-## Changes Made
+## 变更内容
 
-- Change 1
-- Change 2
-- Change 3
+- 变更 1
+- 变更 2
+- 变更 3
 
-## Testing
+## 测试
 
-- [ ] All existing tests pass
-- [ ] Added new tests for new functionality
-- [ ] Manual testing completed
-- [ ] Tested on: [Linux / macOS / Windows]
+- [ ] 所有现有测试通过
+- [ ] 为新功能添加了新测试
+- [ ] 完成手动测试
+- [ ] 测试平台：[Linux / macOS / Windows]
 
-### Test Commands Run
+### 运行的测试命令
 
 ```bash
-python src/avgforge.py --version
-python src/avgforge.py init test-pr --template blank
-python src/avgforge.py check test-pr
+python3 src/avgforge/__main__.py --version
+python3 src/avgforge/__main__.py init test-pr --template blank
+python3 src/avgforge/__main__.py check test-pr
 ```
 
-## Checklist
+## 检查清单
 
-- [ ] My code follows the project's style guidelines
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published
+- [ ] 我的代码遵循项目风格指南
+- [ ] 我已对代码进行自审
+- [ ] 我已为代码添加注释，特别是难以理解的部分
+- [ ] 我已对文档进行相应更新
+- [ ] 我的变更未产生新警告
+- [ ] 我已添加证明修复有效或功能正常的测试
+- [ ] 新增和现有单元测试在本地通过
+- [ ] 任何依赖变更已合并并发布
 
-## License
+## 许可证
 
-By submitting this pull request, I confirm that my contributions are
-licensed under the [AVGForge Dual License (AGPL-3.0 + Commercial)](LICENSE).
+提交此 Pull Request 即表示我确认我的贡献以 [AVGForge 双许可（AGPL-3.0 + 商业）](LICENSE)授权。
 
-## Screenshots / Output
+## 截图/输出
 
-(If applicable, add screenshots or command output to help explain your changes)
+（如适用，添加截图或命令输出以帮助解释变更）

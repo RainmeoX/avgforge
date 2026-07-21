@@ -1,163 +1,49 @@
-> ## ⚠️ 版权声明 / Copyright Notice
->
-> 本仓库 `game_data/` 目录下的素材（立绘、CG、背景、BGM、语音、剧本等）**版权归 LetsGal Studio 官方所有**。
->
-> 这些内容**仅供学习交流与技术研究所用**，不得用于商业用途。如需商业使用，请前往 [avg-engine.com](https://avg-engine.com/) 购买正版授权。
->
-> 详见 [`game_data/DISCLAIMER.md`](game_data/DISCLAIMER.md)。
->
-> ---
-> The assets in the `game_data/` directory are **copyrighted by LetsGal Studio** and are provided **for learning and technical research purposes only**. See [`game_data/DISCLAIMER.md`](game_data/DISCLAIMER.md) for details.
-
----
-
 <div align="center">
 
 # ⚒️ AVGForge
 
-### Enterprise-Grade Visual Novel Authoring Pipeline
+### 企业级视觉小说开发流水线
 
-**Cross-platform CLI engine for professional interactive narrative content production**
+**跨平台 CLI 引擎，用于专业互动叙事内容生产**
 
-[![License: AGPL v3 + Commercial](https://img.shields.io/badge/License-AGPL%20v3%20%2F%20Commercial-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0--enterprise-6c5ce7.svg)](CHANGELOG.md)
-[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-00b894.svg)](#system-requirements)
-[![Python](https://img.shields.io/badge/python-3.9%2B-3776ab.svg)](https://www.python.org/)
-[![Build Status](https://img.shields.io/badge/build-passing-success.svg)](.github/workflows/ci.yml)
-[![Coverage](https://img.shields.io/badge/coverage-87%25-brightgreen.svg)](docs/QUALITY.md)
+[![许可证: AGPL v3 + 商业](https://img.shields.io/badge/许可证-AGPL%20v3%20%2F%20商业-blue.svg)](LICENSE)
+[![版本](https://img.shields.io/badge/版本-1.0.0--enterprise-6c5ce7.svg)](CHANGELOG.md)
+[![平台](https://img.shields.io/badge/平台-Linux%20%7C%20macOS%20%7C%20Windows-00b894.svg)](#系统要求)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776ab.svg)](https://www.python.org/)
+[![构建状态](https://img.shields.io/badge/构建-通过-success.svg)](.github/workflows/ci.yml)
 
 </div>
 
 ---
 
-## Overview
+## 概述
 
-**AVGForge** is a headless, Git-native authoring pipeline for visual novel (VN) and interactive narrative content. Designed for studios that demand **deterministic builds**, **CI/CD integration**, and **reproducible artifact generation** without GUI dependency.
+**AVGForge** 是一个无头、Git 原生的视觉小说（VN）和互动叙事内容创作流水线。专为需要**确定性构建**、**CI/CD 集成**和**可复现产物生成**的工作室设计，无需依赖 GUI。
 
-Unlike traditional VN editors that lock your workflow into a single desktop application, AVGForge treats your project as **structured data** — every asset, character, scene, and script block is a versioned, diffable JSON document. This enables team collaboration, automated testing, and pipeline integration impossible with GUI-only tools.
+与传统的 VN 编辑器将工作流锁定在单一桌面应用中不同，AVGForge 将项目视为**结构化数据**——每个素材、角色、场景和剧本块都是可版本化、可 diff 的 JSON 文档。这使得团队协作、自动化测试和流水线集成成为可能，而这些是纯 GUI 工具无法实现的。
 
-### Why AVGForge?
+### 为什么选择 AVGForge？
 
-| Pain Point | Traditional Tools | AVGForge |
+| 痛点 | 传统工具 | AVGForge |
 |---|---|---|
-| Version control | Binary project files, no meaningful diffs | Plain JSON, Git-friendly, line-level diffs |
-| CI/CD | Manual export required | `avgforge build` runs headless in any CI |
-| Team collaboration | File lock conflicts | Branch, merge, resolve conflicts naturally |
-| Automation | No scripting API | Full CLI + Python SDK |
-| Reproducible builds | Environment-dependent | Deterministic, content-addressed output |
-| Headless preview | Requires GUI | Web-based preview engine, browser-agnostic |
+| 团队协作 | 二进制项目文件，无法合并 | JSON 文本，Git 原生合并 |
+| CI/CD 集成 | 必须打开 GUI 才能构建 | 命令行一键构建 |
+| 自动化测试 | 无法脚本化验证 | `avgforge check` 程序化验证 |
+| 批量编辑 | 手动逐个修改 | 脚本批量操作 JSON |
+| 版本控制 | 整个文件变更，难以审查 | 逐行 diff，精确追踪 |
+| 服务器部署 | 必须桌面环境 | 无头运行，云端友好 |
+
+### 核心设计原则
+
+1. **CLI 优先** — 所有功能通过命令行访问，可脚本化
+2. **Git 原生** — 项目格式为可读 JSON，天然支持版本控制
+3. **LetsGal 兼容** — 生成的项目可直接导入 LetsGal Studio 预览
+4. **确定性构建** — 相同输入产生相同输出，支持复现
+5. **可扩展** — 插件架构支持自定义 block 和渲染器
 
 ---
 
-## Feature Matrix
-
-### Core Authoring
-
-| Feature | Status | Description |
-|---|---|---|
-| Project scaffolding | ✅ GA | `avgforge init` with blank/template presets |
-| Character management | ✅ GA | Portraits, expressions, 5-position system, theme colors |
-| Scene composition | ✅ GA | Multi-layer parallax backgrounds with depth distance |
-| Chapter & fragment | ✅ GA | Hierarchical narrative structure with jump targets |
-| Block-based scripting | ✅ GA | 25+ block types (dialogue, scene, camera, particle, branch...) |
-| Variable system | ✅ GA | Boolean/Number/String × Project/System scope × Slot/Shared persistence |
-| Branch & condition | ✅ GA | Choice jumps, conditional execution, fragment calls |
-| Ren'Py-style editing | ✅ GA | Native syntax with `$EDITOR` integration |
-| Asset management | ✅ GA | Import, reference tracking, unused asset detection |
-| Project validation | ✅ GA | Reference integrity check, missing asset detection |
-
-### Preview & Debug
-
-| Feature | Status | Description |
-|---|---|---|
-| Text preview | ✅ GA | Terminal-rendered script flow with indentation |
-| Mermaid flowchart | ✅ GA | Branch structure visualization |
-| Web preview engine | ✅ GA | Browser-based runtime, full visual fidelity |
-| OP timeline | 🔄 Beta | Operation-level execution trace |
-| Variable inspector | 🔄 Beta | Runtime variable state inspection |
-| Call stack | 📋 Planned | Fragment call chain analysis |
-
-### Build & Distribution
-
-| Feature | Status | Description |
-|---|---|---|
-| HTML single-file build | ✅ GA | Self-contained `.html` with embedded assets |
-| Web bundle build | ✅ GA | Separated assets for CDN deployment |
-| Project export | ✅ GA | Portable project archive |
-| Desktop build (.app/.exe) | 📋 Planned | Electron-based native packaging |
-| Mobile build | 📋 Research | React Native / Capacitor investigation |
-
-### Enterprise Features
-
-| Feature | Status | Description |
-|---|---|---|
-| Git-native format | ✅ GA | Every artifact is plain-text JSON |
-| Deterministic builds | ✅ GA | Content-addressed, reproducible output |
-| CI/CD pipeline | ✅ GA | Headless operation, exit-code semantics |
-| Python SDK | ✅ GA | Programmatic project manipulation |
-| Extension manifest | 🔄 Beta | Enable/disable extensions per-project |
-| L10n framework | 📋 Planned | i18n string extraction & compilation |
-| Analytics hooks | 📋 Planned | Custom event instrumentation |
-
----
-
-## Architecture
-
-```mermaid
-graph TB
-    subgraph "CLI Layer"
-        A[avgforge command router]
-        B[Argument parser]
-        C[Help system]
-    end
-    
-    subgraph "Project Layer"
-        D[Project schema]
-        E[Character manager]
-        F[Scene manager]
-        G[Chapter manager]
-        H[Variable manager]
-        I[Asset manager]
-    end
-    
-    subgraph "Engine Layer"
-        J[Block executor]
-        K[Ren'Py parser]
-        L[Branch resolver]
-        M[Variable runtime]
-        N[Validator]
-    end
-    
-    subgraph "Output Layer"
-        O[Text renderer]
-        P[Mermaid exporter]
-        Q[Web preview server]
-        R[HTML builder]
-    end
-    
-    A --> B --> C
-    A --> D
-    D --> E & F & G & H & I
-    A --> J & K & L & M & N
-    A --> O & P & Q & R
-    
-    J --> Q & R
-    K --> J
-    L --> J
-    M --> J
-```
-
-### Design Principles
-
-1. **Data over Code** — Project state lives in JSON, not in application memory
-2. **Headless First** — Every operation works without a display server
-3. **Git-Native** — Diff, merge, and branch your narrative like source code
-4. **Deterministic** — Same input + same version = byte-identical output
-5. **Extensible** — Plugin architecture for custom blocks and renderers
-
----
-
-## Quick Start
+## 快速开始
 
 ```bash
 # 1. 安装
@@ -185,7 +71,9 @@ cd my-game
 
 📖 **完整使用指南：** [`docs/USAGE.md`](docs/USAGE.md)
 
-## Features
+---
+
+## 功能特性
 
 ### ✅ 完全实现（80% 覆盖）
 
@@ -215,7 +103,7 @@ cd my-game
 | 打包发布 | 使用 LetsGal Studio "发布游戏" |
 | 扩展开发 | 使用 LetsGal Studio 扩展 SDK |
 
-### 兼容性
+### LetsGal Studio 兼容性
 
 AVGForge 生成的项目**完全兼容 LetsGal Studio**，可直接导入预览：
 
@@ -227,7 +115,60 @@ AVGForge 生成的项目**完全兼容 LetsGal Studio**，可直接导入预览�
 - ✅ 默认游戏壳（`avg.internal.default-shell`）
 - ✅ 系统绑定与快捷键
 
-## Example Project
+---
+
+## 命令参考
+
+```
+avgforge <命令> [子命令] [选项]
+
+项目管理
+  init <路径>              创建新项目
+  info                     显示项目信息
+  check                    验证项目完整性
+
+角色管理
+  char list                列出所有角色
+  char add <名称>          添加角色
+  char remove <名称>       删除角色
+
+场景管理
+  scene list               列出所有场景
+  scene add <名称>         添加场景
+  scene remove <名称>      删除场景
+
+章节与片段
+  chapter list             列出章节
+  chapter add <名称>       添加章节
+  chapter remove <名称>    删除章节
+  frag list <章节>         列出章节内片段
+  frag add <章节> <名称>   添加片段
+
+剧本编辑
+  edit <章节>/<片段>       打开 Ren'Py 风格编辑器（$EDITOR）
+  edit <章节>/<片段> --file <路径>  从文件导入
+  block list <片段>        列出片段内 block
+  block add <片段> <类型>  添加 block
+  block remove <片段> <id> 删除 block
+
+变量管理
+  var list                 列出所有变量
+  var add <key> <显示名>   添加变量
+  var remove <key>         删除变量
+
+素材管理
+  asset list               列出所有素材
+  asset refs <素材>        查看素材引用
+
+预览
+  preview text <章节>      文本预览
+  preview graph            Mermaid 流程图
+  preview stats            项目统计
+```
+
+---
+
+## 示例项目
 
 `examples/star-orbit-vow/` — 完整的 5 章视觉小说示例：
 
@@ -247,228 +188,202 @@ cd examples/star-orbit-vow
 
 ---
 
-## Command Reference
+## 系统要求
+
+| 组件 | 要求 |
+|------|------|
+| 操作系统 | Linux x64 / macOS 11+ / Windows 10+ |
+| Python | 3.9 或更高 |
+| Git | 2.20 或更高（推荐） |
+| LetsGal Studio | 1.8.0+（用于可视化预览） |
+| 浏览器 | Chrome 90+ / Firefox 88+ / Safari 14+（用于流程图查看） |
+
+---
+
+## 项目结构
 
 ```
-avgforge <command> [subcommand] [options]
-
-PROJECT
-  init <path>              Create a new project
-  info                     Show project metadata
-  check                    Validate project integrity
-
-CHARACTER
-  char list                List all characters
-  char add <name>          Add a character
-  char remove <name>       Remove a character
-
-SCENE
-  scene list               List all scenes
-  scene add <name>         Add a scene
-  scene remove <name>      Remove a scene
-
-CHAPTER & FRAGMENT
-  chapter list             List chapters
-  chapter add <name>       Add a chapter
-  chapter remove <name>    Remove a chapter
-  frag list <chapter>      List fragments in a chapter
-  frag add <chapter> <id>  Add a fragment
-
-SCRIPT EDITING
-  edit <chapter>/<frag>    Open Ren'Py-style editor ($EDITOR)
-  edit <chapter>/<frag> --file <path>  Import from file
-  block list <frag>        List blocks in a fragment
-  block add <frag> <type>  Add a block
-  block remove <frag> <id> Remove a block
-
-VARIABLE
-  var list                 List all variables
-  var add <key>            Add a variable
-  var edit <key>           Edit a variable
-  var rm <key>             Remove a variable
-
-ASSET
-  asset list               List all assets
-  asset import <file>      Import an asset
-  asset refs <file>        Show references to an asset
-  asset unused             List unused assets
-
-PREVIEW
-  preview text [chapter]   Text-based script preview
-  preview graph            Mermaid flowchart export
-  preview web              Web-based visual preview (browser)
-
-BUILD
-  build html               Single-file HTML build
-  build web                Web bundle (separated assets)
-  build export             Portable project archive
+avgforge/
+├── avgforge                 # CLI 入口脚本
+├── src/avgforge/            # 核心源码
+│   ├── __main__.py          # CLI 命令解析
+│   ├── schema.py            # LetsGal 格式定义
+│   ├── project.py           # 项目操作类
+│   ├── renpy_parser.py      # Ren'Py 解析器
+│   └── preview.py           # 预览模块
+├── examples/                # 示例项目
+│   └── star-orbit-vow/      # 《星轨之约》完整示例
+├── docs/                    # 文档
+│   └── USAGE.md             # 使用指南
+├── scripts/                 # 辅助脚本
+└── game_data/               # LetsGal 官方模板（仅供学习）
 ```
 
 ---
 
-## Project Structure
+## 开发工作流
 
+### 典型开发流程
+
+```bash
+# 1. 创建项目
+avgforge init my-game --name "我的游戏"
+cd my-game
+
+# 2. 配置角色
+avgforge char add "女主角" --pos right --color-ring "#ffb6d9"
+avgforge char add "男主角" --pos left --color-ring "#7fc8f8"
+
+# 3. 配置场景
+avgforge scene add "教室" --layer "bg:1:backgrounds/classroom.png"
+avgforge scene add "天台" --layer "bg:1:backgrounds/rooftop.png"
+
+# 4. 定义变量
+avgforge var add affection "好感度" --type number --scope project --persistence slot
+
+# 5. 添加章节
+avgforge chapter add "序章"
+avgforge chapter add "第一章"
+avgforge chapter add "终章"
+
+# 6. 编辑剧本
+avgforge edit 序章/main
+# 在编辑器中写 Ren'Py 风格剧本
+
+# 7. 验证项目
+avgforge check
+
+# 8. 文本预览
+avgforge preview text 序章
+
+# 9. 生成流程图
+avgforge preview graph
+
+# 10. 导入 LetsGal Studio 可视化预览
+#     打开 LetsGal Studio → 打开项目 → 选择 my-game → F5 运行
 ```
-my-visual-novel/
-├── project.json              # Project configuration
-├── project.variables.json    # Variable definitions
-├── characters.json           # Character roster
-├── scenes.json               # Scene compositions
-├── chapters/
-│   ├── start.json            # Entry chapter (required)
-│   ├── prologue.json
-│   └── chapter_01.json
-├── assets/
-│   ├── backgrounds/
-│   ├── characters/
-│   ├── bgm/
-│   ├── se/
-│   ├── voice/
-│   └── video/
-├── config/
-│   └── personalization/
-└── .avgforge/                # Internal state (git-ignored)
-    ├── cache/
-    └── snapshots/
+
+### Git 版本控制
+
+```bash
+git init
+git add -A
+git commit -m "feat: 初始化项目"
+
+# 每次编辑后
+git add -A
+git commit -m "feat: 完成序章剧本"
+git push
 ```
 
-All files are **plain JSON** — fully diffable, mergeable, and version-controllable.
+---
+
+## Ren'Py 语法示例
+
+```renpy
+# 场景切换
+scene 教室 with fade duration 0.5
+
+# 显示角色
+show 星野 at right
+
+# 对白
+星野 "你好。"
+我 "你好，星野。"
+
+# 旁白
+"夕阳洒进教室，将一切染成金色。"
+
+# 分支
+menu "怎么回答":
+    "打招呼" -> call 问候分支
+    "保持沉默" -> $ trust -= 1
+
+# 变量赋值
+$ trust += 1
+
+# 等待
+pause 1.0
+
+# 播放音乐
+play music bgm/主题曲.mp3 loop
+
+# 隐藏角色
+hide 星野
+```
 
 ---
 
-## System Requirements
+## 路线图
 
-| Requirement | Minimum | Recommended |
-|---|---|---|
-| OS | Linux x64 / macOS 11+ / Windows 10+ | Any modern OS |
-| Python | 3.9+ | 3.11+ |
-| RAM | 512 MB | 2 GB+ for large projects |
-| Disk | 100 MB (tool) + project assets | SSD recommended |
-| Browser | Any modern browser (for web preview) | Chrome / Firefox / Safari latest |
+### v1.0（当前）
+- ✅ 核心 CLI 命令
+- ✅ LetsGal 格式兼容
+- ✅ Ren'Py 解析器
+- ✅ 文本预览
+- ✅ Mermaid 流程图
 
-**Zero runtime dependencies** — pure Python standard library.
+### v1.1（计划中）
+- 📋 Web 预览引擎（浏览器内运行）
+- 📋 HTML 单文件打包
+- 📋 项目模板系统
 
----
+### v1.2（规划中）
+- 📋 扩展 SDK
+- 📋 自定义 block 类型
+- 📋 多语言支持
 
-## Licensing
-
-AVGForge uses a **dual-license model** to support both open-source communities and commercial use cases:
-
-### 1. AGPL-3.0 (Open Source)
-
-For open-source projects, educational use, personal projects, and evaluation, AVGForge is licensed under the [GNU Affero General Public License v3.0](LICENSE-AGPL).
-
-**Key obligations:**
-- Source code of modifications must be disclosed
-- Network use constitutes distribution (AGPL clause)
-- License notices and copyright must be preserved
-
-### 2. Commercial License
-
-For proprietary projects, commercial products, SaaS integration, or use cases incompatible with AGPL-3.0, a commercial license is available.
-
-**Commercial license benefits:**
-- No AGPL copyleft obligation
-- No source disclosure requirement
-- Priority technical support
-- Custom feature development
-- Indemnification against IP claims
-
-**Contact:** `commercial@avgforge.example` for licensing inquiries.
-
-### License Decision Guide
-
-| Use Case | Recommended License |
-|---|---|
-| Personal / hobby project | AGPL-3.0 |
-| Open-source project (AGPL-compatible) | AGPL-3.0 |
-| Open-source project (non-AGPL) | Commercial |
-| Commercial / proprietary product | Commercial |
-| SaaS / hosted service | Commercial |
-| Educational / academic | AGPL-3.0 |
-| Internal enterprise tool | Commercial |
-
-See [LICENSE](LICENSE) for the full dual-license declaration.
+### v2.0（远期）
+- 📋 移动端构建（React Native / Capacitor）
 
 ---
 
-## Roadmap
+## 企业支持
 
-### v1.0 (Current — Enterprise GA)
-- ✅ Core CLI with 20+ commands
-- ✅ Full project schema (characters, scenes, chapters, fragments, blocks, variables)
-- ✅ Ren'Py-style script editor
-- ✅ Web preview engine
-- ✅ HTML single-file build
-- ✅ Project validation and integrity check
-- ✅ Git-native JSON format
+为企业客户提供：
 
-### v1.1 (Q2 2026)
-- 🔄 OP timeline debugger
-- 🔄 Variable inspector
-- 🔄 Call stack analysis
-- 🔄 Extension manifest management
+- **优先 SLA** — 7×24 小时关键问题响应
+- **定制功能开发** — 定制 block、渲染器、集成
+- **私有部署** — 气隙环境安装支持
+- **培训与入职** — 团队工作坊和最佳实践
+- **审计与合规** — SOC2 / ISO27001 文档包
 
-### v1.2 (Q3 2026)
-- 📋 Desktop build (.app / .exe via Electron)
-- 📋 L10n framework (i18n string extraction)
-- 📋 Analytics hooks
-- 📋 Cloud sync protocol
-
-### v2.0 (Q4 2026)
-- 📋 Extension SDK (TypeScript + React)
-- 📋 Visual scene editor (web-based)
-- 📋 Multi-user collaboration protocol
-- 📋 Mobile build (React Native / Capacitor)
+**联系：** `enterprise@avgforge.example`
 
 ---
 
-## Enterprise Support
+## 贡献
 
-For enterprise customers, we provide:
+欢迎社区贡献。提交 Pull Request 前请阅读[贡献指南](CONTRIBUTING.md)。
 
-- **Priority SLA** — 24/7 critical issue response
-- **Custom feature development** — Tailored blocks, renderers, integrations
-- **On-premise deployment** — Air-gapped installation support
-- **Training & onboarding** — Team workshops and best practices
-- **Audit & compliance** — SOC2 / ISO27001 documentation packages
-
-**Contact:** `enterprise@avgforge.example`
-
----
-
-## Contributing
-
-We welcome contributions from the community. Please read our [Contributing Guide](CONTRIBUTING.md) before submitting pull requests.
-
-### Contributors
+### 贡献者
 
 <div align="center">
 
-Made with ⚒️ by the AVGForge team
+用 ⚒️ 由 AVGForge 团队制作
 
 </div>
 
 ---
 
-## Security
+## 安全
 
-Found a security vulnerability? Please review our [Security Policy](SECURITY.md) and report responsibly.
+发现安全漏洞？请查看[安全策略](SECURITY.md)并负责任地报告。
 
 ---
 
-## Acknowledgments
+## 致谢
 
-AVGForge draws architectural inspiration from industry-standard visual novel engines and modern CLI tooling. We thank the open-source community for their foundational work.
+AVGForge 的架构设计借鉴了行业标准视觉小说引擎和现代 CLI 工具。我们感谢开源社区的基础性工作。
 
-- Project format compatible with [LetsGal Studio](https://avg-engine.com/) project files
-- Ren'Py syntax inspired by [Ren'Py Visual Novel Engine](https://www.renpy.org/)
-- Web preview engine built on standard Web APIs
+- 项目格式兼容 [LetsGal Studio](https://avg-engine.com/) 项目文件
+- Ren'Py 语法受 [Ren'Py 视觉小说引擎](https://www.renpy.org/) 启发
+- Web 预览引擎基于标准 Web API 构建
 
 ---
 
 <div align="center">
 
-**Documentation:** [docs.avgforge.example](https://github.com/YOUR_USERNAME/avgforge/tree/main/docs) · **Changelog:** [CHANGELOG.md](CHANGELOG.md) · **License:** [Dual AGPL + Commercial](LICENSE)
+**文档：** [docs/USAGE.md](docs/USAGE.md) · **更新日志：** [CHANGELOG.md](CHANGELOG.md) · **许可证：** [双许可 AGPL + 商业](LICENSE)
 
 </div>

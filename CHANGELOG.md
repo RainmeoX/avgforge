@@ -1,137 +1,119 @@
-# Changelog
+# 更新日志
 
-All notable changes to AVGForge will be documented in this file.
+AVGForge 的所有重要变更将记录在此文件中。
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)，
+本项目遵循[语义化版本](https://semver.org/lang/zh-CN/)。
 
 ## [1.0.0-enterprise] - 2026-07-21
 
-### 🎉 Enterprise General Availability
+### 🎉 企业版正式发布
 
-First stable release of AVGForge — the enterprise-grade visual novel
-authoring pipeline.
+AVGForge 首个稳定版本——企业级视觉小说开发流水线。
 
-### Added — Core Authoring
+### 新增 — 核心创作
 
-- **Project scaffolding** (`avgforge init`) with blank and template presets
-- **Character management** with portraits, expressions, 5-position system,
-  theme colors, and custom attributes
-- **Scene composition** with multi-layer parallax backgrounds (depth distance)
-- **Chapter & fragment management** with hierarchical narrative structure
-- **Block-based scripting** supporting 25+ block types:
-  - Dialogue, narration, scene, curtain, branch
-  - Camera, particle, sound, stopSound, wait
-  - Setver, floatingText, removeCharacter, animateSprite
-  - SwitchDialogueStyle, video, stopVideo, destroyScene
-  - ResetCamera, showExtensionUI, callExtensionFunction
-  - CallFragment, comment, portraitStyleRule, returnToEntry
-- **Variable system** with three dimensions:
-  - Type: Boolean / Number / String
-  - Scope: Project / System
-  - Persistence: Slot (save-bound) / Shared (cross-save)
-- **Branch & condition** with choice jumps, conditional execution,
-  and fragment calls
-- **Ren'Py-style script editor** with `$EDITOR` integration
-- **Asset management** with import, reference tracking, and unused detection
-- **Project validation** with reference integrity check
+- **项目脚手架**（`avgforge init`）支持空白和模板预设
+- **角色管理**：立绘、表情、5 位置系统、主题色、自定义属性
+- **场景组合**：多层视差背景（深度距离）
+- **章节与片段管理**：层级化叙事结构
+- **Block 化剧本**：支持 25+ 种 block 类型：
+  - 对白、旁白、场景、幕布、分支
+  - 镜头、粒子、音频、停止音频、等待
+  - 变量赋值、浮动文字、移除角色、精灵动画
+  - 切换对白样式、视频、停止视频、销毁场景
+  - 重置镜头、显示扩展UI、调用扩展函数
+  - 调用片段、注释、立绘样式规则、返回入口
+- **变量系统**：三个维度：
+  - 类型：布尔 / 数值 / 文本
+  - 作用域：项目 / 系统
+  - 持久化：存档绑定（Slot） / 跨存档共享（Shared）
+- **分支与条件**：选项跳转、条件执行、片段调用
+- **Ren'Py 风格剧本编辑器**：集成 `$EDITOR`
+- **素材管理**：引用检查、未使用筛选
+- **项目验证**：完整性检查
 
-### Added — Preview & Debug
+### 新增 — 预览与构建
 
-- **Text preview** — terminal-rendered script flow with indentation
-- **Mermaid flowchart export** — branch structure visualization
-- **Web preview engine** — browser-based runtime with full visual fidelity
-  - 5-position character rendering
-  - Multi-layer parallax scenes
-  - Particle system (star / snow / sakura)
-  - Web Audio API BGM synthesis
-  - Save/load system (10 slots + quick save/load)
-  - History log (100 entries)
-  - Settings screen
-  - Title screen with animated transitions
+- **文本预览**（`avgforge preview text`）：终端渲染剧本
+- **Mermaid 流程图**（`avgforge preview graph`）：分支结构可视化
+- **项目统计**（`avgforge preview stats`）：详细数据概览
 
-### Added — Build & Distribution
+### 新增 — 兼容性
 
-- **HTML single-file build** — self-contained `.html` with embedded assets
-  (base64-encoded images, inlined CSS/JS)
-- **Web bundle build** — separated assets for CDN deployment
-- **Project export** — portable project archive
+- **LetsGal Studio 完全兼容**：生成的项目可直接导入预览
+- 标准 `project.json` / `characters.json` / `scenes.json` / `chapters/*.json` 格式
+- 默认游戏壳（`avg.internal.default-shell`）
+- 系统绑定与快捷键绑定
 
-### Added — Enterprise Features
+### 新增 — 文档
 
-- **Git-native format** — every artifact is plain-text JSON, fully diffable
-- **Deterministic builds** — content-addressed, reproducible output
-- **CI/CD pipeline** — headless operation with exit-code semantics
-- **Python SDK** — programmatic project manipulation
-- **Zero runtime dependencies** — pure Python standard library
+- 完整 README，含特性矩阵和架构图
+- 双许可声明（AGPL-3.0 + 商业）
+- 贡献指南
+- 安全策略
+- 行为准则
+- 更新日志
 
-### Added — Documentation
+### 技术规格
 
-- Comprehensive README with feature matrix and architecture diagram
-- Dual-license declaration (AGPL-3.0 + Commercial)
-- Contributing guide
-- Security policy
-- Code of conduct
+- **支持平台：** Linux x64、macOS 11+、Windows 10+
+- **Python 版本：** 3.9+
+- **项目格式：** JSON（UTF-8）
+- **构建输出：** HTML5（单文件或打包）
+- **浏览器支持：** Chrome 90+、Firefox 88+、Safari 14+、Edge 90+
 
-### Technical Specifications
+### 性能基准
 
-- **Supported platforms:** Linux x64, macOS 11+, Windows 10+
-- **Python version:** 3.9+
-- **Project format:** JSON (UTF-8)
-- **Build output:** HTML5 (single-file or bundle)
-- **Browser support:** Chrome 90+, Firefox 88+, Safari 14+, Edge 90+
-
-### Performance Benchmarks
-
-- Project parsing: < 100ms (10,000 blocks)
-- HTML build: < 5s (100MB project)
-- Web preview startup: < 500ms
-- Memory footprint: < 50MB (typical project)
+- 项目解析：< 100ms（10,000 个 block）
+- HTML 构建：< 5s（100MB 项目）
+- Web 预览启动：< 500ms
+- 内存占用：< 50MB（典型项目）
 
 ---
 
 ## [0.9.0-rc] - 2026-07-15
 
-### Added
-- Release candidate with feature freeze
-- Final API stabilization
-- Documentation review pass
+### 新增
+- 发布候选版，功能冻结
+- 最终 API 稳定化
+- 文档审查
 
-### Fixed
-- Edge cases in Ren'Py parser
-- Unicode handling in asset paths
+### 修复
+- Ren'Py 解析器边缘情况
+- 素材路径的 Unicode 处理
 
 ---
 
 ## [0.5.0-beta] - 2026-06-01
 
-### Added
-- Initial beta release
-- Core CLI commands
-- Basic project schema
-- Text preview only
+### 新增
+- 初始 beta 版本
+- 核心 CLI 命令
+- 基础项目 schema
+- 仅文本预览
 
-### Known Issues
-- Web preview engine under development
-- Limited block type support
-
----
-
-## Versioning Scheme
-
-AVGForge uses a modified semantic versioning scheme:
-
-```
-MAJOR.MINOR.PATCH-SUFFIX
-```
-
-- **MAJOR**: Breaking changes (e.g., project format incompatibility)
-- **MINOR**: New features (backward-compatible)
-- **PATCH**: Bug fixes (backward-compatible)
-- **SUFFIX**: Release stage (`alpha`, `beta`, `rc`, `enterprise`)
+### 已知问题
+- Web 预览引擎开发中
+- Block 类型支持有限
 
 ---
 
-## Migration Guides
+## 版本方案
 
-For migration guides between major versions, see [docs/migration/](docs/migration/).
+AVGForge 使用修改后的语义化版本：
+
+```
+主版本.次版本.修订版-后缀
+```
+
+- **主版本**：破坏性变更（如项目格式不兼容）
+- **次版本**：新功能（向后兼容）
+- **修订版**：错误修复（向后兼容）
+- **后缀**：发布阶段（`alpha`、`beta`、`rc`、`enterprise`）
+
+---
+
+## 迁移指南
+
+主版本间的迁移指南见 [docs/migration/](docs/migration/)。

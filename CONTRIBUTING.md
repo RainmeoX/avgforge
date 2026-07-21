@@ -1,198 +1,152 @@
-# Contributing to AVGForge
+# 贡献指南
 
-First off, thank you for considering contributing to AVGForge! 🎉
+首先感谢您考虑为 AVGForge 贡献代码！🎉
 
-This document outlines our contribution process and standards.
+本文档概述了我们的贡献流程和标准。
 
-## Code of Conduct
+## 行为准则
 
-By participating in this project, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md). Please be respectful and professional in all interactions.
+参与本项目即表示您同意遵守我们的[行为准则](CODE_OF_CONDUCT.md)。请在所有互动中保持尊重和专业。
 
-## Getting Started
+## 入门
 
-### Prerequisites
+### 前置要求
 
-- Python 3.9 or higher
-- Git 2.20 or higher
-- A modern web browser (for testing web preview)
-- A text editor with JSON support (VS Code recommended)
+- Python 3.9 或更高
+- Git 2.20 或更高
+- 现代网页浏览器（用于测试 Web 预览）
+- 支持 JSON 的文本编辑器（推荐 VS Code）
 
-### Development Setup
+### 开发环境搭建
 
 ```bash
-# Fork and clone the repository
+# Fork 并克隆仓库
 git clone https://github.com/YOUR_USERNAME/avgforge.git
 cd avgforge
 
-# Create a virtual environment (optional but recommended)
+# 创建虚拟环境（可选但推荐）
 python3 -m venv .venv
 source .venv/bin/activate  # Linux/macOS
-# or: .venv\Scripts\activate  # Windows
+# 或：.venv\Scripts\activate  # Windows
 
-# Verify installation
-python3 src/avgforge.py --version
+# 验证安装
+python3 src/avgforge/__main__.py --version
 
-# Run tests
-python3 -m pytest tests/  # (when test suite is available)
+# 运行测试
+python3 -m pytest tests/  # （测试套件可用时）
 ```
 
-## How to Contribute
+## 如何贡献
 
-### Reporting Bugs
+### 报告 Bug
 
-Before creating a bug report, please:
-1. Check the [existing issues](https://github.com/YOUR_USERNAME/avgforge/issues) to avoid duplicates
-2. Verify the bug exists on the latest `main` branch
-3. Collect the following information:
-   - OS and version
-   - Python version
-   - AVGForge version (`avgforge --version`)
-   - Minimal reproduction steps
-   - Expected vs actual behavior
+创建 Bug 报告前，请：
+1. 检查[现有 issue](https://github.com/RainmeoX/avgforge/issues)避免重复
+2. 验证 Bug 在最新 `main` 分支存在
+3. 收集以下信息：
+   - 操作系统和版本
+   - Python 版本
+   - AVGForge 版本（`avgforge --version`）
+   - 最小复现步骤
+   - 预期与实际行为
 
-Use the [Bug Report Template](.github/ISSUE_TEMPLATE/bug_report.md).
+使用 [Bug 报告模板](.github/ISSUE_TEMPLATE/bug_report.md)。
 
-### Suggesting Enhancements
+### 建议新功能
 
-Enhancement suggestions are welcome. Please:
-1. Use the [Feature Request Template](.github/ISSUE_TEMPLATE/feature_request.md)
-2. Describe the use case and expected benefit
-3. Indicate if you're willing to implement it yourself
+功能建议应包含：
+- 功能摘要
+- 解决的问题
+- 提议的解决方案
+- 替代方案
+- 使用场景
 
-### Pull Requests
+使用 [功能请求模板](.github/ISSUE_TEMPLATE/feature_request.md)。
 
-1. **Create a branch** from `main`:
-   ```bash
-   git checkout -b feature/my-feature
-   ```
+### 提交代码
 
-2. **Make your changes** following our coding standards (see below)
+1. **Fork 仓库**
+2. **创建功能分支**：`git checkout -b feat/your-feature`
+3. **编写代码**，遵循项目风格
+4. **测试**：确保 `avgforge check` 通过
+5. **提交**：使用规范的提交信息
+6. **推送**：`git push origin feat/your-feature`
+7. **创建 Pull Request**
 
-3. **Test thoroughly**:
-   ```bash
-   # Test core functionality
-   python3 src/avgforge.py init test-project --template blank
-   python3 src/avgforge.py --help
-   
-   # Test web preview (if applicable)
-   cd test-project
-   python3 ../src/avgforge.py preview web
-   ```
-
-4. **Commit with conventional messages**:
-   ```
-   feat: add new block type 'shake'
-   fix: resolve unicode path handling on Windows
-   docs: update README with installation steps
-   refactor: extract project validator
-   test: add unit tests for Ren'Py parser
-   chore: update dependencies
-   ```
-
-5. **Open a Pull Request** with:
-   - Clear description of changes
-   - Link to related issues
-   - Screenshots (for UI changes)
-   - Test results
-
-## Coding Standards
-
-### Python Style
-
-- Follow [PEP 8](https://pep8.org/)
-- Use 4-space indentation
-- Maximum line length: 100 characters
-- Use type hints for function signatures
-- Document public functions with docstrings
-
-```python
-def add_character(project: dict, char_id: str, name: str,
-                  position: str = "center") -> dict:
-    """Add a character to the project.
-    
-    Args:
-        project: The project dictionary.
-        char_id: Unique character identifier.
-        name: Display name of the character.
-        position: Default position (left/center-left/center/center-right/right).
-    
-    Returns:
-        Updated project dictionary.
-    
-    Raises:
-        ValueError: If char_id already exists.
-    """
-    if char_id in project.get("characters", {}):
-        raise ValueError(f"Character '{char_id}' already exists")
-    # ... implementation
-```
-
-### JSON Style
-
-- 2-space indentation
-- UTF-8 encoding
-- No trailing commas
-- Keys in snake_case
-- Consistent key ordering (alphabetical within groups)
-
-### File Organization
+### 提交信息规范
 
 ```
-src/
-├── avgforge.py          # Main CLI entry point
-├── commands/            # Command implementations
-│   ├── __init__.py
-│   ├── project.py       # Project management
-│   ├── character.py     # Character commands
-│   ├── scene.py         # Scene commands
-│   ├── chapter.py       # Chapter/fragment commands
-│   ├── block.py         # Block editing
-│   ├── variable.py      # Variable management
-│   ├── asset.py         # Asset management
-│   ├── preview.py       # Preview commands
-│   └── build.py         # Build commands
-├── engine/              # Core engine
-│   ├── __init__.py
-│   ├── parser.py        # Ren'Py parser
-│   ├── executor.py      # Block executor
-│   ├── validator.py     # Project validator
-│   └── renderer.py      # Web preview renderer
-└── utils/               # Utilities
-    ├── __init__.py
-    ├── json_utils.py    # JSON helpers
-    └── io_utils.py      # I/O helpers
+<类型>: <描述>
+
+[可选正文]
+
+[可选脚注]
 ```
 
-## Testing
+类型：
+- `feat`: 新功能
+- `fix`: Bug 修复
+- `docs`: 文档变更
+- `style`: 代码风格（不影响功能）
+- `refactor`: 重构
+- `test`: 测试
+- `chore`: 构建/工具变更
 
-### Manual Testing Checklist
+示例：
+```
+feat: 添加角色表情管理命令
+fix: 修复场景切换时的内存泄漏
+docs: 更新 Ren'Py 语法文档
+```
 
-Before submitting a PR, verify:
+## 代码风格
 
-- [ ] `avgforge --version` works
-- [ ] `avgforge init test-project` creates valid project
-- [ ] `avgforge char add` / `scene add` / `chapter add` work
-- [ ] `avgforge edit` opens `$EDITOR`
-- [ ] `avgforge preview text` renders correctly
-- [ ] `avgforge preview web` starts server and renders in browser
-- [ ] `avgforge build html` produces valid HTML file
-- [ ] `avgforge check` reports no errors on valid project
+### Python 代码
 
-### Test Projects
+- 遵循 PEP 8
+- 行宽限制 100 字符
+- 使用 4 空格缩进
+- 函数和类添加 docstring
+- 类型注解（Python 3.9+ 语法）
 
-Use the `examples/` directory for test projects:
-- `examples/blank/` — minimal valid project
-- `examples/demo/` — full-featured demo project
+### 项目结构
 
-## License
+```
+src/avgforge/
+├── __init__.py
+├── __main__.py        # CLI 入口
+├── schema.py          # 数据 schema
+├── project.py         # 项目操作
+├── renpy_parser.py    # Ren'Py 解析器
+├── preview.py         # 预览功能
+└── commands/          # 命令实现（未来拆分）
+```
 
-By contributing, you agree that your contributions will be dual-licensed
-under the [AGPL-3.0 + Commercial license](LICENSE). See the
-[Contributor License Agreement](LICENSE) section for details.
+## 测试
 
-## Questions?
+### 手动测试清单
 
-- 💬 [GitHub Discussions](https://github.com/YOUR_USERNAME/avgforge/discussions)
-- 📧 Email: `community@avgforge.example`
+提交 PR 前，验证：
 
-Thank you for contributing! ⚒️
+- [ ] `avgforge --version` 正常
+- [ ] `avgforge init test-project` 创建有效项目
+- [ ] `avgforge char add` / `scene add` / `chapter add` 正常
+- [ ] `avgforge edit` 打开 `$EDITOR`
+- [ ] `avgforge preview text` 正确渲染
+- [ ] `avgforge check` 在有效项目上无错误
+
+### 测试项目
+
+使用 `examples/` 目录的测试项目：
+- `examples/star-orbit-vow/` — 完整功能演示项目
+
+## 许可证
+
+贡献即表示您同意您的贡献将以[AGPL-3.0 + 商业双许可](LICENSE)授权。详见[贡献者许可协议](LICENSE)部分。
+
+## 有问题？
+
+- 💬 [GitHub Discussions](https://github.com/RainmeoX/avgforge/discussions)
+- 📧 邮箱：`community@avgforge.example`
+
+感谢您的贡献！⚒️

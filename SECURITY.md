@@ -1,160 +1,106 @@
-# Security Policy
+# 安全策略
 
-## Supported Versions
+## 支持的版本
 
-AVGForge is committed to providing security updates for the following versions:
+AVGForge 致力于为以下版本提供安全更新：
 
-| Version | Supported          | Status       |
-|---------|--------------------|--------------|
-| 1.0.x   | ✅ Active support  | Current GA   |
-| 0.9.x   | ⚠️ Critical only   | End-of-life  |
-| < 0.9   | ❌ Not supported   | Deprecated   |
+| 版本 | 支持 | 状态 |
+|------|------|------|
+| 1.0.x | ✅ 积极支持 | 当前正式版 |
+| 0.9.x | ⚠️ 仅关键修复 | 生命周期结束 |
+| < 0.9 | ❌ 不支持 | 已弃用 |
 
-## Reporting a Vulnerability
+## 报告漏洞
 
-We take security vulnerabilities seriously. If you discover a security issue,
-please follow responsible disclosure:
+我们认真对待安全漏洞。如果您发现安全问题，请遵循负责任披露：
 
-### 🔒 Private Disclosure
+### 🔒 私密披露
 
-**Do NOT open a public GitHub issue for security vulnerabilities.**
+**请勿为安全漏洞公开 GitHub issue。**
 
-Instead, please report vulnerabilities privately:
+请私密报告漏洞：
 
-1. **Email:** `security@avgforge.example`
-2. **Subject:** `[SECURITY] AVGForge Vulnerability Report`
-3. **Include:**
-   - Description of the vulnerability
-   - Affected versions
-   - Reproduction steps (proof of concept)
-   - Potential impact assessment
-   - Suggested fix (if any)
+1. **邮箱：** `security@avgforge.example`
+2. **主题：** `[安全] AVGForge 漏洞报告`
+3. **包含：**
+   - 漏洞描述
+   - 受影响版本
+   - 复现步骤（概念验证）
+   - 潜在影响评估
+   - 建议的修复方案（如有）
 
-### Response Timeline
+### 响应时间
 
-| Stage | Target SLA |
-|-------|------------|
-| Acknowledgment of report | 24 hours |
-| Initial assessment | 72 hours |
-| Fix development | 7-14 days (severity-dependent) |
-| Patch release | 30 days (critical) / 90 days (high) |
-| Public disclosure | After patch release + 14-day grace period |
+| 阶段 | 目标 SLA |
+|------|----------|
+| 确认报告 | 24 小时 |
+| 初始评估 | 72 小时 |
+| 修复开发 | 7-14 天（视严重程度） |
+| 补丁发布 | 30 天（严重）/ 90 天（高） |
+| 公开披露 | 补丁发布 + 14 天宽限期后 |
 
-### Severity Classification
+### 严重程度分类
 
-We use the [CVSS v3.1](https://www.first.org/cvss/) scoring system:
+我们使用 [CVSS v3.1](https://www.first.org/cvss/) 评分系统：
 
-| Severity | CVSS Score | Examples |
-|----------|------------|----------|
-| **Critical** | 9.0-10.0 | Remote code execution, arbitrary file access |
-| **High** | 7.0-8.9 | Path traversal, XSS in preview engine |
-| **Medium** | 4.0-6.9 | Information disclosure, DoS |
-| **Low** | 0.1-3.9 | Minor info leak, cosmetic issues |
+| 严重程度 | CVSS 分数 | 示例 |
+|----------|-----------|------|
+| **严重** | 9.0-10.0 | 远程代码执行、任意文件访问 |
+| **高** | 7.0-8.9 | 路径遍历、敏感信息泄露 |
+| **中** | 4.0-6.9 | XSS、CSRF |
+| **低** | 0.1-3.9 | 信息泄露 |
 
-## Security Measures
+## 安全最佳实践
 
-### Project File Safety
+### 项目使用
 
-AVGForge processes JSON project files. We implement:
+- **不要在项目文件中存储敏感信息**
+- **审查第三方扩展**后再安装
+- **CI/CD 流水线**使用最小权限原则
+- **定期更新** AVGForge 到最新版本
 
-- **Path traversal protection** — All file paths are validated against project root
-- **JSON schema validation** — Malformed inputs are rejected before processing
-- **Asset path sanitization** — No absolute paths or `..` traversal allowed
-- **Size limits** — Project files exceeding 100MB are rejected
+### 素材处理
 
-### Web Preview Security
+- **验证素材来源**，避免恶意文件
+- **BGM/SE/语音文件**扫描后再导入
+- **审计第三方扩展**后再安装
+- **构建产物**分发前审查
 
-The web preview engine runs locally and includes:
+### 已知安全注意事项
 
-- **Content Security Policy** headers
-- **Sandboxed iframe** for project preview
-- **No external network requests** (fully offline)
-- **Input sanitization** for all user-provided text
+#### 1. 本地文件访问
 
-### Build Output Safety
+AVGForge 在项目目录内读写文件。确保：
+- 多用户系统上项目目录不可全局可写
+- CI/CD runner 有适当文件系统权限
+- 构建产物分发前扫描
 
-Generated HTML files:
+#### 2. Web 预览服务器
 
-- **No inline event handlers** (CSP-compliant)
-- **Escaped user content** (XSS prevention)
-- **No eval() or Function()** on user data
-- **Base64-encoded assets** (no path leakage)
+预览服务器默认绑定 `localhost`。**不要暴露到公共网络**，除非添加额外认证。
 
-## Best Practices for Users
+#### 3. 扩展系统
 
-### Project Hygiene
+第三方扩展可执行任意 Python 代码。只从可信来源安装扩展，使用前审查代码。
 
-```bash
-# Always validate projects before building
-avgforge check --strict
+## 合规
 
-# Use Git for version control (enables rollback)
-git init my-project && cd my-project
-avgforge init . --template blank
-git add . && git commit -m "Initial project"
+AVGForge 设计支持以下合规：
 
-# Review asset references periodically
-avgforge asset refs --unused
-```
+- **OWASP Top 10** — Web 预览遵循 OWASP 指南
+- **NIST SP 800-53** — 适用于联邦信息系统（需商业许可）
+- **GDPR** — 不收集个人数据；所有处理本地完成
+- **SOC 2 Type II** — 企业客户可获取文档
 
-### CI/CD Security
+## 联系
 
-```yaml
-# .github/workflows/build.yml
-- name: Build project
-  run: |
-    avgforge check --strict
-    avgforge build html --output dist/
-  env:
-    AVGFORGE_NO_NETWORK: "true"  # Disable all network features
-```
+- **安全报告：** `security@avgforge.example`
+- **通用咨询：** `community@avgforge.example`
 
-### Asset Handling
+## 致谢
 
-- **Scan imported assets** for malware before adding to project
-- **Use trusted sources** for BGM, SE, and voice files
-- **Audit third-party extensions** before installation
-- **Review build output** before distribution
-
-## Known Security Considerations
-
-### 1. Local File Access
-
-AVGForge reads and writes files within the project directory. Ensure:
-- Project directories are not world-writable on multi-user systems
-- CI/CD runners have appropriate filesystem permissions
-- Build outputs are scanned before distribution
-
-### 2. Web Preview Server
-
-The preview server binds to `localhost` by default. **Do not expose it to
-public networks** without additional authentication.
-
-### 3. Extension System
-
-Third-party extensions can execute arbitrary Python code. Only install
-extensions from trusted sources and review their code before use.
-
-## Compliance
-
-AVGForge is designed to support compliance with:
-
-- **OWASP Top 10** — Web preview follows OWASP guidelines
-- **NIST SP 800-53** — Suitable for federal information systems (with commercial license)
-- **GDPR** — No personal data collection; all processing is local
-- **SOC 2 Type II** — Documentation available for enterprise customers
-
-## Contact
-
-- **Security reports:** `security@avgforge.example`
-- **PGP key:** [Download from /security/pgp-key.asc](security/pgp-key.asc)
-- **General inquiries:** `community@avgforge.example`
-
-## Acknowledgments
-
-We thank security researchers who responsibly disclose vulnerabilities.
-Contributors are acknowledged (with permission) in our security advisories.
+我们感谢负责任披露漏洞的安全研究员。贡献者（经许可）将在安全公告中致谢。
 
 ---
 
-Last updated: 2026-07-21
+最后更新：2026-07-21
