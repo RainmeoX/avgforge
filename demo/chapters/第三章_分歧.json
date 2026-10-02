@@ -1,7 +1,23 @@
 {
-  "id": "ca76d787-ca9a-49f7-b89c-479b328b7844",
-  "name": "第三章_流星雨之夜",
+  "id": "332353a6-5490-40ff-a977-60af4e202071",
+  "name": "第三章_分歧",
   "fragments": [
+    {
+      "id": "d7e9439c-a004-4dc9-a14f-317be3771f12",
+      "name": "分歧",
+      "blocks": [
+        {
+          "id": "c55c1c1b-68df-42be-b144-76e1933ceefc",
+          "type": "branch",
+          "props": {
+            "disabled": false,
+            "branchId": "468349ae-1b05-4785-8ba6-8ecf85d03c8d",
+            "title": "流星雨之夜，你在哪里？",
+            "choices": "[{\"mode\": \"jump\", \"text\": \"天文台。和星野一起，看完最后一份观测记录。\", \"fragmentId\": \"c01ac62a-0512-4d07-8637-3687f32e5871\"}, {\"mode\": \"jump\", \"text\": \"广播室。陪日向葵录文化祭特番。\", \"fragmentId\": \"127ddc8d-1b06-44c3-a6a7-0b6375039937\"}, {\"mode\": \"jump\", \"text\": \"图书室。和深月整理 1994 年的档案。\", \"fragmentId\": \"fe0019e5-85c0-4219-ae45-b7c28d760f8f\"}]"
+          }
+        }
+      ]
+    },
     {
       "id": "c01ac62a-0512-4d07-8637-3687f32e5871",
       "name": "main",
@@ -265,22 +281,6 @@
       ]
     },
     {
-      "id": "4ef45e3c-71fc-4702-9b63-4161e4856b55",
-      "name": "抉择",
-      "blocks": [
-        {
-          "id": "9f00a3d6-7649-42b6-973c-e2174b097474",
-          "type": "branch",
-          "props": {
-            "disabled": false,
-            "branchId": "25e02038-d5b2-4444-b10b-6bf9f17845bb",
-            "title": "流星雨之夜，我——",
-            "choices": "[{\"mode\": \"jump\", \"text\": \"「留下来。」\", \"fragmentId\": \"88782b02-b277-4ea2-8d97-5e77c65ff9b8\"}, {\"mode\": \"jump\", \"text\": \"「我送你走。」\", \"fragmentId\": \"1ee3bcdf-a270-4bca-a690-b3e95e1632fb\"}, {\"mode\": \"jump\", \"text\": \"「……（沉默）」\", \"fragmentId\": \"a9d87bca-f7fb-4a09-b151-c0eea9acd400\"}]"
-          }
-        }
-      ]
-    },
-    {
       "id": "88782b02-b277-4ea2-8d97-5e77c65ff9b8",
       "name": "挽留",
       "blocks": [
@@ -477,7 +477,7 @@
           ]
         },
         {
-          "id": "9c48ad79-6a6d-427b-be78-33092fa658b9",
+          "id": "c9c92540-3a62-4e7c-bb3f-14ef272192d9",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -495,13 +495,85 @@
           "content": [
             {
               "type": "text",
-              "text": "第二天，我把 27 页观测记录拍在学生会的桌上。废部申请，撤销。",
+              "text": "那天之后，她在一点一点地变淡。",
               "styles": {}
             }
           ]
         },
         {
-          "id": "b7d6876a-457c-4c96-9fe2-4ca0e1f35f74",
+          "id": "fd77dddf-75e0-4394-be54-52f3f7176f5c",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "阳光开始能穿过她的手背。粉笔字一天写得比一天淡，影子浅得像兑了水的墨。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "1a18aef4-af26-4ff0-a951-3a715023aaa9",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "我什么都没问。有些事，问出口就输了。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "8f0ff2e2-2033-403d-a0ee-a4c88a36b536",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "第二天，我把 27 页观测记录拍在学生会的桌上——废部申请，撤销。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "42d29675-144f-4699-bd32-d1662bf021ed",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -538,10 +610,10 @@
             "bVar": "",
             "binOp": ""
           },
-          "id": "3a611761-5896-4cab-8607-c8c7b740f267"
+          "id": "4a2557cd-320a-4116-b33d-e456bd1f0892"
         },
         {
-          "id": "d5629ed4-ad3d-4c17-b0c7-0b51449b2032",
+          "id": "143bf786-9b9e-4f43-b5a7-0ecacf74cd11",
           "type": "scene",
           "props": {
             "disabled": false,
@@ -581,7 +653,7 @@
           }
         },
         {
-          "id": "c61c3a30-0325-4444-980a-a2e84825a977",
+          "id": "5e55b9d5-73a3-4a3c-9581-968adb9d3847",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -599,10 +671,169 @@
           "content": [
             {
               "type": "text",
-              "text": "【真结局 · 星轨之约】十年后的今晚，请准时抬头。",
+              "text": "十年后。英仙座极大。天文台的门没锁——钥匙挂在门边，谁都能上去。",
               "styles": {}
             }
           ]
+        },
+        {
+          "id": "637366f8-1c27-49eb-aef8-afd3d24426c4",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "粉笔圈旁边，多了一行新的粉笔字：",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "87aaf790-ec1e-4e68-aae4-d6c83a3f6f85",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「部员二号，归队。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "cc63e35e-ce25-4fe0-9c89-b3a4d040f42e",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "她站在圈里，白发垂肩，朝我伸出小指。最后一个字，她说完了。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "6f9a4b78-0e87-4329-b7e5-95d7465b9767",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "那一晚，只有这所学校的上空，下了一场流星雨。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "f6b26120-62d6-4997-a17b-0ad3d50c5cec",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "【真结局 · 星轨之约】",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "endings_unlocked",
+            "op": "add",
+            "aKind": "variable",
+            "aLit": "",
+            "aVar": "endings_unlocked",
+            "bKind": "literal",
+            "bLit": "1",
+            "bVar": "",
+            "binOp": ""
+          },
+          "id": "bbfef0df-7512-4fb9-88ef-64200e180073"
+        },
+        {
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "play_count",
+            "op": "add",
+            "aKind": "variable",
+            "aLit": "",
+            "aVar": "play_count",
+            "bKind": "literal",
+            "bLit": "1",
+            "bVar": "",
+            "binOp": ""
+          },
+          "id": "01475b53-3520-4f12-ad59-6eed0e91c610"
+        },
+        {
+          "id": "c76f89db-8069-43af-a200-03d44ee6883b",
+          "type": "returnToEntry",
+          "props": {
+            "disabled": false
+          }
         }
       ]
     },
@@ -907,7 +1138,103 @@
           "id": "251c540c-de50-4b6c-b75f-6e7b63062470"
         },
         {
-          "id": "6193603d-8690-499a-861e-4b161a105559",
+          "id": "9bf05a60-9fbb-42a7-a34c-3e37bcc6e54a",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "后来的每年八月十三日，天台上都会落下一颗轨迹奇怪的流星——全城的流星都往东南飞，只有这一颗，拐个弯，朝天文台来。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "5dbe2d3d-8f84-4621-959d-68abfde7be5b",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "没有寄件人的明信片，一年一张，字迹十年不老。最后一年只写了一句：",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "674aa690-40a6-4048-850c-c6dc68f78942",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「剩下的半张星图，拼好了吗？」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "9229cbf8-bb98-452e-98b2-bff903ba75d7",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "我把两半拼起来。对着的那片天，正是那颗流星每年落下的位置——英仙座里，缺掉的那一颗。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "f1f7fd88-e258-4feb-a17c-b6f9c6d2bdd6",
           "type": "scene",
           "props": {
             "disabled": false,
@@ -947,7 +1274,7 @@
           }
         },
         {
-          "id": "7aad2470-13c7-4534-8c54-f6f625bbe8d1",
+          "id": "f14264c3-dcb2-42ca-81da-dc3043192b4a",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -965,10 +1292,49 @@
           "content": [
             {
               "type": "text",
-              "text": "【普通结局 · 远方来信】此后每年流星雨，邮箱里都会有一张盖着札幌邮戳的明信片。",
+              "text": "【普通结局 · 每年多出来的一颗星】",
               "styles": {}
             }
           ]
+        },
+        {
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "endings_unlocked",
+            "op": "add",
+            "aKind": "variable",
+            "aLit": "",
+            "aVar": "endings_unlocked",
+            "bKind": "literal",
+            "bLit": "1",
+            "bVar": "",
+            "binOp": ""
+          },
+          "id": "7a2dbba4-16c8-40dc-98ba-6009a9a073c8"
+        },
+        {
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "play_count",
+            "op": "add",
+            "aKind": "variable",
+            "aLit": "",
+            "aVar": "play_count",
+            "bKind": "literal",
+            "bLit": "1",
+            "bVar": "",
+            "binOp": ""
+          },
+          "id": "7c0fe998-9785-4ab2-92a8-21d37238df96"
+        },
+        {
+          "id": "c91f735f-744e-4840-896c-005bdd578575",
+          "type": "returnToEntry",
+          "props": {
+            "disabled": false
+          }
         }
       ]
     },
@@ -1943,6 +2309,799 @@
               "styles": {}
             }
           ]
+        },
+        {
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "endings_unlocked",
+            "op": "add",
+            "aKind": "variable",
+            "aLit": "",
+            "aVar": "endings_unlocked",
+            "bKind": "literal",
+            "bLit": "1",
+            "bVar": "",
+            "binOp": ""
+          },
+          "id": "5fec000a-f584-4ca5-8f8e-bde2515f6a2b"
+        },
+        {
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "play_count",
+            "op": "add",
+            "aKind": "variable",
+            "aLit": "",
+            "aVar": "play_count",
+            "bKind": "literal",
+            "bLit": "1",
+            "bVar": "",
+            "binOp": ""
+          },
+          "id": "1968fd4a-0f32-49e2-abdf-d7c6e18ee9f5"
+        },
+        {
+          "id": "57b4e062-5611-443a-b3bd-3d07b0be3ace",
+          "type": "returnToEntry",
+          "props": {
+            "disabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "127ddc8d-1b06-44c3-a6a7-0b6375039937",
+      "name": "葵线_正午的信号",
+      "blocks": [
+        {
+          "id": "afe9e1cc-256f-4e23-841f-c44cf862b462",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-cafe",
+            "sceneName": "咖啡厅",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "4a2fb687-ec16-4c1e-899f-09c1df7bd305",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "文化祭特番的稿子，她改到第七版还是念不顺。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "39e39608-559d-43df-826d-a97f0cd472c2",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-aoi",
+            "characterName": "日向葵",
+            "expression": "开心",
+            "position": "center",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「……不行，这段我自己都读不下去。」明明只是一封点歌信。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "9cedd885-bc1a-4b8f-b5ee-6c6398f42ed6",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-aoi",
+            "characterName": "日向葵",
+            "expression": "平静",
+            "position": "center",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「收信人是我小学同学。转学了。走之前我们说好，每年给对方写一封信。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "62678b7c-aecb-4345-9afe-7d9ed5ed538b",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-me",
+            "characterName": "我",
+            "expression": "平静",
+            "position": "left",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「然后呢？」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "f7eef9ca-bfca-4593-ad56-cd6bbb42beba",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-aoi",
+            "characterName": "日向葵",
+            "expression": "害羞",
+            "position": "center",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「然后我一封都没写。」她笑得很用力，「写了就会被记住。被记住的话，走的人更难走。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "f460a02b-a7cb-46a7-9ad3-7fa72ea9f1ec",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "直播当晚。她在话筒前深呼吸了三次，把那封信念完了——念给十年前的自己，也念给那个转走的人。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "a8bfb42d-e946-44fe-b551-cbcac4b4ffa7",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "最后一首歌放完，她说：「本台预报员日向葵，向所有没能说出口的约定，道一声——顺风。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "72526d05-af95-469a-a5ad-1568f236d5e9",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-fin-normal",
+            "sceneName": "普通结局",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "c26e6468-3a41-497a-823a-1f81e13b2959",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "一周后，传达室多了一封信。隔壁市的邮戳。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "ba8f92f0-df98-41ac-af42-c2f31baee7bd",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「你的歌，我收到了。这次换我先写。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "f440ba18-11fc-45de-bb27-364be6b09f83",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "【葵结局 · 正午的信号】",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "endings_unlocked",
+            "op": "add",
+            "aKind": "variable",
+            "aLit": "",
+            "aVar": "endings_unlocked",
+            "bKind": "literal",
+            "bLit": "1",
+            "bVar": "",
+            "binOp": ""
+          },
+          "id": "bde32ba9-1b40-44b0-ba98-7722df3cd098"
+        },
+        {
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "play_count",
+            "op": "add",
+            "aKind": "variable",
+            "aLit": "",
+            "aVar": "play_count",
+            "bKind": "literal",
+            "bLit": "1",
+            "bVar": "",
+            "binOp": ""
+          },
+          "id": "76fe12d9-a303-40a1-9e4c-b05e53b7a653"
+        },
+        {
+          "id": "c232f973-d74b-424d-8af9-bd8d3ad49488",
+          "type": "returnToEntry",
+          "props": {
+            "disabled": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "fe0019e5-85c0-4219-ae45-b7c28d760f8f",
+      "name": "深月线_编年史最终章",
+      "blocks": [
+        {
+          "id": "999a3372-582f-4cf2-81f7-edba1658bd1f",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-library",
+            "sceneName": "图书馆",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "b5474a6e-fb73-443e-9d5e-e0543d6e6408",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "档案整理到第三夜。1994 年的合影，和祖母的日记，摆在一起。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "693b9732-aef6-4dac-8ca9-b5cdd626e3fe",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-mizuki",
+            "characterName": "深月",
+            "expression": "平静",
+            "position": "center",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「我奶奶，是天文部的。最后一批。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "e32934e5-c747-417d-bc0d-e5553fd83748",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "日记里写：她们约好了第二年一起看流星雨。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "98efba2b-aba0-4aa6-824b-4c6f09139381",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-mizuki",
+            "characterName": "深月",
+            "expression": "平静",
+            "position": "center",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「部员二号，没能来。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "5c3ab404-4660-4965-898f-b78315ab6851",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "日记到那一页就停了。后面夹着一张没寄出的便签。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "ff050ab5-898f-4590-852a-88a60863564e",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "而那本 27 页的观测日志——我借给她复印的那份——越往后翻，字迹越陌生。像很多年前的笔迹。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "c70d258b-42a2-468e-84df-a2bc920aee4b",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-mizuki",
+            "characterName": "深月",
+            "expression": "平静",
+            "position": "center",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「博客的最终章，我想写她。可是奶奶到最后，也没写出她叫什么。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "ab9772eb-20b6-4032-b10d-54da89d200bf",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-fin-true",
+            "sceneName": "真结局",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "9c038733-8ad7-4cec-8d3f-f379a2908162",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "最终章发出去的当晚。标题五个字：「部员二号，找到了」。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "fdebdec7-23c3-402b-9672-0b0495d7be56",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "没有人知道那是什么意思。包括我。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "066ddba8-5723-4e6f-b263-d0d14d2805ac",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "只是那天夜里，天文台的方向，一颗流星拐了个弯。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "e45afd57-d412-4bbf-bb6a-9ea928f3714d",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "【深月结局 · 编年史最终章】",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "endings_unlocked",
+            "op": "add",
+            "aKind": "variable",
+            "aLit": "",
+            "aVar": "endings_unlocked",
+            "bKind": "literal",
+            "bLit": "1",
+            "bVar": "",
+            "binOp": ""
+          },
+          "id": "fe171a8c-1b5b-4e47-a7b6-4161813627a1"
+        },
+        {
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "play_count",
+            "op": "add",
+            "aKind": "variable",
+            "aLit": "",
+            "aVar": "play_count",
+            "bKind": "literal",
+            "bLit": "1",
+            "bVar": "",
+            "binOp": ""
+          },
+          "id": "395bdb3f-7d18-43db-b441-0257eb756c60"
+        },
+        {
+          "id": "71afa774-65c8-4db2-8a05-87e75264d8fc",
+          "type": "returnToEntry",
+          "props": {
+            "disabled": false
+          }
         }
       ]
     }

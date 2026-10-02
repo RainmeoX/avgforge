@@ -119,6 +119,30 @@
           ]
         },
         {
+          "id": "82e075e6-407d-4ed0-a3cb-56deaac41c2a",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-ritu",
+            "characterName": "柏木律",
+            "expression": "平静",
+            "position": "center",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「天文台使用记录连续三年为零，属应废部项。有异议，三十天内提交成果。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
           "id": "295b67b0-2add-4f44-afdb-35c280883e1b",
           "type": "narration",
           "props": {
@@ -186,6 +210,142 @@
             {
               "type": "text",
               "text": "我把通知单折了两折塞进口袋，折口对着折口，像给什么东西提前收殓。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "807b1bcf-1fff-4048-acba-2c157b7346aa",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-cafe",
+            "sceneName": "部室",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "66734a28-817e-4176-99f2-4f1be4a12021",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "天文部的部室，是天文台楼下的小间。墙上钉着一张 1994 年的合影——最后一批部员，一共五个人。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "03a8bfd8-77b6-445a-875a-2ae611936097",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "角落里站着一个白头发的女孩。照片褪了色，可那头白发，褪得干干净净。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "464194d5-9fa5-4574-9046-37e568b3324c",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "部员名单一共五行，第四行被水渍晕开，只剩「星野——」两个字的一半。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "1533f1b4-0d70-47da-be0d-92dbc84195ff",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "……巧了。和昨晚在天台上自称「部员二号」的那家伙，一个姓。",
               "styles": {}
             }
           ]

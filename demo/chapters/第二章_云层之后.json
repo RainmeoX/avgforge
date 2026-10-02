@@ -557,6 +557,190 @@
               "styles": {}
             }
           ]
+        },
+        {
+          "id": "cd47c460-9efd-4dc5-b4ac-61f91f572106",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-hallway",
+            "sceneName": "走廊",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "f78cada9-ee88-41f7-984d-a03d2902280e",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "第三十天倒计时三天。布告栏上的「限期交还」换成了红色的一张——第三张了。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "dc61dff5-2720-4cc8-92f5-735c124af948",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-ritu",
+            "characterName": "柏木律",
+            "expression": "平静",
+            "position": "center",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「成果提交窗口，还剩七十二小时。逾期，视同放弃。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "ce2161a2-1420-479c-b7c1-daf16e0e9cde",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "夕阳里，两个「顺便」找上我。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "acfcf533-f068-48ff-8dd1-b44308d62318",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-aoi",
+            "characterName": "日向葵",
+            "expression": "开心",
+            "position": "center",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「文化祭特番缺搭档！就你！会念稿的那种！」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "0915c27b-2b1f-413b-ad8f-ec1f65ffc964",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-mizuki",
+            "characterName": "深月",
+            "expression": "平静",
+            "position": "center",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「……档案室。1994 年的。要整理。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "db2e8cbe-9480-4460-8906-9deadca5137d",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "一边是陪广播部录节目，一边是陪图书委员翻旧账。而天文台的纸箱里，还躺着没写完的日志。",
+              "styles": {}
+            }
+          ]
         }
       ]
     }

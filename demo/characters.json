@@ -128,6 +128,26 @@
       "attributeValues": {
         "好感度": 0
       }
+    },
+    {
+      "id": "char-aoi",
+      "name": "日向葵",
+      "expressions": []
+    },
+    {
+      "id": "char-mizuki",
+      "name": "深月",
+      "expressions": []
+    },
+    {
+      "id": "char-tetu",
+      "name": "阿铁",
+      "expressions": []
+    },
+    {
+      "id": "char-ritu",
+      "name": "柏木律",
+      "expressions": []
     }
   ]
 }

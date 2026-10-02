@@ -183,6 +183,78 @@
           ]
         },
         {
+          "id": "38b0b486-51e3-4b55-883b-0add8554ebbe",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "正午的广播准时响起：「午间预报——今夜多云，观星的各位死心吧☆」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "83836043-ba4d-41b9-aadd-68682b92797d",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "天台上，星野朝着广播塔喊：「报错了——！今晚肯定晴天！」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "3a79d128-e56c-4fb6-86b9-4d7739b9b4e8",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "广播切回音乐。听说那是广播部的日向葵，全校嗓门最大的天气预报员。",
+              "styles": {}
+            }
+          ]
+        },
+        {
           "id": "8b341e5d-423d-4872-b21b-4cf9ce47c270",
           "type": "narration",
           "props": {
@@ -683,6 +755,54 @@
           ]
         },
         {
+          "id": "4cf33400-856e-421d-9e82-a222ee70192f",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "图书委员深月路过，一句话没说，从书架顶层抽出一本没人借过的年鉴，翻到折角那页递过来，走了。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "778b5585-8866-4b08-bf04-c8d12a077f60",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "正是英仙座那页。折角，是很多年前折的。",
+              "styles": {}
+            }
+          ]
+        },
+        {
           "id": "d2390f35-6cfd-4405-9713-493bcaa66cd0",
           "type": "dialogue",
           "props": {
@@ -932,6 +1052,102 @@
             {
               "type": "text",
               "text": "她把照片举过头顶对着太阳看，好像那样就能把它烤进眼睛里。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "2ea2a306-2288-4273-8d0f-10797158a9ad",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-hoshino",
+            "characterName": "星野",
+            "expression": "开心",
+            "position": "right",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「对了！跟这张照片合个影吧，第一颗星作证！」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "76025254-84b5-4860-a40e-5b17081f259c",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "快门按下。取景框里，她的轮廓糊成一团柔光，像没对上焦。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "74813d10-9b70-4c35-a0c6-11ccbb07505f",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "重拍三次，三次都糊。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "f61033fd-0f43-483e-a9b5-ed707bcd6269",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-hoshino",
+            "characterName": "星野",
+            "expression": "平静",
+            "position": "right",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「奇怪～相机大概拍不出我哦。」她说得理直气壮，「没关系，用眼睛存档就好。」",
               "styles": {}
             }
           ]
