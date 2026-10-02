@@ -1,0 +1,942 @@
+{
+  "id": "8dd1cdd9-449d-4d54-b318-31777cbb9e15",
+  "name": "第一章_三十天",
+  "fragments": [
+    {
+      "id": "f5ec6cd7-4b39-4022-903d-c0e2ee55b462",
+      "name": "main",
+      "blocks": [
+        {
+          "id": "13111c45-b16f-4d81-a7e6-81b33ef7a868",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-gate",
+            "sceneName": "校门",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "423e2eda-f13d-44c1-b71b-fd10052ada17",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "第二天早上，她在校门口等我，书包上挂了个自制的「天文部部员二号」铭牌。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "08c73f12-25ef-4a1f-963f-6b31c15c21b3",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "三十天，说长不长。她的「报到」变成每天放学雷打不动的动静。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "fedd6a0b-667f-477f-8209-54404091c48a",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-hallway",
+            "sceneName": "走廊",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "984cbeeb-9302-4b2d-bbf1-2d9d5934a3c1",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-hoshino",
+            "characterName": "星野",
+            "expression": "开心",
+            "position": "right",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「管理员先生！赤道仪的说明书我看不懂，第三页那个图，像一只趴着的猫！」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "f674b311-bc4a-471d-a617-ca218b4ac8ab",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-me",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「那叫极轴镜。放学教你。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "8b341e5d-423d-4872-b21b-4cf9ce47c270",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "第一个周末，麻烦一起来了：追踪电机卡了壳，星图恰好缺了英仙座那页。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "dc5a789a-d7da-4d16-83df-afcffb9694ea",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-hoshino",
+            "characterName": "星野",
+            "expression": "平静",
+            "position": "right",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「兵分两路，还是孤军奋战？」",
+              "styles": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "375613f2-e93d-41af-8988-42729241d941",
+      "name": "分岔后",
+      "blocks": [
+        {
+          "id": "c37346a8-576e-4201-8739-7f00dab67f7c",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-river",
+            "sceneName": "河堤",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "c33caeb0-d9f4-4aa9-89cf-a4d1786dff67",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "第十个傍晚，新配的电机在河堤上试转。晚风把她的观测日志吹得哗哗响。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "ab3afd4f-fcf3-43c0-884f-57a64599ed6d",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-hoshino",
+            "characterName": "星野",
+            "expression": "平静",
+            "position": "right",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「你有没有想过，十年后的自己，会在哪里？」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "c9b3eb60-a2d9-4ec2-9b6e-f75750e2ba72",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-me",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「……先把这三十天过完再说。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "1ffc4225-7948-4775-8964-2c501819531e",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-hoshino",
+            "characterName": "星野",
+            "expression": "开心",
+            "position": "right",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「真没出息～」她笑得很大声，然后自己望着河面，发了很久很久的呆。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "880b63e0-9442-4ea1-982e-4d7ea393b734",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "夕阳把河水烧成一条金线。我第一次觉得，三十天这个期限，有点短。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "c55c1c1b-68df-42be-b144-76e1933ceefc",
+          "type": "branch",
+          "props": {
+            "disabled": false,
+            "branchId": "346de2a4-1bd0-401a-9d36-5ad7b60772ba",
+            "title": "午休分岔（回溯）",
+            "choices": "[{\"mode\": \"jump\", \"text\": \"（回忆）去商店街那天\", \"fragmentId\": \"dc79d5e2-082b-4956-859d-114b3132715d\"}, {\"mode\": \"jump\", \"text\": \"（回忆）去图书馆那天\", \"fragmentId\": \"e9ec15a0-1834-42e9-b2a5-713ae94fad97\"}]"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dc79d5e2-082b-4956-859d-114b3132715d",
+      "name": "修电机",
+      "blocks": [
+        {
+          "id": "27da4f3e-115c-407a-8faf-b3c400db2599",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-street",
+            "sceneName": "商店街",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "d868dfaf-1a3e-4b6c-bef0-8fc32b323fb4",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "电料行的老板翻遍了半个仓库，才从一堆旧收音机里扒出一颗能用的齿轮。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "24c69316-be7c-4f49-b39d-8b9a5964b3bd",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-me",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「就这个。多少钱？」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "6ea16352-220f-462b-aa71-6ad8e50d6bb6",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-hoshino",
+            "characterName": "星野",
+            "expression": "开心",
+            "position": "right",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「老板说我们像来踢馆的。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "91fe6a9d-12f2-41ad-9e9c-ba26370f4cbf",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "回去的电车上，她用校服袖子垫着那颗齿轮，捧了一路，像捧着一颗会转的心脏。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "46e6d2e6-ac5f-4481-ba96-d838ff3bfecf",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-hoshino",
+            "characterName": "星野",
+            "expression": "害羞",
+            "position": "right",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「谢礼！」收工时她塞给我一瓶弹珠汽水，「喝完弹珠要还我。这，也算约定。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "trust",
+            "op": "add",
+            "aKind": "variable",
+            "aLit": "",
+            "aVar": "trust",
+            "bKind": "literal",
+            "bLit": "1",
+            "bVar": "",
+            "binOp": ""
+          },
+          "id": "666ec4bf-383a-4e35-963b-3ee15a574121"
+        },
+        {
+          "id": "1ad381f6-dd88-4c0c-8c8f-280320ae578c",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "弹珠在瓶底叮当响。我把汽水喝完，把弹珠揣进了校服口袋。",
+              "styles": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e9ec15a0-1834-42e9-b2a5-713ae94fad97",
+      "name": "查星图",
+      "blocks": [
+        {
+          "id": "abea1e85-7e08-434e-a4c9-0533263943e5",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-library",
+            "sceneName": "图书馆",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "9a288867-10c6-4eac-a3a7-8c5b3f1ca318",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "图书馆顶层，旧天文年鉴的合订本积着十年的灰。她踮着脚，一页一页往下翻。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "d2390f35-6cfd-4405-9713-493bcaa66cd0",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-hoshino",
+            "characterName": "星野",
+            "expression": "开心",
+            "position": "right",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「找到了！英仙座——神话里是英雄柏修斯，拎着美杜莎的头。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "c73a108d-825f-4fbe-b1f7-9bc62d71ab95",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-me",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「你查得比我还快。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "630e0258-7457-428b-8763-28144c3171ad",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-hoshino",
+            "characterName": "星野",
+            "expression": "平静",
+            "position": "right",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「因为我想快点知道，我们要看的是一个什么样的故事。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "2bf9b7a6-f042-4287-bc11-32b382b38f50",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "她把那页复印了两份，一人一张。纸边裁得歪歪的，但英仙座用红笔描过。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "type": "setver",
+          "props": {
+            "disabled": false,
+            "key": "memories",
+            "op": "add",
+            "aKind": "variable",
+            "aLit": "",
+            "aVar": "memories",
+            "bKind": "literal",
+            "bLit": "1",
+            "bVar": "",
+            "binOp": ""
+          },
+          "id": "daaac395-4b44-4d63-814a-67f7bce364b6"
+        }
+      ]
+    },
+    {
+      "id": "95997aae-db38-4979-b7c3-dbfcc4cf589b",
+      "name": "测试成功",
+      "blocks": [
+        {
+          "id": "d579a6d5-9a80-486a-aa1a-a1af455eaf49",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-rooftop",
+            "sceneName": "天台",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "02602a68-eef6-4099-ac9d-74cea5a2f65d",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "第二十天。电机归位，第一张测试曝光成功。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "f35d2ad1-aeae-4d4f-95ad-9e29b74b063c",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "猎户座的腰带，在取景框里连成一条微微发抖的线。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "aab46526-2dc7-4526-8a9b-7dc51b246500",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-hoshino",
+            "characterName": "星野",
+            "expression": "开心",
+            "position": "right",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": true,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「拍到了！我们的——第一颗星！」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "63e0ed28-9010-4bfd-a172-825cfcac1cad",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "她把照片举过头顶对着太阳看，好像那样就能把它烤进眼睛里。",
+              "styles": {}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

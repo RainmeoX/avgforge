@@ -1,18 +1,66 @@
 {
-  "id": "cd5568c0-86db-46f7-a04e-1ca36973c38c",
-  "name": "开始",
+  "id": "c0379083-4d73-4323-af8d-afa8058df2ee",
+  "name": "第二章_云层之后",
   "fragments": [
     {
-      "id": "349088c9-6963-4a72-bf07-565e973a39a5",
+      "id": "81a65596-8370-4e37-b5d5-79725c386721",
       "name": "main",
       "blocks": [
         {
-          "id": "97b70af4-a5e2-4ec5-b567-688a9ce074ed",
+          "id": "7e91a86b-1fae-4057-b20f-f63ea2d2855f",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "入梅。天空像被人拉上了一层永远洗不干净的灰窗帘。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "e2885f38-90cb-4707-abca-15b175d53274",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "连续十四天，一颗星都看不见。观测日志，停在第二十一页。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "875ba636-e482-4b53-b298-cf7364a8fa3e",
           "type": "scene",
           "props": {
             "disabled": false,
-            "sceneId": "scene-classroom",
-            "sceneName": "教室",
+            "sceneId": "scene-cafe",
+            "sceneName": "咖啡厅",
             "uri": "",
             "autoAddToGallery": "true",
             "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
@@ -47,7 +95,7 @@
           }
         },
         {
-          "id": "5bb82b33-1a9a-4367-9d85-a365b16a1647",
+          "id": "360ae579-dda2-445a-afb9-c76f56131126",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -65,95 +113,23 @@
           "content": [
             {
               "type": "text",
-              "text": "六月。期末考前最后一场班会，教室里弥漫着粉笔灰和风油精的味道。",
+              "text": "放学路上被暴雨拦住。我们挤进一家只有四张桌子的咖啡厅，两杯热可可，谁也没提走的事。",
               "styles": {}
             }
           ]
         },
         {
-          "id": "2dfa5bfd-4b44-48c8-a696-8a0ac9c24fc6",
-          "type": "narration",
-          "props": {
-            "disabled": false,
-            "keepDialogue": true,
-            "voiceHash": "",
-            "voiceBlip": false,
-            "voiceBlipPreset": "",
-            "voiceBlipWaveform": "triangle",
-            "voiceBlipBaseFrequencyHz": 340,
-            "voiceBlipPitchRangeSemitones": 2.4,
-            "voiceBlipDurationMs": 48,
-            "voiceBlipVolume": 55,
-            "voiceBlipMinIntervalMs": 42
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "班长念到第三页的时候，那种「跟我没关系」的低低的骚动，停了一拍。",
-              "styles": {}
-            }
-          ]
-        },
-        {
-          "id": "fa2fbaa9-d5fc-440b-990d-9bd73fcf92fd",
-          "type": "narration",
-          "props": {
-            "disabled": false,
-            "keepDialogue": true,
-            "voiceHash": "",
-            "voiceBlip": false,
-            "voiceBlipPreset": "",
-            "voiceBlipWaveform": "triangle",
-            "voiceBlipBaseFrequencyHz": 340,
-            "voiceBlipPitchRangeSemitones": 2.4,
-            "voiceBlipDurationMs": 48,
-            "voiceBlipVolume": 55,
-            "voiceBlipMinIntervalMs": 42
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "「——天文部，三十天后正式废除。天文台钥匙，由负责人限期交还学生会。」",
-              "styles": {}
-            }
-          ]
-        },
-        {
-          "id": "295b67b0-2add-4f44-afdb-35c280883e1b",
-          "type": "narration",
-          "props": {
-            "disabled": false,
-            "keepDialogue": true,
-            "voiceHash": "",
-            "voiceBlip": false,
-            "voiceBlipPreset": "",
-            "voiceBlipWaveform": "triangle",
-            "voiceBlipBaseFrequencyHz": 340,
-            "voiceBlipPitchRangeSemitones": 2.4,
-            "voiceBlipDurationMs": 48,
-            "voiceBlipVolume": 55,
-            "voiceBlipMinIntervalMs": 42
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "全班哄笑了一声。天文部。连我一个，总共一个部员的天文部。",
-              "styles": {}
-            }
-          ]
-        },
-        {
-          "id": "82f6ef18-cf09-43c9-9bb1-c5523fcc031d",
+          "id": "b8341852-d1d0-4b9c-a5e7-5b1ceb3ff564",
           "type": "dialogue",
           "props": {
             "disabled": false,
-            "characterId": "char-me",
-            "characterName": "我",
-            "expression": "",
-            "position": "",
+            "characterId": "char-hoshino",
+            "characterName": "星野",
+            "expression": "平静",
+            "position": "right",
             "isFirst": false,
             "isLast": false,
-            "showCharacter": false,
+            "showCharacter": true,
             "keepCharacter": true,
             "keepDialogue": true,
             "voiceHash": "e4fbba57c192831252e165b47322dd3d"
@@ -161,101 +137,13 @@
           "content": [
             {
               "type": "text",
-              "text": "「……三十天。」",
+              "text": "「我妈以前说，流星其实是没说完的话。天上挂不住，就掉下来了。」",
               "styles": {}
             }
           ]
         },
         {
-          "id": "9b72e317-e182-43d9-bc23-dda1bce45cd1",
-          "type": "narration",
-          "props": {
-            "disabled": false,
-            "keepDialogue": true,
-            "voiceHash": "",
-            "voiceBlip": false,
-            "voiceBlipPreset": "",
-            "voiceBlipWaveform": "triangle",
-            "voiceBlipBaseFrequencyHz": 340,
-            "voiceBlipPitchRangeSemitones": 2.4,
-            "voiceBlipDurationMs": 48,
-            "voiceBlipVolume": 55,
-            "voiceBlipMinIntervalMs": 42
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "我把通知单折了两折塞进口袋，折口对着折口，像给什么东西提前收殓。",
-              "styles": {}
-            }
-          ]
-        },
-        {
-          "id": "4329be7f-918a-463c-af3d-ac7efa3eaa30",
-          "type": "scene",
-          "props": {
-            "disabled": false,
-            "sceneId": "scene-rooftop",
-            "sceneName": "天台",
-            "uri": "",
-            "autoAddToGallery": "true",
-            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
-            "transitionMode": "fade",
-            "transitionDuration": "1000",
-            "transitionDirection": "",
-            "transitionStrips": "12",
-            "transitionRuleUri": "",
-            "transitionCenterX": "50",
-            "transitionCenterY": "50",
-            "transitionSoftness": "",
-            "transitionZoomScale": "1.14",
-            "transitionBlurStrength": "16",
-            "transitionMosaicSize": "52",
-            "transitionGlitchStrength": "100",
-            "transitionGlitchColorShift": "4.5",
-            "transitionGlitchScanlines": "17",
-            "transitionPagePerspective": "50",
-            "transitionPageShadow": "38",
-            "waitForComplete": "false",
-            "resetCamera": "false",
-            "mouseParallaxEnabled": "false",
-            "mouseParallaxAmplitude": "4",
-            "mouseParallaxEdgeEase": "0",
-            "mouseParallaxReturnOnLeave": "true",
-            "mouseParallaxScaleMode": "auto",
-            "mouseParallaxScale": "1.08",
-            "displayType": "cover",
-            "position": "(50%,50%)",
-            "anchor": "center",
-            "size": ""
-          }
-        },
-        {
-          "id": "edbac19b-3991-4679-be7c-98ac99b18d31",
-          "type": "narration",
-          "props": {
-            "disabled": false,
-            "keepDialogue": true,
-            "voiceHash": "",
-            "voiceBlip": false,
-            "voiceBlipPreset": "",
-            "voiceBlipWaveform": "triangle",
-            "voiceBlipBaseFrequencyHz": 340,
-            "voiceBlipPitchRangeSemitones": 2.4,
-            "voiceBlipDurationMs": 48,
-            "voiceBlipVolume": 55,
-            "voiceBlipMinIntervalMs": 42
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "放学后我没回家，抱着用了三年的钥匙上顶楼。然后发现——本该锁着的天台门，开着。",
-              "styles": {}
-            }
-          ]
-        },
-        {
-          "id": "f26566a5-ece2-44de-89e6-898c82a18c85",
+          "id": "e0fa1b63-307b-4118-8a8b-5b70fc0a0818",
           "type": "dialogue",
           "props": {
             "disabled": false,
@@ -263,7 +151,7 @@
             "characterName": "星野",
             "expression": "害羞",
             "position": "right",
-            "isFirst": true,
+            "isFirst": false,
             "isLast": false,
             "showCharacter": true,
             "keepCharacter": true,
@@ -273,37 +161,13 @@
           "content": [
             {
               "type": "text",
-              "text": "「……啊。被发现了。」",
+              "text": "「所以啊——想说的话，要趁看得见星星的时候说完哦。」",
               "styles": {}
             }
           ]
         },
         {
-          "id": "7c968200-c2b3-4706-91b4-175360d83af0",
-          "type": "narration",
-          "props": {
-            "disabled": false,
-            "keepDialogue": true,
-            "voiceHash": "",
-            "voiceBlip": false,
-            "voiceBlipPreset": "",
-            "voiceBlipWaveform": "triangle",
-            "voiceBlipBaseFrequencyHz": 340,
-            "voiceBlipPitchRangeSemitones": 2.4,
-            "voiceBlipDurationMs": 48,
-            "voiceBlipVolume": 55,
-            "voiceBlipMinIntervalMs": 42
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "水塔的阴影里坐着个女生。白头发被风吹得乱七八糟，像一团没拧好的月光。",
-              "styles": {}
-            }
-          ]
-        },
-        {
-          "id": "35291d6f-19c4-43c7-a3aa-6c8cb2d3bafe",
+          "id": "43729672-a2a5-4059-8e4d-2bcb1d13d863",
           "type": "dialogue",
           "props": {
             "disabled": false,
@@ -321,13 +185,13 @@
           "content": [
             {
               "type": "text",
-              "text": "「这里平时不上人。你，怎么进来的？」",
+              "text": "「那你有什么想说的？」",
               "styles": {}
             }
           ]
         },
         {
-          "id": "160d08dd-6b91-480b-8f76-40d9a7cffe75",
+          "id": "be0bd1e6-7975-478e-bcdc-aa22b55b1433",
           "type": "dialogue",
           "props": {
             "disabled": false,
@@ -345,13 +209,13 @@
           "content": [
             {
               "type": "text",
-              "text": "「嘿嘿，商业机密～」她拍拍身边的地面，「坐吧，管理员先生。猎户座马上就出来了。」",
+              "text": "「秘密～等流星雨那天，一口气说给你。」",
               "styles": {}
             }
           ]
         },
         {
-          "id": "f04e04ca-1c7d-464b-84f8-4a211956da89",
+          "id": "15283b7e-8346-45e5-9037-d3999ac3160e",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -369,13 +233,261 @@
           "content": [
             {
               "type": "text",
-              "text": "我鬼使神差地坐下了。水泥地还留着白天晒过的余温。",
+              "text": "玻璃上的雨把街灯拉成一条条光的毛线。她用指尖在雾气上画了一个五角星，又一个。",
               "styles": {}
             }
           ]
         },
         {
-          "id": "e74ce12b-f090-4899-b2c6-90fb71fd6265",
+          "id": "cc22a8db-9b50-4d36-91ae-c91b3ea3ffa0",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-ground",
+            "sceneName": "操场",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "513be599-2870-4138-96b3-d270a114a174",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "第二十六天。难得的云隙，操场边一阵妖风，把她的观测日志吹散了页。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "13b42fdf-84fd-4d5e-8dfc-3c3e49db5388",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "我追着纸页跑，替她按住最后一张——一张折了三折的表格。「转学确认书」。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "5a68d7fa-dd58-488c-928a-1db543765875",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "北海道，札幌市。监护人签名栏，空着。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "b9651f9f-174f-4d8c-bf38-518cfd15a0f6",
+          "type": "dialogue",
+          "props": {
+            "disabled": false,
+            "characterId": "char-me",
+            "characterName": "我",
+            "expression": "",
+            "position": "",
+            "isFirst": false,
+            "isLast": false,
+            "showCharacter": false,
+            "keepCharacter": true,
+            "keepDialogue": true,
+            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「……」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "33e4b0f1-3bcd-4623-bb46-564ea27c6771",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "我把纸压回她的日志里，装作什么都没看见。她接过去的时候，手指在封面上停了一下。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "4e325863-68f2-4839-9362-66369984bd92",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "谁也没有提这件事。风把这件事按回了纸页里。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "f56d37fb-eef1-47af-a275-c68c47d38d4b",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-park",
+            "sceneName": "公园",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "21e6b1ec-3556-458f-9d36-cc5d716689a9",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "第二十九天，云裂开一道缝。她拉着我，在第一颗星亮起来之前冲到了公园。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "183b4470-c336-4769-9228-e5c0b7cdb250",
           "type": "dialogue",
           "props": {
             "disabled": false,
@@ -393,43 +505,19 @@
           "content": [
             {
               "type": "text",
-              "text": "「你看，那三颗排成一条线的。到了冬天会斜着挂在天上，像一条滑梯。」",
+              "text": "「看。那颗星的光，是很多年以前发出的。也许它早就熄灭了——我们看到的，只是它出发时的样子。」",
               "styles": {}
             }
           ]
         },
         {
-          "id": "7cb7c480-cbd6-46fd-b892-f5ca24b368b6",
-          "type": "dialogue",
-          "props": {
-            "disabled": false,
-            "characterId": "char-me",
-            "characterName": "我",
-            "expression": "",
-            "position": "",
-            "isFirst": false,
-            "isLast": false,
-            "showCharacter": false,
-            "keepCharacter": true,
-            "keepDialogue": true,
-            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "「猎户座。你是天文部的？」",
-              "styles": {}
-            }
-          ]
-        },
-        {
-          "id": "a3ae3280-0c7c-42da-aa18-97e4a3b85b7a",
+          "id": "ffc40b6f-3105-44de-bc0e-090aa49fba18",
           "type": "dialogue",
           "props": {
             "disabled": false,
             "characterId": "char-hoshino",
             "characterName": "星野",
-            "expression": "开心",
+            "expression": "害羞",
             "position": "right",
             "isFirst": false,
             "isLast": false,
@@ -441,61 +529,13 @@
           "content": [
             {
               "type": "text",
-              "text": "「现在是了！部员二号，报到！」她敬了个完全不标准的礼，「顺便说，我是来找能装下约定的地方的。」",
+              "text": "「所以我才喜欢星星。它们特别守时。就算迟到，也是从很多年前就出发的那种守时。」",
               "styles": {}
             }
           ]
         },
         {
-          "id": "c5bbf06a-27bb-420d-b313-6210e65caecc",
-          "type": "dialogue",
-          "props": {
-            "disabled": false,
-            "characterId": "char-me",
-            "characterName": "我",
-            "expression": "",
-            "position": "",
-            "isFirst": false,
-            "isLast": false,
-            "showCharacter": false,
-            "keepCharacter": true,
-            "keepDialogue": true,
-            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "「约定？」",
-              "styles": {}
-            }
-          ]
-        },
-        {
-          "id": "dd27e6ba-b886-4022-aec0-3bf6d43c2e37",
-          "type": "dialogue",
-          "props": {
-            "disabled": false,
-            "characterId": "char-hoshino",
-            "characterName": "星野",
-            "expression": "平静",
-            "position": "right",
-            "isFirst": false,
-            "isLast": false,
-            "showCharacter": true,
-            "keepCharacter": true,
-            "keepDialogue": true,
-            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "「嗯。我妈说过——说出口的约定，会变成星星的轨道。就算人走散了，它也会自己绕回来。」",
-              "styles": {}
-            }
-          ]
-        },
-        {
-          "id": "2fe918b8-bf58-4243-905a-a79d6258bd9c",
+          "id": "bf0f25f3-6073-4cfc-b622-6e03d4ff103f",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -513,55 +553,7 @@
           "content": [
             {
               "type": "text",
-              "text": "三十天后，是英仙座流星雨的极大夜。我说，那晚天文台最后一次开放，要不要一起，把最后一份观测记录写完。",
-              "styles": {}
-            }
-          ]
-        },
-        {
-          "id": "4f881c40-cdd5-4519-8e23-4900f615a5c8",
-          "type": "dialogue",
-          "props": {
-            "disabled": false,
-            "characterId": "char-hoshino",
-            "characterName": "星野",
-            "expression": "开心",
-            "position": "right",
-            "isFirst": false,
-            "isLast": false,
-            "showCharacter": true,
-            "keepCharacter": true,
-            "keepDialogue": true,
-            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "「成交！这可是约定哦，管理员先生。」",
-              "styles": {}
-            }
-          ]
-        },
-        {
-          "id": "82b8b3ac-eea1-419f-8a18-19cc34bbf5d9",
-          "type": "narration",
-          "props": {
-            "disabled": false,
-            "keepDialogue": true,
-            "voiceHash": "",
-            "voiceBlip": false,
-            "voiceBlipPreset": "",
-            "voiceBlipWaveform": "triangle",
-            "voiceBlipBaseFrequencyHz": 340,
-            "voiceBlipPitchRangeSemitones": 2.4,
-            "voiceBlipDurationMs": 48,
-            "voiceBlipVolume": 55,
-            "voiceBlipMinIntervalMs": 42
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "她伸出小指。天还很亮，一颗星星都看不见。但那个约定，确实被说出口了。",
+              "text": "那天她说的每一句话，后来我都在脑海里抄写了很多遍。",
               "styles": {}
             }
           ]

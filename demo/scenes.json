@@ -5,52 +5,180 @@
       "id": "scene-classroom",
       "name": "教室",
       "layers": [
-        {"id": "layer-c1", "name": "背景", "assetPath": "backgrounds/部室关门.jpg", "distance": 1}
+        {
+          "id": "layer-classroom",
+          "name": "背景",
+          "assetPath": "backgrounds/校园AI/教室_白天.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "scene-hallway",
+      "name": "走廊",
+      "layers": [
+        {
+          "id": "layer-hallway",
+          "name": "背景",
+          "assetPath": "backgrounds/校园AI/走廊_午后.png",
+          "distance": 1
+        }
       ]
     },
     {
       "id": "scene-rooftop",
       "name": "天台",
       "layers": [
-        {"id": "layer-r1", "name": "云",     "assetPath": "backgrounds/LG02/LG02_云.png",       "distance": 14},
-        {"id": "layer-r2", "name": "山",     "assetPath": "backgrounds/LG02/LG02_山.png",       "distance": 10.5},
-        {"id": "layer-r3", "name": "树",     "assetPath": "backgrounds/LG02/LG02_树.png",       "distance": 7},
-        {"id": "layer-r4", "name": "房子",   "assetPath": "backgrounds/LG02/LG02_房子主体.png", "distance": 3.5},
-        {"id": "layer-r5", "name": "氛围",   "assetPath": "backgrounds/LG02/LG02_氛围.png",     "distance": 2},
-        {"id": "layer-r6", "name": "前景",   "assetPath": "backgrounds/LG02/LG02_前景植物.png", "distance": 5}
+        {
+          "id": "layer-rooftop",
+          "name": "背景",
+          "assetPath": "backgrounds/校园AI/天台.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "scene-gate",
+      "name": "校门",
+      "layers": [
+        {
+          "id": "layer-gate",
+          "name": "背景",
+          "assetPath": "backgrounds/校园AI/校门_春.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "scene-library",
+      "name": "图书馆",
+      "layers": [
+        {
+          "id": "layer-library",
+          "name": "背景",
+          "assetPath": "backgrounds/校园AI/图书馆.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "scene-park",
+      "name": "公园",
+      "layers": [
+        {
+          "id": "layer-park",
+          "name": "背景",
+          "assetPath": "backgrounds/校园AI/公园长椅.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "scene-street",
+      "name": "商店街",
+      "layers": [
+        {
+          "id": "layer-street",
+          "name": "背景",
+          "assetPath": "backgrounds/校园AI/商店街_白天.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "scene-cafe",
+      "name": "咖啡厅",
+      "layers": [
+        {
+          "id": "layer-cafe",
+          "name": "背景",
+          "assetPath": "backgrounds/校园AI/咖啡厅.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "scene-river",
+      "name": "河堤",
+      "layers": [
+        {
+          "id": "layer-river",
+          "name": "背景",
+          "assetPath": "backgrounds/校园AI/河堤_黄昏.png",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "scene-ground",
+      "name": "操场",
+      "layers": [
+        {
+          "id": "layer-ground",
+          "name": "背景",
+          "assetPath": "backgrounds/校园AI/操场_傍晚.png",
+          "distance": 1
+        }
       ]
     },
     {
       "id": "scene-starry",
-      "name": "星轨观测站",
+      "name": "流星雨之夜",
       "layers": [
-        {"id": "layer-s1", "name": "云",     "assetPath": "backgrounds/LG01/LG01_云.png",       "distance": 14},
-        {"id": "layer-s2", "name": "山",     "assetPath": "backgrounds/LG01/LG01_山.png",       "distance": 10.5},
-        {"id": "layer-s3", "name": "树",     "assetPath": "backgrounds/LG01/LG01_树.png",       "distance": 7},
-        {"id": "layer-s4", "name": "房子",   "assetPath": "backgrounds/LG01/LG01_房子主体.png", "distance": 3.5},
-        {"id": "layer-s5", "name": "氛围",   "assetPath": "backgrounds/LG01/LG01_氛围.png",     "distance": 2},
-        {"id": "layer-s6", "name": "前景",   "assetPath": "backgrounds/LG01/LG01_前景植物.png", "distance": 5}
+        {
+          "id": "layer-starry",
+          "name": "背景",
+          "assetPath": "backgrounds/nightartwork.jpg",
+          "distance": 1
+        }
       ]
     },
     {
-      "id": "scene-ending-true",
+      "id": "scene-station",
+      "name": "车站",
+      "layers": [
+        {
+          "id": "layer-station",
+          "name": "背景",
+          "assetPath": "backgrounds/车站匿名.jpg",
+          "distance": 1
+        }
+      ]
+    },
+    {
+      "id": "scene-fin-true",
       "name": "真结局",
       "layers": [
-        {"id": "layer-et1", "name": "背景", "assetPath": "backgrounds/LG06_主体.png", "distance": 1}
+        {
+          "id": "layer-fin-true",
+          "name": "背景",
+          "assetPath": "backgrounds/东京山上夜景.png",
+          "distance": 1
+        }
       ]
     },
     {
-      "id": "scene-ending-normal",
+      "id": "scene-fin-normal",
       "name": "普通结局",
       "layers": [
-        {"id": "layer-en1", "name": "背景", "assetPath": "backgrounds/东京全景.jpg", "distance": 1}
+        {
+          "id": "layer-fin-normal",
+          "name": "背景",
+          "assetPath": "backgrounds/东京全景.jpg",
+          "distance": 1
+        }
       ]
     },
     {
-      "id": "scene-ending-bad",
+      "id": "scene-fin-bad",
       "name": "Bad_End",
       "layers": [
-        {"id": "layer-eb1", "name": "背景", "assetPath": "backgrounds/LG04/LG04_夜晚关灯.jpg", "distance": 1}
+        {
+          "id": "layer-fin-bad",
+          "name": "背景",
+          "assetPath": "backgrounds/BG04033S.jpg",
+          "distance": 1
+        }
       ]
     }
   ],

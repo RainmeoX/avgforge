@@ -7,11 +7,36 @@
       "size": "(30%,30%)"
     },
     "positions": [
-      {"id": "left", "name": "左", "left": 2, "top": 2},
-      {"id": "center-left", "name": "中左", "left": 19, "top": 2},
-      {"id": "center", "name": "中", "left": 35, "top": 2},
-      {"id": "center-right", "name": "中右", "left": 55, "top": 2},
-      {"id": "right", "name": "右", "left": 68, "top": 2}
+      {
+        "id": "left",
+        "name": "左",
+        "left": 2,
+        "top": 2
+      },
+      {
+        "id": "center-left",
+        "name": "中左",
+        "left": 19,
+        "top": 2
+      },
+      {
+        "id": "center",
+        "name": "中",
+        "left": 35,
+        "top": 2
+      },
+      {
+        "id": "center-right",
+        "name": "中右",
+        "left": 55,
+        "top": 2
+      },
+      {
+        "id": "right",
+        "name": "右",
+        "left": 68,
+        "top": 2
+      }
     ],
     "defaultPositionId": "center",
     "defaultAnchor": "left_top"
@@ -30,11 +55,36 @@
       "id": "char-hoshino",
       "name": "星野",
       "expressions": [
-        {"name": "neutral",   "assetPath": "characters/真琴裤袜外套眼镜平静A.png"},
-        {"name": "happy",     "assetPath": "characters/真琴裤袜外套眼镜微笑A.png"},
-        {"name": "sad",       "assetPath": "characters/真琴裤袜外套眼镜闭眼A.png"},
-        {"name": "surprised", "assetPath": "characters/真琴裤袜外套眼镜惊讶A.png"},
-        {"name": "shy",       "assetPath": "characters/真琴裤袜外套眼镜害羞A.png"}
+        {
+          "name": "平静",
+          "assetPath": "characters/Hoshino/星野_平静A.png",
+          "avatarCrop": {
+            "x": 0.28,
+            "y": 0.07,
+            "w": 0.28,
+            "h": 0.13
+          }
+        },
+        {
+          "name": "开心",
+          "assetPath": "characters/Hoshino/星野_开心A.png",
+          "avatarCrop": {
+            "x": 0.28,
+            "y": 0.07,
+            "w": 0.28,
+            "h": 0.13
+          }
+        },
+        {
+          "name": "害羞",
+          "assetPath": "characters/Hoshino/星野_害羞A.png",
+          "avatarCrop": {
+            "x": 0.28,
+            "y": 0.07,
+            "w": 0.28,
+            "h": 0.13
+          }
+        }
       ],
       "defaultPosition": "right",
       "themeColor": {
@@ -42,16 +92,29 @@
         "fg": "#9f1239",
         "ring": "#ffb6d9"
       },
-      "graphics": {"size": "(100%,100%)"},
-      "attributeValues": {"好感度": 0}
+      "graphics": {
+        "size": "(100%,100%)"
+      },
+      "attributeValues": {
+        "好感度": 0
+      }
     },
     {
       "id": "char-me",
       "name": "我",
       "expressions": [
-        {"name": "neutral", "assetPath": "characters/影缝礼服平静A.png"},
-        {"name": "angry",   "assetPath": "characters/影缝礼服生气A.png"},
-        {"name": "serious", "assetPath": "characters/影缝礼服严肃A.png"}
+        {
+          "name": "neutral",
+          "assetPath": "characters/影缝礼服平静A.png"
+        },
+        {
+          "name": "angry",
+          "assetPath": "characters/影缝礼服生气A.png"
+        },
+        {
+          "name": "serious",
+          "assetPath": "characters/影缝礼服严肃A.png"
+        }
       ],
       "defaultPosition": "left",
       "themeColor": {
@@ -59,8 +122,12 @@
         "fg": "#1e40af",
         "ring": "#7fc8f8"
       },
-      "graphics": {"size": "(100%,100%)"},
-      "attributeValues": {"好感度": 0}
+      "graphics": {
+        "size": "(100%,100%)"
+      },
+      "attributeValues": {
+        "好感度": 0
+      }
     }
   ]
 }
