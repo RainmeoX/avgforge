@@ -190,6 +190,44 @@
       "id": "char-ritu",
       "name": "柏木律",
       "expressions": []
+    },
+    {
+      "id": "char-rei",
+      "name": "蓝川玲",
+      "expressions": [
+        {
+          "name": "毒舌",
+          "assetPath": "characters/Rei/蓝川玲_毒舌A.png",
+          "avatarCrop": {
+            "x": 0.28,
+            "y": 0.07,
+            "w": 0.28,
+            "h": 0.13
+          }
+        },
+        {
+          "name": "温柔",
+          "assetPath": "characters/Rei/蓝川玲_温柔A.png",
+          "avatarCrop": {
+            "x": 0.28,
+            "y": 0.07,
+            "w": 0.28,
+            "h": 0.13
+          }
+        }
+      ],
+      "defaultPosition": "right",
+      "themeColor": {
+        "bg": "#e9d5ff",
+        "fg": "#6b21a8",
+        "ring": "#c4b5fd"
+      },
+      "graphics": {
+        "size": "(100%,100%)"
+      },
+      "attributeValues": {
+        "好感度": 0
+      }
     }
   ]
 }
