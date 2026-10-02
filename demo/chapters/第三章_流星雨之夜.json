@@ -977,7 +977,7 @@
       "name": "沉默",
       "blocks": [
         {
-          "id": "2de0556b-e06d-4a63-a341-383fd15baa64",
+          "id": "ed98dd80-047a-455f-9047-bf59df231044",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -995,13 +995,13 @@
           "content": [
             {
               "type": "text",
-              "text": "我把观测日志递了过去。",
+              "text": "后来，夏天照常结束了。",
               "styles": {}
             }
           ]
         },
         {
-          "id": "0e284456-4fd9-449d-b817-07abe7600c2a",
+          "id": "104b5d8a-8d40-4a26-b55e-6211af92e75c",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -1019,37 +1019,13 @@
           "content": [
             {
               "type": "text",
-              "text": "她接住。指尖碰到我的手背，停了一秒。",
+              "text": "九月一号，开学典礼。会长在台上说「新学期、新气象」，我在台下走神，数礼堂天花板的吊灯——十一盏。天文台顶上那盏，坏了很多年，一直没人修。",
               "styles": {}
             }
           ]
         },
         {
-          "id": "f66d8dd2-049f-487a-b436-e740c212a0e8",
-          "type": "dialogue",
-          "props": {
-            "disabled": false,
-            "characterId": "char-hoshino",
-            "characterName": "星野",
-            "expression": "平静",
-            "position": "right",
-            "isFirst": false,
-            "isLast": false,
-            "showCharacter": true,
-            "keepCharacter": true,
-            "keepDialogue": true,
-            "voiceHash": "e4fbba57c192831252e165b47322dd3d"
-          },
-          "content": [
-            {
-              "type": "text",
-              "text": "「……这样啊。」",
-              "styles": {}
-            }
-          ]
-        },
-        {
-          "id": "46235f62-8666-4dae-86f0-85a31b30de57",
+          "id": "7ee2fc5f-3ba6-4176-a899-b7681b3cd1e2",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -1067,13 +1043,13 @@
           "content": [
             {
               "type": "text",
-              "text": "她低下头，一页，一页地翻。翻到最后一页的时候，流星雨正好到极大。",
+              "text": "观测日志我还是在写。每天一行，写完撕下来，夹进新的笔记本里。",
               "styles": {}
             }
           ]
         },
         {
-          "id": "c03ef923-7e5d-4a7e-8091-16334de0aa48",
+          "id": "c96c9983-d3cd-45b2-beb3-dcb2ee2b1c69",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -1091,13 +1067,653 @@
           "content": [
             {
               "type": "text",
-              "text": "有多少颗流星落下来，就有多少句话沉回肚子里。三十天，27 页。我们写了星星，写了齿轮，写了天气——唯独没写对方。",
+              "text": "写给谁，我没有细想。反正邮费是零，收件地址是天上。",
               "styles": {}
             }
           ]
         },
         {
-          "id": "e3a7c092-ba3e-4998-8516-793444fea6f8",
+          "id": "2e44f4eb-fd6e-4426-975f-76b5364a780d",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "十月中，学生会来电话，让我去办移交。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "1ce98bdd-c68a-4c4e-938b-ddbffa8908de",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "钥匙放到桌面上的时候，发出很轻的一声磕碰。我的手比想象中轻——原来交出去只需要半秒钟，三十天才用三秒。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "9d283df1-323c-4a89-a99a-33be752d6321",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "会长翻着文件说：「其实天文台呢，早晚也是要……」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "6a411198-bf1e-4e80-976d-20879ab3fa9c",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "我没听完。出门的时候走廊尽头的窗外，新生在操场上拍合影，喊茄子的声音隔着两层玻璃，闷闷的。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "70571dfd-e561-4bf4-8feb-6ee4da8b4ffb",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "十一月，天文台改造工程公示贴出来：储物间。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "a33bbfb3-b02f-4c9a-b28e-618251a5d33d",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "搬空的那天我去了。反正门开着，反正没人拦。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "4034afc7-96c9-484a-aa23-669ed2566d99",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "清点下来一共三样东西：一台望远镜，镜片起了霉点，像谁往星空上呵了一口气；两把摞起来的折叠椅；还有一个纸箱。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "466d5b28-3f75-4f1e-8c7a-a2ddb4fa5356",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "纸箱被破窗飘进来的雨泡过。27 页观测日志泡在里面，星野那份复印稿也在。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "054fda01-7832-4b6a-a5bb-1c01318142cd",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "字迹晕成了一片一片的云。第二十一天那页还认得出半句：「今日无云。」后面被水糊住了。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "181802c4-4061-428b-b386-2a4197934272",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "水泥地上，两个粉笔圆圈还在。保洁阿姨问我要不要擦掉，我说不用，就两个圈而已。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "a8733569-1cfe-478d-8ced-c7f334fe2037",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "我蹲在那儿看了很久。多久，没有概念。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "9a23d69c-1fd1-4010-91eb-147893551501",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "纸箱我抱回家了，塞在衣柜顶上，一放就是很多年。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "7e3e442a-f7e8-42a9-b85b-ebbaa52b2336",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "再打开它，是十年后的秋天。搬家的缘故。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "ac5e1a72-66d9-4a3b-82b7-fc6a7ae31cbd",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "日志最后一页的背面，贴着一张便利贴。蓝色的，边角卷了。字迹被水晕开了一半——",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "8c438d9d-f7ba-4b64-9ffa-83adc7a6b5e2",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「管理员先生：今天在流星雨下说的话，不是全部哦。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "67ab436c-888b-4437-9cce-2477a1835b68",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「等哪天我变成配得上说出口的大人，剩下的，我回来告诉你。——部员二号」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "a0eb7ab2-eb67-4740-8d61-e394626abc11",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "原来那晚的沉默，她读成了另一种意思。原来她本来打算回来再说。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "906826d4-ed6a-4f05-aa65-b8394143b17f",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "便签背面还有一行更小的字，笔迹淡得几乎看不见：",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "cc7920a2-9132-4b23-8629-918400ba5a4d",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「妈妈走的那年，英仙座也下雨。她说流星是没说完的话。那我想，只要十年后流星还下，就还来得及。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "60fa8691-4768-4e64-8b1d-04452f39ade9",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "想说的话要趁看得见星星的时候说完——她明明，把这句话亲手教给我了。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "a75b7de5-fa5b-4fd3-ae36-a8616c9928d4",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "而我把沉默，当成了体面。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "76814371-dae4-484f-8e52-02e51b576cc0",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "英仙座极大那天，正好是搬家的最后一晚。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "2e97cc64-dd97-4d80-93f9-0c452c6b9e4b",
+          "type": "scene",
+          "props": {
+            "disabled": false,
+            "sceneId": "scene-starry",
+            "sceneName": "流星雨之夜",
+            "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
+            "transitionMode": "fade",
+            "transitionDuration": "1000",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
+            "waitForComplete": "false",
+            "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
+            "displayType": "cover",
+            "position": "(50%,50%)",
+            "anchor": "center",
+            "size": ""
+          }
+        },
+        {
+          "id": "051328e0-568e-4b73-b32c-aa18b5b7689a",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "我在商店街的天桥上停了下来。城市的光把天空染成一种廉价的橘色，数来数去，只有两三颗星肯露面。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "f15bbf37-e70d-4f4c-ad59-46c483b98cad",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "笔袋最里层，还有那颗弹珠汽水里的玻璃珠。搬了三次家，一直没舍得扔——当初说好要还她的。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "25d6e206-cdd1-4d05-ab94-c3b36286493f",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "手机通讯录里躺着一个「星野（北海道）」。拨号记录，停在很多年前的那一格。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "5969af08-30ac-458a-9918-36a612ffc8d2",
           "type": "scene",
           "props": {
             "disabled": false,
@@ -1137,7 +1753,7 @@
           }
         },
         {
-          "id": "1b29422c-de18-4e8e-ab4b-57606f40ad90",
+          "id": "62a2307c-fea6-476e-86fe-c7e043e02ad4",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -1155,13 +1771,13 @@
           "content": [
             {
               "type": "text",
-              "text": "天文台如期拆除，改成了储物间。钥匙交了，锁芯换掉之前，我又上去了一次。",
+              "text": "第二天，商店街。",
               "styles": {}
             }
           ]
         },
         {
-          "id": "6d896470-5b44-454a-b3e1-dd26927b50f3",
+          "id": "15f62605-2a5d-4a87-8a3f-600cc7d1327b",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -1179,13 +1795,13 @@
           "content": [
             {
               "type": "text",
-              "text": "什么都没有。只有水泥地上两个蹭不掉的粉笔圆圈——她画的两把「椅子」。",
+              "text": "人群里，有一头白发光了一闪。",
               "styles": {}
             }
           ]
         },
         {
-          "id": "46a22a10-5f04-4e58-91f2-d8347724c096",
+          "id": "86f61584-94a2-4c9b-a011-929010610cf0",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -1203,13 +1819,13 @@
           "content": [
             {
               "type": "text",
-              "text": "很多年后，商店街。人群里有一头白发光了一闪。我们都放慢了半步。然后，都恢复了步速。",
+              "text": "长了。比记忆里长，松松地垂在肩上。她走在阳光里，手里拎着一袋橘子，和一个说不清是谁的人影并肩，笑声很轻地飘过来半句。",
               "styles": {}
             }
           ]
         },
         {
-          "id": "0b2ad085-3844-4039-8655-e2b13d682127",
+          "id": "1c04cf60-d6ff-49c7-a90e-0dc74a2485fc",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -1227,13 +1843,13 @@
           "content": [
             {
               "type": "text",
-              "text": "星星很守时。人不是。",
+              "text": "我们同时放慢了半步。然后，同时恢复了步速。",
               "styles": {}
             }
           ]
         },
         {
-          "id": "7e6cebaa-2bf3-455b-966e-61fc071b0b94",
+          "id": "8e8bfb48-81d5-40cf-aff8-79845f4f149c",
           "type": "narration",
           "props": {
             "disabled": false,
@@ -1251,7 +1867,79 @@
           "content": [
             {
               "type": "text",
-              "text": "【Bad End · 未送达的信号】",
+              "text": "这次，谁也没有回头。",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "41eb4075-a0bc-4e3d-9270-dbad0d7fd139",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "那天晚上我补写了观测日志的第三十页。就一行：",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "8979cda4-4330-446a-95d6-d1dd115a8c8b",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「八月十三日，英仙座极大。无云。」",
+              "styles": {}
+            }
+          ]
+        },
+        {
+          "id": "3dec50b0-7c74-4996-87e0-64c90ae676bb",
+          "type": "narration",
+          "props": {
+            "disabled": false,
+            "keepDialogue": true,
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "「可惜，有些云在心里。」",
               "styles": {}
             }
           ]
