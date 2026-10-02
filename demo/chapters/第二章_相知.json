@@ -7,55 +7,102 @@
       "name": "main",
       "blocks": [
         {
+          "id": "c2a4f4c7-6f01-4f22-a51f-e5115945b19b",
           "type": "scene",
           "props": {
             "disabled": false,
             "sceneId": "scene-starry",
             "sceneName": "星轨观测站",
             "uri": "",
+            "autoAddToGallery": "true",
+            "galleryMethodTarget": "avg.internal.default-shell/add-to-gallery",
             "transitionMode": "fade",
             "transitionDuration": "1500",
+            "transitionDirection": "",
+            "transitionStrips": "12",
+            "transitionRuleUri": "",
+            "transitionCenterX": "50",
+            "transitionCenterY": "50",
+            "transitionSoftness": "",
+            "transitionZoomScale": "1.14",
+            "transitionBlurStrength": "16",
+            "transitionMosaicSize": "52",
+            "transitionGlitchStrength": "100",
+            "transitionGlitchColorShift": "4.5",
+            "transitionGlitchScanlines": "17",
+            "transitionPagePerspective": "50",
+            "transitionPageShadow": "38",
             "waitForComplete": "false",
             "resetCamera": "false",
+            "mouseParallaxEnabled": "false",
+            "mouseParallaxAmplitude": "4",
+            "mouseParallaxEdgeEase": "0",
+            "mouseParallaxReturnOnLeave": "true",
+            "mouseParallaxScaleMode": "auto",
+            "mouseParallaxScale": "1.08",
             "displayType": "cover",
             "position": "(50%,50%)",
             "anchor": "center",
             "size": ""
-          },
-          "id": "c2a4f4c7-6f01-4f22-a51f-e5115945b19b"
+          }
         },
         {
+          "id": "abdc5335-ee4d-4d8a-a5a7-81d73b2fbc41",
           "type": "dialogue",
           "props": {
             "disabled": false,
             "characterId": "char-hoshino",
             "characterName": "星野",
+            "nameVariantId": "",
             "expression": "",
+            "skin": "",
+            "distance": "",
             "position": "right",
             "isFirst": true,
-            "isLast": false,
+            "isLast": true,
+            "prevExpression": "",
+            "prevNameVariantId": "",
             "showCharacter": true,
+            "dialoguePortraitOnly": false,
             "keepCharacter": true,
             "keepDialogue": false,
-            "voiceHash": ""
-          },
-          "id": "abdc5335-ee4d-4d8a-a5a7-81d73b2fbc41",
-          "content": [
-            {
-              "type": "text",
-              "text": "",
-              "styles": {}
-            }
-          ]
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42,
+            "entryMotionPreset": "",
+            "entryMotionDuration": 300,
+            "entryMotionIntensity": 1,
+            "entryMotionDirection": "auto",
+            "entryMotionWait": false,
+            "exitMotionPreset": "",
+            "exitMotionDuration": 300,
+            "exitMotionIntensity": 1,
+            "exitMotionDirection": "auto",
+            "exitMotionWait": true
+          }
         },
         {
+          "id": "5a1b2571-26c5-497d-a4c9-5ccfd5e3aace",
           "type": "narration",
           "props": {
             "disabled": false,
             "keepDialogue": true,
-            "voiceHash": ""
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
           },
-          "id": "5a1b2571-26c5-497d-a4c9-5ccfd5e3aace",
           "content": [
             {
               "type": "text",
@@ -65,13 +112,21 @@
           ]
         },
         {
+          "id": "dd37aa19-fb28-4a3f-b66b-014df5622b34",
           "type": "narration",
           "props": {
             "disabled": false,
             "keepDialogue": true,
-            "voiceHash": ""
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
           },
-          "id": "dd37aa19-fb28-4a3f-b66b-014df5622b34",
           "content": [
             {
               "type": "text",
@@ -81,13 +136,21 @@
           ]
         },
         {
+          "id": "141e3e00-5eb9-4be6-aea7-6276ac57ca70",
           "type": "narration",
           "props": {
             "disabled": false,
             "keepDialogue": true,
-            "voiceHash": ""
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
           },
-          "id": "141e3e00-5eb9-4be6-aea7-6276ac57ca70",
           "content": [
             {
               "type": "text",
@@ -97,21 +160,45 @@
           ]
         },
         {
+          "id": "f037a438-27ca-4fd2-b667-57e801d52dec",
           "type": "dialogue",
           "props": {
             "disabled": false,
             "characterId": "char-hoshino",
             "characterName": "星野",
+            "nameVariantId": "",
             "expression": "",
+            "skin": "",
+            "distance": "",
             "position": "",
-            "isFirst": false,
+            "isFirst": true,
             "isLast": false,
+            "prevExpression": "",
+            "prevNameVariantId": "",
             "showCharacter": true,
+            "dialoguePortraitOnly": false,
             "keepCharacter": true,
             "keepDialogue": true,
-            "voiceHash": ""
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42,
+            "entryMotionPreset": "",
+            "entryMotionDuration": 300,
+            "entryMotionIntensity": 1,
+            "entryMotionDirection": "auto",
+            "entryMotionWait": false,
+            "exitMotionPreset": "",
+            "exitMotionDuration": 300,
+            "exitMotionIntensity": 1,
+            "exitMotionDirection": "auto",
+            "exitMotionWait": true
           },
-          "id": "f037a438-27ca-4fd2-b667-57e801d52dec",
           "content": [
             {
               "type": "text",
@@ -121,21 +208,45 @@
           ]
         },
         {
+          "id": "dc7e466b-b51b-40ff-ab9d-55521ceed8a7",
           "type": "dialogue",
           "props": {
             "disabled": false,
             "characterId": "char-hoshino",
             "characterName": "星野",
+            "nameVariantId": "",
             "expression": "",
+            "skin": "",
+            "distance": "",
             "position": "",
             "isFirst": false,
-            "isLast": false,
+            "isLast": true,
+            "prevExpression": "",
+            "prevNameVariantId": "",
             "showCharacter": true,
+            "dialoguePortraitOnly": false,
             "keepCharacter": true,
             "keepDialogue": true,
-            "voiceHash": ""
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42,
+            "entryMotionPreset": "",
+            "entryMotionDuration": 300,
+            "entryMotionIntensity": 1,
+            "entryMotionDirection": "auto",
+            "entryMotionWait": false,
+            "exitMotionPreset": "",
+            "exitMotionDuration": 300,
+            "exitMotionIntensity": 1,
+            "exitMotionDirection": "auto",
+            "exitMotionWait": true
           },
-          "id": "dc7e466b-b51b-40ff-ab9d-55521ceed8a7",
           "content": [
             {
               "type": "text",
@@ -145,13 +256,21 @@
           ]
         },
         {
+          "id": "fc1722db-e6a0-48d7-9ea7-c73df919f941",
           "type": "narration",
           "props": {
             "disabled": false,
             "keepDialogue": true,
-            "voiceHash": ""
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
           },
-          "id": "fc1722db-e6a0-48d7-9ea7-c73df919f941",
           "content": [
             {
               "type": "text",
@@ -161,13 +280,21 @@
           ]
         },
         {
+          "id": "d636d7e5-5e03-4150-9796-b456b5f62498",
           "type": "narration",
           "props": {
             "disabled": false,
             "keepDialogue": true,
-            "voiceHash": ""
+            "voiceHash": "",
+            "voiceBlip": false,
+            "voiceBlipPreset": "",
+            "voiceBlipWaveform": "triangle",
+            "voiceBlipBaseFrequencyHz": 340,
+            "voiceBlipPitchRangeSemitones": 2.4,
+            "voiceBlipDurationMs": 48,
+            "voiceBlipVolume": 55,
+            "voiceBlipMinIntervalMs": 42
           },
-          "id": "d636d7e5-5e03-4150-9796-b456b5f62498",
           "content": [
             {
               "type": "text",
@@ -177,14 +304,14 @@
           ]
         },
         {
+          "id": "d4ff3684-8cb3-49b8-8954-a6169677ed24",
           "type": "branch",
           "props": {
             "disabled": false,
             "branchId": "586815d8-d083-4292-9e8b-919fc5070da0",
             "title": "怎么办？",
             "choices": "[{\"mode\": \"jump\", \"text\": \"我会陪你到最后\", \"fragmentId\": \"cbed6aa9-ec7d-48b6-a5d2-fef73310084b\"}, {\"mode\": \"jump\", \"text\": \"一定有办法让你留下\", \"fragmentId\": \"8f1c3749-f63d-4b3e-accd-18e8db322b77\"}]"
-          },
-          "id": "d4ff3684-8cb3-49b8-8954-a6169677ed24"
+          }
         }
       ]
     },

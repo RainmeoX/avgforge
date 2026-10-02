@@ -150,6 +150,7 @@
       "props": {
         "tabs": ["影像档案", "音频信号", "剧情记录"],
         "activeIndex": 0,
+        "inactiveColor": "rgba(240,234,219,0.55)",
         "gap": 6
       }
     },

@@ -91,5 +91,14 @@
     "avg.internal.default-shell.open-history": [
       "middleclick"
     ]
+  },
+  "graphicsRendering": {
+    "mode": "auto",
+    "fixedScale": 1,
+    "autoMaxScale": 2,
+    "antialias": true,
+    "imageSampling": "auto",
+    "frameRate": 60,
+    "effectQuality": "high"
   }
 }

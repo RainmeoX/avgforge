@@ -46,6 +46,8 @@
         "valueType": "string",
         "title": "请告诉我你的名字",
         "description": "这个名字会在接下来的故事中使用。",
+        "label": "玩家姓名",
+        "showLabel": true,
         "placeholder": "输入名字",
         "defaultValue": "",
         "confirmText": "确认",

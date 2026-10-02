@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "name": "系统设置",
   "canvas": {
     "width": 1920,
@@ -168,6 +168,7 @@
           "显示"
         ],
         "activeIndex": 0,
+        "inactiveColor": "rgba(220,232,242,0.55)",
         "gap": 8
       }
     },
@@ -556,7 +557,7 @@
       },
       "props": {
         "bind": "textSpeed",
-        "value": 60,
+        "value": 50,
         "showValue": true
       },
       "tab": {
@@ -613,7 +614,7 @@
       },
       "props": {
         "bind": "autoModeTextSpeed",
-        "value": 60,
+        "value": 50,
         "showValue": true
       },
       "tab": {
@@ -882,6 +883,70 @@
       },
       "events": {
         "onClick": { "type": "config.reset" }
+      }
+    },
+    {
+      "id": "button-mrvvgpma-1",
+      "type": "button",
+      "name": "按钮_退出游戏",
+      "rect": {
+        "x": 1350,
+        "y": 1014,
+        "w": 168,
+        "h": 52
+      },
+      "anchor": "b",
+      "style": {
+        "fontSize": 18,
+        "color": "rgba(220,232,242,0.85)",
+        "fill": "rgba(120,150,180,0.06)",
+        "borderColor": "rgba(220,232,242,0.25)",
+        "borderWidth": 1,
+        "radius": 6,
+        "letterSpacing": 4,
+        "opacity": 100
+      },
+      "animation": {
+        "enter": { "preset": "scale", "durationMs": 300, "delayMs": 300 },
+        "exit": { "preset": "shrink", "durationMs": 180, "delayMs": 0 }
+      },
+      "props": {
+        "text": "退出游戏"
+      },
+      "events": {
+        "onClick": { "type": "system.exit" }
+      }
+    },
+    {
+      "id": "button-mrvvhi2h-2",
+      "type": "button",
+      "name": "按钮_返回标题",
+      "rect": {
+        "x": 1542,
+        "y": 1014,
+        "w": 168,
+        "h": 52
+      },
+      "anchor": "b",
+      "style": {
+        "fontSize": 18,
+        "color": "rgba(220,232,242,0.85)",
+        "fill": "rgba(120,150,180,0.06)",
+        "borderColor": "rgba(220,232,242,0.25)",
+        "borderWidth": 1,
+        "radius": 6,
+        "letterSpacing": 4,
+        "opacity": 100
+      },
+      "animation": {
+        "enter": { "preset": "scale", "durationMs": 300, "delayMs": 300 },
+        "exit": { "preset": "shrink", "durationMs": 180, "delayMs": 0 }
+      },
+      "props": {
+        "text": "返回标题画面"
+      },
+      "events": {
+        "onClick": { "type": "system.openSlot", "slot": "title" }
       }
     }
   ]

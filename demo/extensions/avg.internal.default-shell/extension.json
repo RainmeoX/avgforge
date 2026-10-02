@@ -6,5 +6,16 @@
   "version": "1.0.0",
   "entry": "dist/index.mjs",
   "sdkVersion": ">=1.0.0",
-  "builtin": true
+  "builtin": true,
+  "contributes": {
+    "dialogueBoxStyles": [
+      {
+        "id": "landing",
+        "name": "默认对话框",
+        "description": "LetsGal 的唯一系统对话框基线。项目未选择其它扩展样式时使用。",
+        "visualUI": "dialogue-box",
+        "dialogueBox": {}
+      }
+    ]
+  }
 }

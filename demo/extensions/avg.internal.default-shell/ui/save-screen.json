@@ -119,6 +119,7 @@
         "showTime": true,
         "showText": true,
         "mode": "auto",
+        "confirmOverwrite": true,
         "totalSlots": 30
       }
     }

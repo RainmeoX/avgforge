@@ -1,0 +1,22 @@
+{
+  "activeChapterId": "52d8d3ec-66a7-4fc4-b028-83dd756069aa",
+  "activeFragmentId": "02fde016-3aa7-48b3-9054-db3a1629237d",
+  "openFragmentIds": [
+    "8dc9d6b4-69b5-4428-a84c-d1c41b600ebd",
+    "ed644050-81c4-48dc-a31e-74e2ca28d691",
+    "b4ec25af-352b-40e0-acea-e217b9da1193",
+    "07b0a0ec-29f1-4535-be6b-975b7a1e1217",
+    "02fde016-3aa7-48b3-9054-db3a1629237d"
+  ],
+  "cursorBlockIndex": 8,
+  "cursorBlockIndexByFragment": {
+    "8dc9d6b4-69b5-4428-a84c-d1c41b600ebd": 0,
+    "ed644050-81c4-48dc-a31e-74e2ca28d691": 1,
+    "b4ec25af-352b-40e0-acea-e217b9da1193": 1,
+    "07b0a0ec-29f1-4535-be6b-975b7a1e1217": 0,
+    "02fde016-3aa7-48b3-9054-db3a1629237d": 8
+  },
+  "expandedChapterIds": [],
+  "expandedChapterFolderIds": [],
+  "storyTreeViewMode": "basic"
+}

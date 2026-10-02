@@ -42,9 +42,11 @@
         "exit": { "preset": "sink", "durationMs": 220, "delayMs": 0 }
       },
       "props": {
+        "mode": "alert",
         "title": "提示",
         "message": "这里显示需要告诉玩家的消息。",
         "confirmText": "知道了",
+        "cancelText": "取消",
         "tone": "info",
         "dismissible": true
       }

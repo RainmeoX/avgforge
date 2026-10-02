@@ -3,6 +3,7 @@
   "id": "avg.internal.default-shell",
   "version": "1.0.0",
   "origin": "legacy",
-  "sourceId": "fs-v1:a91afe2f92ba6882f995e99f535741c4c0495c73c4730cff81f1d0fc26ab690b",
-  "syncedAt": "2026-07-21T12:19:23.387Z"
+  "sourceId": "fs-v1:0d25e3586692236b0a3996fd1759f04b3abfa6fb0e8708d9aa1acaa3ff54e98d",
+  "syncedAt": "2026-10-02T11:40:42.138Z",
+  "sourceFingerprint": "stat-v1:896fd1b313d62169168e30532c81d505576a3f87a40011bb60509bdcc867555a"
 }
