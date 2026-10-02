@@ -681,7 +681,7 @@
             "position": "center",
             "isFirst": false,
             "isLast": false,
-            "showCharacter": false,
+            "showCharacter": true,
             "keepCharacter": true,
             "keepDialogue": true,
             "voiceHash": "e4fbba57c192831252e165b47322dd3d"
@@ -705,7 +705,7 @@
             "position": "center",
             "isFirst": false,
             "isLast": false,
-            "showCharacter": false,
+            "showCharacter": true,
             "keepCharacter": true,
             "keepDialogue": true,
             "voiceHash": "e4fbba57c192831252e165b47322dd3d"

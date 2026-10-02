@@ -132,12 +132,54 @@
     {
       "id": "char-aoi",
       "name": "日向葵",
-      "expressions": []
+      "expressions": [
+        {
+          "name": "元气",
+          "assetPath": "characters/Aoi/葵_元气A.png",
+          "avatarCrop": {
+            "x": 0.28,
+            "y": 0.07,
+            "w": 0.28,
+            "h": 0.13
+          }
+        },
+        {
+          "name": "含泪",
+          "assetPath": "characters/Aoi/葵_含泪A.png",
+          "avatarCrop": {
+            "x": 0.28,
+            "y": 0.07,
+            "w": 0.28,
+            "h": 0.13
+          }
+        }
+      ]
     },
     {
       "id": "char-mizuki",
       "name": "深月",
-      "expressions": []
+      "expressions": [
+        {
+          "name": "平静",
+          "assetPath": "characters/Mizuki/深月_平静A.png",
+          "avatarCrop": {
+            "x": 0.28,
+            "y": 0.07,
+            "w": 0.28,
+            "h": 0.13
+          }
+        },
+        {
+          "name": "微笑",
+          "assetPath": "characters/Mizuki/深月_微笑A.png",
+          "avatarCrop": {
+            "x": 0.28,
+            "y": 0.07,
+            "w": 0.28,
+            "h": 0.13
+          }
+        }
+      ]
     },
     {
       "id": "char-tetu",
