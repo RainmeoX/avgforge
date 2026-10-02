@@ -102,20 +102,7 @@
     {
       "id": "char-me",
       "name": "我",
-      "expressions": [
-        {
-          "name": "neutral",
-          "assetPath": "characters/影缝礼服平静A.png"
-        },
-        {
-          "name": "angry",
-          "assetPath": "characters/影缝礼服生气A.png"
-        },
-        {
-          "name": "serious",
-          "assetPath": "characters/影缝礼服严肃A.png"
-        }
-      ],
+      "expressions": [],
       "defaultPosition": "left",
       "themeColor": {
         "bg": "#dbeafe",
